@@ -1,0 +1,15 @@
+--- stored
++++ fetched
+@@ -2,3 +2,3 @@
+ at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content 
+-Coinbase Developer Documentation home page Search... ⌘ K Ask Assistant Get help Dev portal Dev portal 
++Coinbase Developer Documentation home page Search... ⌘ K Ask Assistant ⌘ I Get help Dev portal Dev portal 
+ Search... Navigation Seller CDP Facilitator Docs API Reference SDKs Recipes Changelogs GET STARTED Home 
+@@ -54,4 +54,4 @@
+ listing them in the Bazaar . For common questions about x402 and the CDP Facilitator, see the FAQ . Was this 
+-page helpful? Yes No Charge over MCP Previous Production Configuration Next ⌘ I Coinbase Developer 
+-Documentation home page x github linkedin Join CDP Discord Status Privacy Policy x github linkedin x github 
+-linkedin Assistant Responses are generated using AI and may contain mistakes.
++page helpful? Yes No Charge over MCP Previous Production Configuration Next Coinbase Developer Documentation 
++home page x github linkedin Join CDP Discord Status Privacy Policy x github linkedin x github linkedin 
++Assistant Responses are generated using AI and may contain mistakes.

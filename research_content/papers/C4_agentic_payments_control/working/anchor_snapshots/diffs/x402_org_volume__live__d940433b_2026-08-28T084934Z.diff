@@ -1,0 +1,37 @@
+--- stored
++++ fetched
+@@ -9,18 +9,18 @@
+ That’s it. Add one line of code to require payment for each incoming request. If a request arrives without 
+-payment, the server responds with HTTP 402, prompting the client to pay and retry. MEET OUR MEMBERS TRUSTED BY 
+-ABOUT x402 Payments on the internet are fundamentally flawed. Filling out a form is a human behavior that 
+-doesn’t match the programmatic nature of the internet. It’s time for an open, internet-native form of 
+-payments. Payments that are amazing for humans and AI agents. HTTP-Native It’s built-in to the internet. x402 
+-is built-in to existing HTTP requests, with no additional communication required. It’s how the internet should 
+-be: open, free, and effortless. Zero protocol fees x402 is free for the customer and the merchant—just pay 
+-nominal payment network fees Zero wait Money moves at the speed of the internet Zero friction No accounts or 
+-personal information needed Zero centralization Anyone on the internet can build on or extend x402 Zero 
+-restrictions x402 is a neutral standard, not tied to any specific network THE NEW WAY We need a new way to 
+-transfer value on the internet… The old way of doing payments is barely working for a human world, let alone 
+-an agentic future. x402 does in moments what existing systems can’t do at all. The old way 1. Create account 
+-with new API provider Time consuming setup 2. Add payment method to API provider KYC required, delaying access 
+-and requiring approval 3 Buy credits or subscription Prepaid commitment → overpay or run out of funds 4 Manage 
+-API key Security risk → must store and rotate keys 5 Make payment Slow transactions, chargebacks, fees With 
+-x402 1. AI agent sends HTTP request and receives 402: Payment Required No account setup, instant onboarding 2. 
+-AI agent pays instantly with stablecoins No signups or approvals required 3. API access granted No API key 
++payment, the server responds with HTTP 402, prompting the client to pay and retry. MEET OUR MEMBERS ABOUT x402 
++Payments on the internet are fundamentally flawed. Filling out a form is a human behavior that doesn’t match 
++the programmatic nature of the internet. It’s time for an open, internet-native form of payments. Payments 
++that are amazing for humans and AI agents. HTTP-Native It’s built-in to the internet. x402 is built-in to 
++existing HTTP requests, with no additional communication required. It’s how the internet should be: open, 
++free, and effortless. Zero protocol fees x402 is free for the customer and the merchant—just pay nominal 
++payment network fees Zero wait Money moves at the speed of the internet Zero friction No accounts or personal 
++information needed Zero centralization Anyone on the internet can build on or extend x402 Zero restrictions 
++x402 is a neutral standard, not tied to any specific network THE NEW WAY We need a new way to transfer value 
++on the internet… The old way of doing payments is barely working for a human world, let alone an agentic 
++future. x402 does in moments what existing systems can’t do at all. The old way 1. Create account with new API 
++provider Time consuming setup 2. Add payment method to API provider KYC required, delaying access and 
++requiring approval 3 Buy credits or subscription Prepaid commitment → overpay or run out of funds 4 Manage API 
++key Security risk → must store and rotate keys 5 Make payment Slow transactions, chargebacks, fees With x402 
++1. AI agent sends HTTP request and receives 402: Payment Required No account setup, instant onboarding 2. AI 
++agent pays instantly with stablecoins No signups or approvals required 3. API access granted No API key 
+ management and related security risks …so it’s time to start building something better Join a global community 

@@ -1,0 +1,56 @@
+{
+  "_provenance": "Solana July 2026 facilitator split (top five by count) from solana_july_split.result.json.",
+  "panel": "Solana",
+  "month": "2026-07",
+  "share_unit": "percent",
+  "hhi_count": 4071,
+  "hhi_value": 3831,
+  "residual_note": "top five only; facilitators outside these five contribute approximately $43 USD, omitted",
+  "facilitators": [
+    {
+      "name": "Dexter",
+      "count_payments": 412154,
+      "count_share": 52.2,
+      "usdc": 16656.66,
+      "value_share": 19.6,
+      "buyers": 611,
+      "sellers": 4607
+    },
+    {
+      "name": "payAI",
+      "count_payments": 273810,
+      "count_share": 34.7,
+      "usdc": 47881.7,
+      "value_share": 56.2,
+      "buyers": 1283,
+      "sellers": 355
+    },
+    {
+      "name": "Coinbase",
+      "count_payments": 94993,
+      "count_share": 12.0,
+      "usdc": 9793.47,
+      "value_share": 11.5,
+      "buyers": 665,
+      "sellers": 156
+    },
+    {
+      "name": "relai",
+      "count_payments": 7082,
+      "count_share": 0.9,
+      "usdc": 10580.04,
+      "value_share": 12.4,
+      "buyers": 655,
+      "sellers": 4
+    },
+    {
+      "name": "cascade",
+      "count_payments": 1701,
+      "count_share": 0.2,
+      "usdc": 196.05,
+      "value_share": 0.2,
+      "buyers": 3,
+      "sellers": 1
+    }
+  ]
+}

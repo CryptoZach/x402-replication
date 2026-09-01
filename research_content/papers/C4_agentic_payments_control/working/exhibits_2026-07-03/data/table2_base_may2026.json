@@ -1,0 +1,14 @@
+{
+  "_provenance": "Transcribed VERBATIM from research_content/papers/C4_agentic_payments_control/PAPER.md Table 2 (Base, May 2026, corrected facilitator split) as printed at PAPER.md line 145. Meridian measured at its external-seller leg (proxy-settlement correction, Section 5). Shares are count share and value share as printed; count_payments and usd carried for cross-check against the printed table. Committed input for fig2_count_value_flip.py; zero live queries.",
+  "panel": "Base",
+  "month": "2026-05",
+  "share_unit": "percent",
+  "facilitators": [
+    {"name": "Coinbase (CDP)", "count_payments": 2290425, "count_share": 75.6, "usd": 168516, "value_share": 25.8},
+    {"name": "fluxa",          "count_payments": 488686,  "count_share": 16.1, "usd": 56584,  "value_share": 8.7},
+    {"name": "payAI",          "count_payments": 178083,  "count_share": 5.9,  "usd": 11064,  "value_share": 1.7},
+    {"name": "Meridian (mrdn)","count_payments": 11088,   "count_share": 0.4,  "usd": 373610, "value_share": 57.2},
+    {"name": "relai",          "count_payments": 11996,   "count_share": 0.4,  "usd": 28997,  "value_share": 4.4},
+    {"name": "all others",     "count_payments": 49952,   "count_share": 1.6,  "usd": 14110,  "value_share": 2.2}
+  ]
+}

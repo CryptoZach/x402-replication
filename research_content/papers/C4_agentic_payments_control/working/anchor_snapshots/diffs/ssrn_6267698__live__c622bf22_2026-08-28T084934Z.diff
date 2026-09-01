@@ -1,0 +1,1190 @@
+--- stored
++++ fetched
+@@ -1,2 +1,549 @@
+-{ "message": { "facets": {}, "items": [ { "DOI": "10.2139/ssrn.6483619", "URL": 
++{ "message": { "facets": {}, "items": [ { "DOI": "10.2139/ssrn.6352118", "URL": 
++"https://doi.org/10.2139/ssrn.6352118", "abstract": "<jats:p>When a token network's adaptive reward controller 
++mistakes a temporary infrastructure outage for a permanent loss of operators, it over-compensates with higher 
++rewards. This over-reaction accidentally builds a financial buffer that protects the network when a real 
++economic shock arrives. This counterintuitive finding emerges from a 624-run agent-based simulation of a DePIN 
++token economy extended with an operational risk layer (infrastructure outages, key losses, correlated software 
++failures, and regulatory disruptions) calibrated to empirical failure rates across Ethereum, Helium, Geodnet, 
++and Filecoin. Under competitor shock, the adaptive controller reduces worst-case outcome variance by 6.89×, up 
++from 6.25× without operational risk. The analytical prediction was that infrastructure failures would make the 
++controller less effective at stabilizing the network; instead, they make it more effective. Fixedrate reward 
++schedules, which cannot adjust to any source of disruption, perform even worse (outcome variability increases 
++from 0.544 to 0.569), widening the adaptive controller's advantage. A second finding reveals a design 
++vulnerability not apparent from economic-only simulation. Reputation systems that gate recovery on a 
++performance threshold break when routine failures make that threshold unachievable. At 0.5% daily downtime, an 
++operator has only a 16% chance of clearing the recovery threshold in any given quarter. The result: average 
++reputation decays to 0.18 on a 0-5 scale, effectively disabling reputationweighted governance. The collapse is 
++structural; no adjustment to the decay rate fixes it, but lowering the recovery threshold to 0.95 restores 
++stability. The operational risk taxonomy draws on two emerging standards: the Validator Operation Standard 
++(ValOS), with 74 active risk vectors and 64 testable controls, and the Node Operator Risk Standard (NORS), 
++providing institutional certification across 31 control objectives. Lido V3 stVaults, which set each 
++operator's collateral requirements based on their risk score, demonstrate that ValOS-aligned risk assessment 
++already governs economic outcomes on Ethereum mainnet. The simulation methodology provides a template for 
++extending other agent-based token simulations with operational risk.</jats:p>", "author": [ { "affiliation": 
++[], "family": "Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], 
++"sequence": "first" } ], "content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { 
++"date-parts": [ [ 2026, 3, 10 ] ], "date-time": "<TS>", "timestamp": 1773167653000 }, "deposited": { 
++"date-parts": [ [ 2026, 7, 23 ] ], "date-time": "<TS>", "timestamp": 1784802303000 }, "group-title": "SSRN", 
++"indexed": { "date-parts": [ [ 2026, 7, 23 ] ], "date-time": "<TS>", "timestamp": 1784804605099, "version": 
++"3.55.0" }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { 
++"date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": 
++"Elsevier BV", "reference": [ { "journal-title": "OPE10: Operational Risk, Definitions and Application", 
++"key": "ref1", "year": "2023" }, { "author": "B Beyer", "journal-title": "O'Reilly Media. cadCAD. Complex 
++Adaptive Dynamics Computer-Aided Design: a Python framework for modelling and simulating complex systems", 
++"key": "ref2", "year": "2016" }, { "article-title": "Flash Boys 2.0: Frontrunning in Decentralized Exchanges, 
++Miner Extractable Value, and Consensus Instability", "author": "M Castro", "journal-title": "Proceedings of 
++OSDI. CoinDesk", "key": "ref3", "year": "1999" }, { "article-title": "Operational Risk in Token Economies: How 
++Infrastructure Failures Strengthen Adaptive Controllers Under Sustained Shocks, Expose Reputation Design 
++Defects, and Reveal What a Bolted-On Risk Layer Can", "author": "J Dormans", "journal-title": "Proceedings of 
++the GAMEON-NA Conference", "key": "ref4", "volume": "26", "year": "2009" }, { "article-title": "Errors and 
++Artefacts in Agent-Based Modelling", "author": "J M Gal�n", "issue": "1", "journal-title": "Journal of 
++Artificial Societies and Social Simulation", "key": "ref5", "volume": "12", "year": "2009" }, { 
++"article-title": "The Byzantine Generals Problem", "author": "L Lamport", "journal-title": "ACM TOPLAS. NORS. 
++Node Operator Risk Standard", "key": "ref6", "year": "1982" }, { "article-title": "Verification and Validation 
++of Simulation Models", "author": "R G Sargent", "journal-title": "Proceedings of the 2010", "key": "ref7", 
++"year": "2010" }, { "first-page": "166", "journal-title": "TokenSPICE: EVM Agent-Based Token Simulator. Ocean 
++Protocol / T. McConaghy", "key": "ref8" }, { "article-title": "Routing the Dollar: Gateway Infrastructure, 
++Monetary Policy Transmission, and the Dollar's International Functions in Digital Markets", "author": "P 
++Windrum", "journal-title": "SSRN Working Paper 6364158. Zukowski, Z. (2026a)", "key": "ref9", "volume": "10", 
++"year": "2007" } ], "reference-count": 9, "references-count": 9, "resource": { "primary": { "URL": 
++"https://www.ssrn.com/abstract=6352118" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
++"title": [ "Operational Risk in Token Economies: How Infrastructure Failures Strengthen Adaptive Controllers 
++and Break Reputation Systems" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6326018", "URL": 
++"https://doi.org/10.2139/ssrn.6326018", "abstract": "<jats:p>&lt;p&gt;Token design lacks a coherent 
++discipline. Projects assemble mechanisms from precedent, failures are attributed to market conditions rather 
++than predictable design flaws, and no established field integrates the economics, control theory, game theory, 
++and constitutional design that token systems require. We frame the resulting practice as systems engineering: 
++coordinating autonomous agents under uncertainty while distributing ownership to contributors without 
++centralized enforcement. What distinguishes protocols from historical private currency issuance is 
++programmable enforcement of issuance rules and dissolution of the capital-labor boundary when contribution 
++generates ownership.&lt;/p&gt;\n&lt;p&gt;We develop MeshNet, a fictional but empirically parameterized 
++decentralized wireless protocol that specifies five integrated mechanisms: productive staking, 
++reputation-weighted governance, burn-mint value capture, conviction voting, and PID-controlled adaptive 
++emissions. Parameters are calibrated to Helium hardware economics, Filecoin collateral ratios, and governance 
++data from 12 DePIN protocols. A 240-run agent-based ensemble, supplemented by 566 sensitivity and adversarial 
++runs, stress-tests these mechanisms over five years under four macroeconomic 
++scenarios.&lt;/p&gt;\n&lt;p&gt;Three findings stand out. First, adaptive emission functions as insurance: the 
++PID controller compresses worst-case variance by 6× (coefficient of variation from 0.544 to 0.087 under 
++competitor shock) while sustaining 8,880 nodes at the 5th percentile versus 1,049 under static policy. Second, 
++this advantage is conditional: bull markets produce identical outcomes, and the engineering premium emerges 
++only under sustained contraction. Third, without pre-planned guardrails the controller can trigger integral 
++wind-up, reinforcing the case for simulation-first design methodology. Reputation-weighted governance reduces 
++voting-power concentration (Gini from 0.89 to 0.72). The design methodology generalizes to token economies 
++facing analogous coordination problems.&lt;/p&gt;</jats:p>", "author": [ { "affiliation": [], "family": 
++"Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": "first" } 
++], "content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2026, 3, 
++11 ] ], "date-time": "<TS>", "timestamp": 1773246614000 }, "deposited": { "date-parts": [ [ 2026, 3, 11 ] ], 
++"date-time": "<TS>", "timestamp": 1773246614000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 
++3, 12 ] ], "date-time": "<TS>", "timestamp": 1773312849617, "version": "3.50.1" }, "is-referenced-by-count": 
++0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, 
++"prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", 
++"reference-count": 0, "references-count": 0, "resource": { "primary": { "URL": 
++"https://www.ssrn.com/abstract=6326018" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
++"title": [ "Tokenomics as Systems Engineering: Capital, Labor, Land, and the Design of Autonomous Economies" 
++], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6364158", "URL": "https://doi.org/10.2139/ssrn.6364158", 
++"abstract": "<jats:p>Token design lacks a coherent discipline. Projects assemble mechanisms from precedent, 
++failures are attributed to market conditions rather than predictable design flaws, and no established field 
++integrates the economics, control theory, game theory, and constitutional design that token systems require. 
++We frame the resulting practice as systems engineering: coordinating autonomous agents under uncertainty while 
++distributing ownership to contributors without centralized enforcement. What distinguishes protocols from 
++historical private currency issuance is programmable enforcement of issuance rules and reconfiguration of the 
++capital-labor boundary that results when verified contribution generates ownership.&amp;nbsp; 
++&lt;br&gt;&lt;br&gt;We develop MeshNet, a fictional but empirically parameterized decentralized wireless 
++protocol that specifies five integrated mechanisms: productive staking, reputation-weighted governance, 
++burn-mint value capture, conviction voting, and PID (proportional-integral-derivative)-controlled adaptive 
++emissions. Parameters are calibrated to Helium hardware economics, Filecoin collateral ratios, and governance 
++data from 12 DePIN and DeFi protocols. A 240-run agent-based ensemble, supplemented by 566 sensitivity and 
++adversarial runs, stress-tests these mechanisms over five years under four macroeconomic 
++scenarios.&amp;nbsp;&lt;br&gt;&lt;br&gt;The simulation yields three principal findings. First, adaptive 
++emission functions as insurance: the PID controller compresses worst-case variance by 6× (coefficient of 
++variation from 0.544 to 0.087 under competitor shock) while sustaining 8,880 nodes at the 5th percentile 
++versus 1,049 under static policy. Second, this advantage is conditional: bull markets produce identical 
++outcomes, and the engineering premium emerges only under sustained contraction. Third, without pre-planned 
++guardrails the controller can trigger integral wind-up, reinforcing the case for simulation-first design 
++methodology. The methodology generalizes to any token economy that must coordinate autonomous agents under 
++uncertainty.</jats:p>", "author": [ { "affiliation": [], "family": "Zukowski", "given": "Zach", "role": [ { 
++"role": "author", "vocabulary": "crossref" } ], "sequence": "first" } ], "content-domain": { 
++"crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2026, 3, 10 ] ], "date-time": 
++"<TS>", "timestamp": 1773167517000 }, "deposited": { "date-parts": [ [ 2026, 3, 10 ] ], "date-time": "<TS>", 
++"timestamp": 1773167517000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 3, 11 ] ], 
++"date-time": "<TS>", "timestamp": 1773239277690, "version": "3.50.1" }, "is-referenced-by-count": 0, "issued": 
++{ "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", 
++"published": { "date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", "reference-count": 0, 
++"references-count": 0, "resource": { "primary": { "URL": "https://www.ssrn.com/abstract=6364158" } }, "score": 
++<SCORE>, "source": "Crossref", "subtype": "preprint", "title": [ "Adaptive Tokenomics: A Systems Engineering 
++Approach to Programmable Incentive Design" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6363138", 
++"URL": "https://doi.org/10.2139/ssrn.6363138", "abstract": "<jats:p>&lt;div&gt;\n When Circle disclosed $3.3 
++billion in USDC reserves at Silicon Valley Bank on March 10, 2023, every tier label, attestation report, and 
++“institutional grade” designation failed to surface the exposure. USDC traded at $0.87. The episode revealed 
++that tokenized product diligence lacks a common standard: rights parity, custody segregation, system-of-record 
++primacy, and insolvency treatment were each unexamined or untested at the moment they mattered 
++most.\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n This paper develops the Minimum 
++Viable Equivalence Pack (MVEP), a nine-category institutional diligence framework that specifies the minimum 
++artifacts, observable metrics, and pass/fail tests required to clear a risk committee’s threshold for any 
++tokenized product. The framework decomposes equivalence into three independently testable claims: legal 
++(rights, priority, enforceability), operational (system of record, reconciliation, exception handling), and 
++economic (settlement finality inclusive of value integrity and convertibility). A product can satisfy one 
++dimension while failing another; the SVB weekend broke all three simultaneously.\n&lt;/div&gt;\n&lt;div&gt;\n 
++&lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n The MVEP is applied to two asset classes where institutional volume is 
++concentrating: tokenized Treasury bills and money market fund shares (where records integrity and settlement 
++finality dominate) and tokenized private credit (where rights enforcement and servicing continuity dominate). 
++For composed products, equivalence degrades to the weakest layer. The paper introduces continuous monitoring 
++through the Control Layer Intensity Index (CLII), a scoring methodology originally developed for stablecoin 
++gateway infrastructure, extended here to custody segregation, reconciliation integrity, and concentration risk 
++across tokenized products. The MVEP is designed to be wrong in known ways: its value lies in making the 
++standard explicit, the gaps visible, and the failure modes predictable.\n&lt;/div&gt;</jats:p>", "author": [ { 
++"affiliation": [], "family": "Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": 
++"crossref" } ], "sequence": "first" } ], "content-domain": { "crossmark-restriction": false, "domain": [] }, 
++"created": { "date-parts": [ [ 2026, 3, 10 ] ], "date-time": "<TS>", "timestamp": 1773167599000 }, 
++"deposited": { "date-parts": [ [ 2026, 7, 1 ] ], "date-time": "<TS>", "timestamp": 1782896990000 }, 
++"group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 7, 1 ] ], "date-time": "<TS>", "timestamp": 
++1782899304708, "version": "3.54.5" }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 2026 ] ] }, 
++"member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", "published": { "date-parts": [ 
++[ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { "author": "M Hester", "journal-title": "Getting 
++Back on Base: Statement on the Dismissal of the Civil Enforcement Action Against Coinbase", "key": "ref1", 
++"year": "2025" }, { "author": "M Hester", "journal-title": "Token Safe Harbor Proposal 2.0, U.S. Sec. & Exch. 
++Comm'n (2021)", "key": "ref2" }, { "author": "M Hester", "journal-title": "Statement on SEC v", "key": "ref3", 
++"year": "2023" }, { "author": "M Hester", "journal-title": "On Today's Episode of As the Crypto World Turns: 
++Statement on ShapeShift AG", "key": "ref4" }, { "author": "Exch", "key": "ref5", "year": "2024" }, { "author": 
++"M Hester", "journal-title": "NFTs & the SEC: Statement on Impact Theory", "key": "ref6" }, { "author": 
++"Comm'n", "key": "ref7", "year": "2023" }, { "author": "M Hester", "journal-title": "Omakase: Statement on In 
++the Matter of Flyfish Club", "key": "ref8", "year": "2024" }, { "journal-title": "References Articles, books, 
++and reports", "key": "ref9" }, { "article-title": "IMF Note 2026/001 (Int'l Monetary Fund", "author": "Adrian 
++Tobias", "journal-title": "Rashad Ahmed & I�aki Aldasoro, Stablecoins and Safe Asset Prices", "key": "ref10", 
++"year": "2026" }, { "author": "Dan Awrey", "journal-title": "Cornell L. Rev", "key": "ref11", "volume": "106", 
++"year": "2020" }, { "author": "Dan Awrey", "journal-title": "Duke L.J", "key": "ref12", "volume": "75", 
++"year": "2025" }, { "article-title": "Unbundling Banking, Money, and Payments", "author": "Dan Awrey", 
++"journal-title": "Geo. L.J", "key": "ref13", "volume": "715", "year": "2022" }, { "author": "Dan Awrey", 
++"journal-title": "Macro Musings podcast interview (Mercatus Ctr. at George Mason Univ", "key": "ref14", 
++"year": "2026" }, { "article-title": "Open Access, Interoperability, and the DTCC's Unexpected Path to 
++Monopoly", "author": "Dan Awrey", "journal-title": "Project Helvetia Phase II: Settling Tokenised Assets in 
++Wholesale CBDC", "key": "ref15", "volume": "132", "year": "2022" }, { "author": "Ryan Banerjee", 
++"journal-title": "Elasticity of Money in Production Networks, Working Capital, Credit Lines and Financial 
++Conditions", "key": "ref16", "year": "2018" }, { "journal-title": "Basel Comm. on Banking Supervision, 
++Prudential Treatment of Cryptoasset Exposures", "key": "ref17", "year": "2022" }, { "article-title": "BitMart 
++Strategic Research, State of Real-World Assets (RWA): From Permission to Practice", "author": "Garth 
++Baughman", "journal-title": "The Stable in Stablecoins", "key": "ref18", "year": "2022" }, { "article-title": 
++"The Credit Ratings Game, 67", "author": "Patrick Bolton", "journal-title": "J. Fin", "key": "ref19", "year": 
++"2012" }, { "article-title": "The Private Law of Stablecoins, 54 Ariz", "author": "Kara Bruce", 
++"journal-title": "St. L.J", "key": "ref20", "year": "2022" }, { "article-title": "Conference of State Bank 
++Supervisors, Money Transmission Modernization Act (MTMA) (2024)", "author": "Francesca Carapella", 
++"journal-title": "Stablecoins in 2025: Developments and Financial Stability Implications, FEDS Notes (Bd. of 
++Governors of the Fed. Reserve Sys", "key": "ref21", "year": "2023" }, { "author": "John Crawford", 
++"journal-title": "Digital Dollars", "key": "ref22", "volume": "113" }, { "author": "Douglas W Diamond", 
++"journal-title": "Bank Runs, Deposit Insurance, and Liquidity", "key": "ref23", "volume": "91", "year": "1983" 
++}, { "article-title": "Public Comment to the OCC on Implementation of the GENIUS Act", "author": "Chuan Du", 
++"journal-title": "the Shadow of Bank Runs: Lessons from the Silicon Valley Bank Failure and Its Impact on 
++Stablecoins, FEDS Notes (Bd. of Governors of the Fed. Reserve Sys", "key": "ref24", "year": "2014" }, { 
++"article-title": "Oops! The Unfortunate (but Basic) Error in the New UCC Article 12, 11 Tex", "author": "David 
++Frisch", "journal-title": "A&M L. Rev", "key": "ref25", "volume": "515", "year": "2024" }, { "article-title": 
++"Stablecoins Versus Tokenised Deposits: Implications for the Singleness of Money", "author": "Rodney Garratt", 
++"issue": "73", "journal-title": "Anna Gelpern & Erik F. Gerding, Inside Safe Assets", "key": "ref26", 
++"volume": "33", "year": "2016" }, { "article-title": "Protecting the Sovereign's Money Monopoly", "author": "B 
++Gary", "journal-title": "Univ. of Mich. L. & Econ. Working Paper", "key": "ref27", "volume": "228", "year": 
++"2022" }, { "article-title": "Taming Wildcat Stablecoins", "author": "B Gary", "journal-title": "L. Rev", 
++"key": "ref28", "volume": "909", "year": "2023" }, { "DOI": "10.1017/CBO9780511791307", "author": "Avner 
++Greif", "doi-asserted-by": "crossref", "journal-title": "Institutions and the Path to the Modern Economy: 
++Lessons from Medieval Trade", "key": "ref29", "year": "2006" }, { "author": "Sam Hempel", "journal-title": 
++"Banks in the Age of Stablecoins: Lessons from Their Historical Responses to Financial Innovations", "key": 
++"ref30", "year": "2026" }, { "article-title": "Initial Coin Offerings: Financing Growth with Cryptocurrency 
++Token Sales", "author": "Sabrina T Howell", "journal-title": "Rev. Fin. Stud", "key": "ref31", "volume": 
++"3925", "year": "2020" }, { "article-title": "Inventing New Institutions: The Design Perspective, 69", 
++"author": "Leonid Hurwicz", "journal-title": "Am. J. Agric. Econ", "key": "ref32", "volume": "395" }, { 
++"article-title": "Principles on Digital Assets and Private Law (2023)", "journal-title": "Int'l Inst. for the 
++Unification of Priv. Law (UNIDROIT)", "key": "ref33", "year": "2002" }, { "journal-title": "Swaps & 
++Derivatives Ass'n, Navigating Bankruptcy in Digital Asset Markets: Netting and Collateral Enforceability", 
++"key": "ref34", "year": "2023" }, { "article-title": "Does It Matter Who Pays for Bond Ratings? Historical 
++Evidence, 105", "author": "J X Jiang", "journal-title": "Shohini Kundu, Seongjin Park & Nishant Vats, The 
++Geography of Bank Deposits and the Origins of Aggregate Fluctuations", "key": "ref35", "volume": "412", 
++"year": "2012" }, { "article-title": "Stablecoins: Growth Potential and Impact on Banking, Bd. of Governors of 
++the Fed", "author": "Y Gordon", "journal-title": "Rsrv. Sys., Int'l Fin. Discussion Paper", "key": "ref36", 
++"volume": "1334", "year": "2022" }, { "article-title": "The Lending Impact of Stablecoin-Induced Deposit 
++Outflows (Legal Econ. LLC working paper", "author": "A R Nigrinis", "journal-title": "SSRN", "key": "ref37", 
++"volume": "5586850", "year": "2025" }, { "author": "K Christopher", "journal-title": "Regulating Centralized 
++Stablecoins: Comparing MiCAR and the GENIUS Act", "key": "ref38", "year": "2026" }, { "article-title": "The 
++Moneyness of Stablecoins", "author": "K Christopher", "journal-title": "Off. of the Comptroller of the 
++Currency, Interpretive Letter 1170", "key": "ref39", "volume": "136", "year": "2020" }, { "author": "Oliver 
++Wyman", "journal-title": "Deposit Tokens: A Foundation for Stable Digital Money", "key": "ref40", "year": 
++"2023" }, { "author": "T Saule", "journal-title": "New Tech v. New Deal: Fintech as a Systemic Phenomenon", 
++"key": "ref41" }, { "article-title": "The Liquidity Advantage: How OUSG Provides Robust", "journal-title": 
++"Ondo Finance", "key": "ref42", "year": "2025" }, { "article-title": "How and Why Credit Rating Agencies Are 
++Not Like Other Gatekeepers", "author": "Frank Partnoy", "journal-title": "Financial Gatekeepers: Can They 
++Protect Investors? 59", "key": "ref43", "year": "2006" }, { "article-title": "Money as Infrastructure", 
++"author": "Morgan Ricks", "journal-title": "Colum. Bus. L. Rev", "key": "ref44", "volume": "757", "year": 
++"2018" }, { "article-title": "The CEA Studied the Wrong Question on Stablecoin \"Yield\" and Community Banks", 
++"author": "Sayee Srinivasan", "journal-title": "ABA Banking Journal: ABA DataBank", "key": "ref45", "year": 
++"2026" }, { "article-title": "Digital Assets and the Property Question, 78 Fla", "author": "Andrea Tosato", 
++"journal-title": "Treasury Borrowing Advisory Committee, U.S. Dep't of the Treasury", "key": "ref46", "year": 
++"2026" }, { "author": "V Tsyrennikov", "journal-title": "Impact on Community Bank Deposits", "key": "ref47", 
++"year": "2025" }, { "journal-title": "Report to Congress on Assigned Credit Ratings (as Required by Section 
++939F of the Dodd-Frank Wall Street Reform and Consumer Protection Act", "key": "ref48", "year": "2012" }, { 
++"journal-title": "Vantage Bank Texas & Custodia Bank, Hazel Network: Unified Tokenized Bank Deposit and 
++Stablecoin Token", "key": "ref49", "year": "2026" }, { "article-title": "Megan Rodden & Anthony Seira, Primary 
++and Secondary Markets for Stablecoins", "author": "Cy Watsky", "journal-title": "The Credit Rating Agencies", 
++"key": "ref50", "volume": "24", "year": "2010" }, { "author": "T M Whited", "journal-title": "Will Central 
++Bank Digital Currency Disintermediate Banks?", "key": "ref51", "year": "2022" }, { "author": "Zach Zukowski", 
++"journal-title": "Routing the Dollar: Gateway Infrastructure, Monetary Policy Transmission, and the", "key": 
++"ref52" }, { "journal-title": "Dollar's International Functions in Digital Markets", "key": "ref53", "year": 
++"2026" }, { "author": "Zach Zukowski", "journal-title": "Systems Engineering Approach to Programmable 
++Incentive Design", "key": "ref54", "volume": "6364158", "year": "2026" }, { "author": "Zach Zukowski", 
++"journal-title": "Seven Dollars: A Comparative Framework for Major Dollar-Denominated Digital Products", 
++"key": "ref55", "volume": "6483118", "year": "2026" }, { "author": "Zach Zukowski", "journal-title": "Three 
++Tokenization Strategies: Infrastructure Competition, Settlement Architecture, and Operational Risk in 
++Institutional Digital Asset Capital Markets", "key": "ref56", "volume": "6483198", "year": "2026" }, { 
++"author": "Zach Zukowski", "journal-title": "Auditing Governance Concentration Beyond Token Allocation: A 
++Live-Governance Study of 52 Token Protocols", "key": "ref57", "volume": "6599278", "year": "2026" }, { 
++"article-title": "Guiding and Establishing National Innovation for U.S. Stablecoins Act of 2025", 
++"journal-title": "Statutes, regulations, and codes FDIC Official Signs and Advertising Requirements", "key": 
++"ref58", "volume": "328", "year": "2024" }, { "author": "U C C Art", "journal-title": "Am. L. Inst. & Unif. L. 
++Comm'", "key": "ref59", "year": "2022" }, { "author": "U C C", "journal-title": "Am. L. Inst. & Unif. L. 
++Comm'", "key": "ref60", "year": "1994" }, { "author": "U C C", "journal-title": "Am. L. Inst. & Unif. L. 
++Comm'n", "key": "ref61", "year": "2001" }, { "author": "U C C Art", "journal-title": "Controllable Electronic 
++Records", "key": "ref62", "volume": "12", "year": "2022" } ], "reference-count": 62, "references-count": 62, 
++"resource": { "primary": { "URL": "https://www.ssrn.com/abstract=6363138" } }, "score": <SCORE>, "source": 
++"Crossref", "subtype": "preprint", "title": [ "Minimum Viable Equivalence Packs: An Institutional Diligence 
++Framework for Tokenized Products" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6267698", "URL": 
++"https://doi.org/10.2139/ssrn.6267698", "abstract": "<jats:p>&lt;p&gt;Dollar stablecoins extend the dollar’s 
++exchange, store-of-value, and funding functions into blockchain markets, largely outside the Federal Reserve’s 
++standard supervisory and reporting perimeter. We argue the policy-relevant unit of analysis is the 
++&lt;i&gt;gateway&lt;/i&gt;&amp;nbsp;(the issuer, exchange, or protocol that routes stablecoin value) because 
++the same dollar token inherits different compliance, monetary, and safe-haven properties depending on which 
++gateway processes it.&lt;/p&gt;\n&lt;p&gt;&lt;span&gt;Three findings:&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;First, 
++stablecoin supply is cointegrated with Fed balance-sheet variables in a regime-dependent way; a Treasury bill 
++minus on-chain lending-rate spread provides mechanism-consistent opportunity-cost evidence. The relationship 
++is dollar-specific, absent for Bitcoin or Ethereum. Cointegration is strongest during quantitative tightening 
++and weakens during easing even as level correlations remain high.&lt;/p&gt;\n&lt;p&gt;Second, the long-run 
++co-movement distributes unevenly across the gateway layer.&lt;/p&gt;\n&lt;p&gt;Third, within the dollar-pegged 
++settlement instruments we observe, stress behavior is gateway-contingent.&lt;/p&gt;</jats:p>", "author": [ { 
++"affiliation": [], "family": "Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": 
++"crossref" } ], "sequence": "first" } ], "content-domain": { "crossmark-restriction": false, "domain": [] }, 
++"created": { "date-parts": [ [ 2026, 3, 11 ] ], "date-time": "<TS>", "timestamp": 1773246701000 }, 
++"deposited": { "date-parts": [ [ 2026, 3, 11 ] ], "date-time": "<TS>", "timestamp": 1773264604000 }, 
++"group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 3, 12 ] ], "date-time": "<TS>", "timestamp": 
++1773323228997, "version": "3.50.1" }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 2026 ] ] }, 
++"member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", "published": { "date-parts": [ 
++[ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { "author": "G Afonso", "first-page": "1", 
++"journal-title": "Federal Reserve Bank of New York Economic Policy Review", "key": "ref1", "volume": "29", 
++"year": "2019" }, { "DOI": "10.1093/rfs/hhx141", "article-title": "Monetary Policy Implementation and 
++Financial Vulnerability: Evidence from the Overnight Reverse Repurchase Facility", "author": "A G Anderson", 
++"doi-asserted-by": "crossref", "first-page": "3643", "issue": "9", "journal-title": "Review of Financial 
++Studies", "key": "ref2", "volume": "31", "year": "2018" }, { "article-title": "The Influence of Stablecoin 
++Issuances on Cryptocurrency Markets", "author": "L Ante", "journal-title": "Finance Research Letters", "key": 
++"ref3", "volume": "41", "year": "2023" }, { "article-title": "DeFi Risks and the Decentralisation Illusion", 
++"author": "S Aramonte", "first-page": "21", "journal-title": "BIS Quarterly Review", "key": "ref4", "year": 
++"2022" }, { "article-title": "The Stable in Stablecoins", "author": "G Baughman", "journal-title": "FEDS 
++Notes, Board of Governors of the Federal Reserve System", "key": "ref5", "year": "2022" }, { "DOI": 
++"10.1016/j.jmoneco.2014.11.011", "article-title": "Capital Flows and the Risk-Taking Channel of Monetary 
++Policy", "author": "V Bruno", "doi-asserted-by": "crossref", "first-page": "119", "journal-title": "Journal of 
++Monetary Economics", "key": "ref6", "volume": "71", "year": "2015" }, { "article-title": "Central Bank Digital 
++Currency: A Literature Review", "author": "F Carapella", "journal-title": "FEDS Notes, Board of Governors of 
++the Federal Reserve System", "key": "ref7", "year": "2020" }, { "author": "C Catalini", "journal-title": "On 
++the Economic Design of Stablecoins", "key": "ref8", "year": "2021" }, { "author": "Clarity Act", 
++"journal-title": "Digital Asset Market Clarity Act (H.R. 3633), U.S. House Financial Services Committee", 
++"key": "ref9", "year": "2025" }, { "article-title": "Adds provisions on distributed ledger application 
++layers", "author": "Senate Clarity Act", "journal-title": "Treasury guidance within 360 days, and temporary 
++holds", "key": "ref10", "volume": "3633", "year": "2026" }, { "article-title": "Are Stablecoins Safe Money?", 
++"author": "A Avernas", "journal-title": "Guiding and Establishing National Innovation for U.S. Stablecoins 
++Act, Pub. L. 119-27, S. 1582, signed", "key": "ref11", "year": "2023" }, { "author": "Fdic Nprm", "key": 
++"ref12", "year": "2025" }, { "author": "Ncua Nprm", "key": "ref13", "year": "2026" }, { "author": "Occ Nprm", 
++"key": "ref14", "year": "2026" }, { "article-title": "Taming Wildcat Stablecoins", "author": "G B Gorton", 
++"first-page": "909", "issue": "3", "journal-title": "University of Chicago Law Review", "key": "ref15", 
++"volume": "90", "year": "2023" }, { "DOI": "10.1093/rfs/hhac034", "article-title": "The Rise of Finance 
++Companies and FinTech Lenders in Small Business Lending", "author": "M Gopal", "doi-asserted-by": "crossref", 
++"first-page": "4859", "issue": "11", "journal-title": "Review of Financial Studies", "key": "ref16", "volume": 
++"35", "year": "2022" }, { "DOI": "10.1093/qje/qjaa036", "article-title": "Banking, Trade, and the Making of a 
++Dominant Currency", "author": "G Gopinath", "doi-asserted-by": "crossref", "first-page": "783", "issue": "2", 
++"journal-title": "Quarterly Journal of Economics", "key": "ref17", "volume": "136", "year": "2021" }, { "DOI": 
++"10.1146/annurev-economics-080217-053518", "article-title": "The International Monetary and Financial System", 
++"author": "P.-O Gourinchas", "doi-asserted-by": "crossref", "first-page": "859", "journal-title": "Annual 
++Review of Economics", "key": "ref18", "volume": "11", "year": "2019" }, { "article-title": "The Decentralized 
++Financial Crisis: Attacking DeFi", "author": "L Gudgeon", "journal-title": "Crypto Valley Conference on 
++Blockchain Technology", "key": "ref19", "year": "2020" }, { "author": "C R Harvey", "journal-title": "DeFi and 
++the Future of Finance", "key": "ref20", "year": "2021" }, { "article-title": "How Stable Are Stablecoins?", 
++"author": "L T Hoang", "first-page": "838", "issue": "8", "journal-title": "European Journal of Finance", 
++"key": "ref21", "volume": "29", "year": "2021" }, { "DOI": "10.1093/restud/rdad108", "article-title": "Dollar 
++Safety and the Global Financial Cycle", "author": "Z Jiang", "doi-asserted-by": "crossref", "first-page": 
++"2878", "issue": "5", "journal-title": "Review of Economic Studies", "key": "ref22", "volume": "91", "year": 
++"2024" }, { "author": "R Kozhan", "journal-title": "Decentralized Stablecoins and Collateral Risk", "key": 
++"ref23", "year": "2021" }, { "article-title": "What Keeps Stablecoins Stable?", "author": "R K Lyons", 
++"journal-title": "Journal of International Money and Finance", "key": "ref24", "year": "2023" }, { 
++"article-title": "Cryptocurrencies and Decentralized Finance (DeFi)", "author": "I Makarov", "journal-title": 
++"Brookings Papers on Economic Activity", "key": "ref25", "year": "2022" }, { "DOI": "10.1093/restud/rdaa019", 
++"article-title": "U.S. Monetary Policy and the Global Financial Cycle", "author": "S Miranda-Agrippino", 
++"doi-asserted-by": "crossref", "first-page": "2754", "issue": "6", "journal-title": "Review of Economic 
++Studies", "key": "ref26", "volume": "87", "year": "2020" }, { "article-title": "Interpretive Letter 1174: 
++Chief Counsel's Interpretation Clarifying Authority of Banks to Use Stablecoins", "journal-title": "Office of 
++the Comptroller of the Currency", "key": "ref27", "year": "2021" }, { "article-title": "Liquidations: DeFi on 
++a Knife-Edge", "author": "D Perez", "first-page": "457", "journal-title": "Financial Cryptography and Data 
++Security", "key": "ref28", "year": "2021" }, { "DOI": "10.1016/0304-4076(94)01697-6", "article-title": 
++"Cointegration and Speed of Convergence to Equilibrium", "author": "M H Pesaran", "doi-asserted-by": 
++"crossref", "first-page": "117", "issue": "1-2", "journal-title": "Journal of Econometrics", "key": "ref29", 
++"volume": "71", "year": "1996" }, { "article-title": "President's Working Group on Financial Markets", 
++"author": "Fdic", "journal-title": "Report on Stablecoins. U.S. Department of the Treasury, November. Office 
++of the Comptroller of the Currency", "key": "ref30", "year": "2020" }, { "article-title": "The 
++Herfindahl-Hirschman Index", "author": "S A Rhoades", "first-page": "188", "issue": "3", "journal-title": 
++"Federal Reserve Bulletin", "key": "ref31", "volume": "79", "year": "1993" }, { "journal-title": "Merger 
++Guidelines", "key": "ref32", "year": "2023" }, { "article-title": "Designation of Tornado Cash as a Specially 
++Designated National", "journal-title": "Office of Foreign Assets Control", "key": "ref33", "year": "2022" }, { 
++"article-title": "Stablecoin Payments from the Ground Up", "journal-title": "Research Report", "key": "ref34", 
++"year": "2025" }, { "article-title": "McKinsey Digital, January. Treasury Borrowing Advisory Committee 
++(2025)", "author": "Island Castle", "journal-title": "TBAC Presentation to the U.S. Treasury", "key": "ref35", 
++"year": "2024" }, { "article-title": "Visa Crypto Research, in partnership with Allium Labs", "journal-title": 
++"Visa", "key": "ref36", "year": "2024" }, { "author": "Jessie Wang", "journal-title": "FEDS Notes, Board of 
++Governors of the Federal Reserve System", "key": "ref37", "year": "2025" }, { "author": "Jessie Wang", 
++"journal-title": "FEDS Notes, Board of Governors of the Federal Reserve System", "key": "ref38", "year": 
++"2025" } ], "reference-count": 38, "references-count": 38, "resource": { "primary": { "URL": 
++"https://www.ssrn.com/abstract=6267698" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
++"title": [ "Routing the Dollar: Gateway Infrastructure, Monetary Policy Transmission, and the Dollar's 
++International Functions in Digital Markets" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6483198", 
++"URL": "https://doi.org/10.2139/ssrn.6483198", "abstract": "<jats:p>&lt;div&gt;\n &lt;span&gt;Institutional 
++tokenization of US securities is proceeding through three distinct strategies, each synthesizing 
++infrastructure from different combinations of regulated entities. Strategy 1 (the Regulated Collateral 
++Circuit) constructs a closed loop where DTC-tokenized Treasuries serve as 24/7 margin collateral, settled in 
++bank-issued deposit tokens, with clearing through Ubyx. Strategy 2 (the Multi-Issuer Yield Stack) composes a 
++product holding tokenized Treasuries from five issuers with a smart redemption router that eliminates the 
++single-pool dependency identified in the Minimum Viable Equivalence Pack (MVEP) framework. Strategy 3 (the 
++Tokenized Equity Rails) builds the complete issuance-to-trading pipeline for tokenized US equities using 
++SEC-approved exchange infrastructure from Nasdaq (approved March 18, 2026) and NYSE (Securitize MoU, March 24, 
++2026).&lt;/span&gt;\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n This paper maps each 
++strategy against the MVEP’s ten categories, develops nine strategy-specific stress scenarios traced through 
++MVEP category failure chains, analyzes the cross-strategy concentration of Securitize as the system-of-record 
++operator across all three strategies, identifies the corporate actions reconciliation gap as Strategy 3’s most 
++novel failure mode, develops an infrastructure competition framework for the emerging deposit-token market 
++(JPMD, BNY deposits, Citi deposits, with Ubyx clearing), and specifies observable phase gates with 
++quantitative thresholds gating each strategy transition. The analysis draws on the Control Layer Intensity 
++Index (CLII) and MVEP frameworks developed in companion papers (Zukowski, 2026a; Zukowski, 2026b; Zukowski, 
++2026c).\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Four findings emerge. First, each 
++strategy satisfies different MVEP categories with different strength: Strategy 1 is strongest on custody and 
++settlement finality (DTC + Canton atomic settlement), Strategy 2 is strongest on collateral operability 
++(redundant multi-pool redemption), and Strategy 3 is strongest on rights parity (SEC-mandated identical 
++rights) but weakest on reconciliation (the corporate actions gap). Second, Securitize’s presence as transfer 
++agent across all three strategies creates a system-level concentration risk that entity-level CLII scores do 
++not capture: a 72-hour Securitize operational failure would degrade all three strategies simultaneously. 
++Third, the corporate actions reconciliation gap (record date, ex-date, and stock split problems in 24/7 
++tokenized equity trading) requires one of three architectures (trading halt, blockchain-as-authoritative, or 
++dual-record synchronization), each with distinct MVEP implications. Fourth, the deposit-token market (JPMD, 
++BNY, Citi) is the control-layer competition applied to institutional settlement: the entity that issues the 
++dominant deposit token captures the settlement-layer rent, and Ubyx’s clearing function determines whether 
++this becomes a monopoly or a competitive market.\n&lt;/div&gt;</jats:p>", "author": [ { "ORCID": 
++"https://orcid.org/0009-0006-3642-2450", "affiliation": [], "authenticated-orcid": true, "family": "Zukowski", 
++"given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": "first" } ], 
++"content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2026, 4, 20 
++] ], "date-time": "<TS>", "timestamp": 1776699136000 }, "deposited": { "date-parts": [ [ 2026, 4, 20 ] ], 
++"date-time": "<TS>", "timestamp": 1776701701000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 
++4, 20 ] ], "date-time": "<TS>", "timestamp": 1776704827606, "version": "3.51.2" }, "is-referenced-by-count": 
++0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, 
++"prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { 
++"author": "Circle", "journal-title": "USDC and Silicon Valley Bank", "key": "ref1", "year": "2023" }, { 
++"article-title": "Tokenized Deposits for Collateral and Margin Workflows", "author": "Dtcc", "journal-title": 
++"Press release", "key": "ref2", "year": "2025" }, { "article-title": "SEC Approval: Tokenized Securities 
++Trading Framework", "author": "/ Barclays", "journal-title": "Nasdaq", "key": "ref3", "year": "2026" }, { 
++"author": "Nyse/Securitize", "journal-title": "Memorandum of Understanding: NYSE Digital Trading Platform", 
++"key": "ref4", "year": "2026" }, { "journal-title": "BUIDL Instant Redemption Facility", "key": "ref5", 
++"year": "2025" }, { "author": "Z Zukowski", "journal-title": "Routing the Dollar: Gateway Infrastructure, 
++Monetary Policy Transmission, and the Dollar's International Functions in Digital Markets", "key": "ref6", 
++"year": "2026" }, { "author": "Z Zukowski", "journal-title": "Minimum Viable Equivalence Packs: An 
++Institutional Diligence Framework for Tokenized Products", "key": "ref7", "year": "2026" }, { "article-title": 
++"Seven Dollars: Legal Structure, Operator Risk, and Diligence Divergence Across Dollar-Denominated Digital 
++Products", "author": "Z Zukowski", "journal-title": "SSRN Working Paper. Zach Zukowski is a Senior Investment 
++Analyst at Borderless Capital and an independent researcher at tokenization.systems. Contact: 
++zach@tokenization.systems", "key": "ref8", "year": "2026" } ], "reference-count": 8, "references-count": 8, 
++"resource": { "primary": { "URL": "https://www.ssrn.com/abstract=6483198" } }, "score": <SCORE>, "source": 
++"Crossref", "subtype": "preprint", "title": [ "Three Tokenization Strategies: Infrastructure Competition, 
++Settlement Architecture, and Operational Risk in Institutional Digital Asset Markets" ], "type": 
++"posted-content" }, { "DOI": "10.2139/ssrn.6412731", "URL": "https://doi.org/10.2139/ssrn.6412731", 
++"abstract": "<jats:p>Dollar stablecoins extend the dollar’s exchange, store-of-value, and funding functions 
++into blockchain markets, largely outside the Federal Reserve’s standard supervisory and reporting perimeter, 
++though not necessarily outside all federal or state oversight. We argue the policy-relevant unit of analysis 
++is not the token but the gateway (the issuer, exchange, or protocol that routes stablecoin value) because the 
++same dollar token inherits different compliance, monetary, and safe-haven properties depending on which 
++gateway processes it.Using daily Ethereum gateway transfer volumes (19 entities, 51 addresses, 27.7 percent of 
++USDC/USDT value), monthly counterparty networks (15 gateways, 35 months, 3,804 unique dyads), and 
++stress-episode windows around the Silicon Valley Bank (SVB) crisis and the Binance USD (BUSD) regulatory 
++action, we report three descriptive findings.First, stablecoin supply is cointegrated with Fed balance-sheet 
++variables in a regime-dependent way; a Treasury bill minus on-chain lending-rate spread provides 
++mechanism-consistent opportunity-cost evidence. The relationship is dollar-specific, absent for Bitcoin or 
++Ethereum. Cointegration is strongest during quantitative tightening (trace = 48.18) and weakens during easing 
++(trace = 17.71) even as level correlations remain strong (r = -0.98).Second, that co-movement distributes 
++unevenly across the gateway layer: institutional gateways (both regulated and offshore) share the aggregate 
++inverse relationship with Fed assets while permissionless protocols trend in the opposite direction, and the 
++routing network is concentrating; volume doubled over three years while unique counterparties declined 25 
++percent and cross-gateway counterparties fell from 5.8 to 2.6 percent.Third, within the dollar-pegged 
++settlement instruments we observe, stress behavior is gateway-contingent: capital routes across gateways 
++rather than out of dollar-pegged stablecoins, with tier share recovery coinciding with the SVB intervention 
++sequence and the restoration of USDC convertibility, though causal attribution across intervention tools is 
++not identified. Fragmentation manifests primarily as competition and concentration within the dollar’s own 
++gateway infrastructure, rather than as substitution into non-dollar-pegged instruments. For monitoring 
++purposes, gateway-level flow data are more informative than token-level aggregates for assessing regulatory 
++exposure, concentration risk, and stress routing.</jats:p>", "author": [ { "affiliation": [], "family": 
++"Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": "first" } 
++], "content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2026, 3, 
++14 ] ], "date-time": "<TS>", "timestamp": 1773464971000 }, "deposited": { "date-parts": [ [ 2026, 3, 14 ] ], 
++"date-time": "<TS>", "timestamp": 1773465086000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 
++3, 14 ] ], "date-time": "<TS>", "timestamp": 1773468090785, "version": "3.50.1" }, "is-referenced-by-count": 
++0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, 
++"prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { 
++"author": "G Afonso", "first-page": "1", "journal-title": "Federal Reserve Bank of New York Economic Policy 
++Review", "key": "ref1", "volume": "29", "year": "2019" }, { "DOI": "10.1093/rfs/hhx141", "article-title": 
++"Monetary Policy Implementation and Financial Vulnerability: Evidence from the Overnight Reverse Repurchase 
++Facility", "author": "A G Anderson", "doi-asserted-by": "crossref", "first-page": "3643", "issue": "9", 
++"journal-title": "Review of Financial Studies", "key": "ref2", "volume": "31", "year": "2018" }, { 
++"article-title": "The Influence of Stablecoin Issuances on Cryptocurrency Markets", "author": "L Ante", 
++"journal-title": "Finance Research Letters", "key": "ref3", "volume": "41", "year": "2023" }, { 
++"article-title": "DeFi Risks and the Decentralisation Illusion", "author": "S Aramonte", "first-page": "21", 
++"journal-title": "BIS Quarterly Review", "key": "ref4", "year": "2022" }, { "article-title": "The Stable in 
++Stablecoins", "author": "G Baughman", "journal-title": "FEDS Notes, Board of Governors of the Federal Reserve 
++System", "key": "ref5", "year": "2022" }, { "DOI": "10.1016/j.jmoneco.2014.11.011", "article-title": "Capital 
++Flows and the Risk-Taking Channel of Monetary Policy", "author": "V Bruno", "doi-asserted-by": "crossref", 
++"first-page": "119", "journal-title": "Journal of Monetary Economics", "key": "ref6", "volume": "71", "year": 
++"2015" }, { "article-title": "Central Bank Digital Currency: A Literature Review", "author": "F Carapella", 
++"journal-title": "FEDS Notes, Board of Governors of the Federal Reserve System", "key": "ref7", "year": "2020" 
++}, { "author": "C Catalini", "journal-title": "On the Economic Design of Stablecoins", "key": "ref8", "year": 
++"2021" }, { "author": "Clarity Act", "journal-title": "Digital Asset Market Clarity Act (H.R. 3633), U.S. 
++House Financial Services Committee", "key": "ref9", "year": "2025" }, { "article-title": "Adds provisions on 
++distributed ledger application layers", "author": "Senate Clarity Act", "journal-title": "Treasury guidance 
++within 360 days, and temporary holds", "key": "ref10", "volume": "3633", "year": "2026" }, { "article-title": 
++"Are Stablecoins Safe Money?", "author": "A Avernas", "journal-title": "Guiding and Establishing National 
++Innovation for U.S. Stablecoins Act, Pub. L. 119-27, S. 1582, signed", "key": "ref11", "year": "2023" }, { 
++"author": "Fdic Nprm", "key": "ref12", "year": "2025" }, { "author": "Ncua Nprm", "key": "ref13", "year": 
++"2026" }, { "author": "Occ Nprm", "key": "ref14", "year": "2026" }, { "article-title": "Taming Wildcat 
++Stablecoins", "author": "G B Gorton", "first-page": "909", "issue": "3", "journal-title": "University of 
++Chicago Law Review", "key": "ref15", "volume": "90", "year": "2023" }, { "DOI": "10.1093/rfs/hhac034", 
++"article-title": "The Rise of Finance Companies and FinTech Lenders in Small Business Lending", "author": "M 
++Gopal", "doi-asserted-by": "crossref", "first-page": "4859", "issue": "11", "journal-title": "Review of 
++Financial Studies", "key": "ref16", "volume": "35", "year": "2022" }, { "DOI": "10.1093/qje/qjaa036", 
++"article-title": "Banking, Trade, and the Making of a Dominant Currency", "author": "G Gopinath", 
++"doi-asserted-by": "crossref", "first-page": "783", "issue": "2", "journal-title": "Quarterly Journal of 
++Economics", "key": "ref17", "volume": "136", "year": "2021" }, { "DOI": 
++"10.1146/annurev-economics-080217-053518", "article-title": "The International Monetary and Financial System", 
++"author": "P.-O Gourinchas", "doi-asserted-by": "crossref", "first-page": "859", "journal-title": "Annual 
++Review of Economics", "key": "ref18", "volume": "11", "year": "2019" }, { "article-title": "The Decentralized 
++Financial Crisis: Attacking DeFi", "author": "L Gudgeon", "journal-title": "Crypto Valley Conference on 
++Blockchain Technology", "key": "ref19", "year": "2020" }, { "author": "C R Harvey", "journal-title": "DeFi and 
++the Future of Finance", "key": "ref20", "year": "2021" }, { "article-title": "How Stable Are Stablecoins?", 
++"author": "L T Hoang", "first-page": "838", "issue": "8", "journal-title": "European Journal of Finance", 
++"key": "ref21", "volume": "29", "year": "2021" }, { "DOI": "10.1093/restud/rdad108", "article-title": "Dollar 
++Safety and the Global Financial Cycle", "author": "Z Jiang", "doi-asserted-by": "crossref", "first-page": 
++"2878", "issue": "5", "journal-title": "Review of Economic Studies", "key": "ref22", "volume": "91", "year": 
++"2024" }, { "author": "R Kozhan", "journal-title": "Decentralized Stablecoins and Collateral Risk", "key": 
++"ref23", "year": "2021" }, { "article-title": "What Keeps Stablecoins Stable?", "author": "R K Lyons", 
++"journal-title": "Journal of International Money and Finance", "key": "ref24", "year": "2023" }, { 
++"article-title": "Cryptocurrencies and Decentralized Finance (DeFi)", "author": "I Makarov", "journal-title": 
++"Brookings Papers on Economic Activity", "key": "ref25", "year": "2022" }, { "DOI": "10.1093/restud/rdaa019", 
++"article-title": "U.S. Monetary Policy and the Global Financial Cycle", "author": "S Miranda-Agrippino", 
++"doi-asserted-by": "crossref", "first-page": "2754", "issue": "6", "journal-title": "Review of Economic 
++Studies", "key": "ref26", "volume": "87", "year": "2020" }, { "article-title": "Interpretive Letter 1174: 
++Chief Counsel's Interpretation Clarifying Authority of Banks to Use Stablecoins", "journal-title": "Office of 
++the Comptroller of the Currency", "key": "ref27", "year": "2021" }, { "article-title": "Liquidations: DeFi on 
++a Knife-Edge", "author": "D Perez", "first-page": "457", "journal-title": "Financial Cryptography and Data 
++Security", "key": "ref28", "year": "2021" }, { "DOI": "10.1016/0304-4076(94)01697-6", "article-title": 
++"Cointegration and Speed of Convergence to Equilibrium", "author": "M H Pesaran", "doi-asserted-by": 
++"crossref", "first-page": "117", "issue": "1-2", "journal-title": "Journal of Econometrics", "key": "ref29", 
++"volume": "71", "year": "1996" }, { "article-title": "President's Working Group on Financial Markets", 
++"author": "Fdic", "journal-title": "Report on Stablecoins. U.S. Department of the Treasury, November. Office 
++of the Comptroller of the Currency", "key": "ref30", "year": "2020" }, { "article-title": "The 
++Herfindahl-Hirschman Index", "author": "S A Rhoades", "first-page": "188", "issue": "3", "journal-title": 
++"Federal Reserve Bulletin", "key": "ref31", "volume": "79", "year": "1993" }, { "journal-title": "Merger 
++Guidelines", "key": "ref32", "year": "2023" }, { "article-title": "Designation of Tornado Cash as a Specially 
++Designated National", "journal-title": "Office of Foreign Assets Control", "key": "ref33", "year": "2022" }, { 
++"article-title": "Stablecoin Payments from the Ground Up", "journal-title": "Research Report", "key": "ref34", 
++"year": "2025" }, { "article-title": "McKinsey Digital, January. Treasury Borrowing Advisory Committee 
++(2025)", "author": "Island Castle", "journal-title": "TBAC Presentation to the U.S. Treasury", "key": "ref35", 
++"year": "2024" }, { "article-title": "Visa Crypto Research, in partnership with Allium Labs", "journal-title": 
++"Visa", "key": "ref36", "year": "2024" }, { "author": "Jessie Wang", "journal-title": "FEDS Notes, Board of 
++Governors of the Federal Reserve System", "key": "ref37", "year": "2025" }, { "author": "Jessie Wang", 
++"journal-title": "FEDS Notes, Board of Governors of the Federal Reserve System", "key": "ref38", "year": 
++"2025" } ], "reference-count": 38, "references-count": 38, "resource": { "primary": { "URL": 
++"https://www.ssrn.com/abstract=6412731" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
++"title": [ "Routing the Dollar:,Gateway Infrastructure, Monetary Policy Transmission, and the Dollar’s 
++International Functions in Digital Markets" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6483118", 
++"URL": "https://doi.org/10.2139/ssrn.6483118", "abstract": "<jats:p>&lt;div&gt;\n Five dollar-denominated 
++digital products share a denomination and a target price. They share little else of relevance to institutional 
++diligence. USDC, USDT, and USDG are payment stablecoins issued under three different regulatory regimes (US 
++state money transmitter licenses, British Virgin Islands law, and the Monetary Authority of Singapore 
++framework). DAI is an overcollateralized stablecoin with no issuer, maintained by smart contract governance. 
++OUSG is a tokenized Treasury wrapper structured as a Delaware limited partnership. Each product presents as a 
++“dollar,” yet each requires a structurally different diligence package for institutional 
++adoption.\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n This paper develops a 
++four-dimension taxonomy (legal claim type, system of record architecture, insolvency regime, and collateral 
++operability profile) that classifies these products and predicts which categories of the Minimum Viable 
++Equivalence Pack (MVEP) diligence framework are binding for each type. The paper extends the Control Layer 
++Intensity Index (CLII) to all five operators, maps the contagion dependencies across the product set, 
++stress-tests each product against the Silicon Valley Bank (SVB) scenario applied to current structures, and 
++constructs an eight-metric collateral eligibility framework.\n&lt;/div&gt;\n&lt;div&gt;\n 
++&lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Six findings emerge. First, binding MVEP categories are predictable 
++from the four-dimension classification. Second, operator regulation intensity and product equivalence are 
++separate dimensions that require separate measurement: Circle scored highest on the CLII (0.92) and 
++experienced a 13% depeg during SVB; Tether scored lower (0.52) and maintained its peg. Third, CLII score and 
++collateral eligibility can move in opposite directions, with USDT scoring higher than USDC on eligibility 
++despite lower regulatory intensity, because USDT has no documented stress depeg. Fourth, contagion flows from 
++simple, liquid payment stablecoins to complex products that hold them, the opposite of the direction commonly 
++assumed in traditional finance, with evidence from two production events (SVB March 2023, Circle pool incident 
++March 2025). Fifth, each product has traded its SVB-era concentration risk for a different one: the 
++vulnerability migrated but did not disappear. Sixth, the product with the most liquidation paths (OUSG, three) 
++has the worst collateral eligibility; path count is misleading, and path quality determines 
++eligibility.\n&lt;/div&gt;</jats:p>", "author": [ { "ORCID": "https://orcid.org/0009-0006-3642-2450", 
++"affiliation": [], "authenticated-orcid": true, "family": "Zukowski", "given": "Zach", "role": [ { "role": 
++"author", "vocabulary": "crossref" } ], "sequence": "first" } ], "content-domain": { "crossmark-restriction": 
++false, "domain": [] }, "created": { "date-parts": [ [ 2026, 4, 20 ] ], "date-time": "<TS>", "timestamp": 
++1776699135000 }, "deposited": { "date-parts": [ [ 2026, 4, 20 ] ], "date-time": "<TS>", "timestamp": 
++1776704416000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 4, 20 ] ], "date-time": "<TS>", 
++"timestamp": 1776707339345, "version": "3.51.2" }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 
++2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", "published": { 
++"date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { "author": "Circle", 
++"journal-title": "USDC and Silicon Valley Bank", "key": "ref1", "year": "2023" }, { "article-title": "FDIC 
++Creates a Deposit Insurance National Bank of Santa Clara to Protect Insured Depositors of Silicon Valley 
++Bank", "author": "Coinlaw", "journal-title": "Press release", "key": "ref2", "year": "2023" }, { "author": 
++"Makerdao", "journal-title": "The Market Collapse of March 12-13, 2020: How It Impacted MakerDAO", "key": 
++"ref3", "year": "2020" }, { "journal-title": "BUIDL Instant Redemption Facility", "key": "ref4", "year": 
++"2025" }, { "article-title": "Minimum Viable Equivalence Packs: An Institutional Diligence Framework for 
++Tokenized Products", "author": "Paxos", "journal-title": "Paxos Introduces Global Dollar (USDG)", "key": 
++"ref5", "year": "2024" }, { "article-title": "Routing the Dollar: Gateway Infrastructure, Monetary Policy 
++Transmission, and the Dollar's International Functions in Digital Markets", "author": "Z Zukowski", 
++"journal-title": "SSRN Working Paper No. 6267698. Prepared for the Fifth Conference on the International Roles 
++of the U.S. Dollar, Federal Reserve Board and Federal Reserve Bank of New York", "key": "ref6", "year": "2026" 
++} ], "reference-count": 6, "references-count": 6, "resource": { "primary": { "URL": 
++"https://www.ssrn.com/abstract=6483118" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
++"title": [ "Five Dollars: Legal Structure, Operator Risk, and Diligence Divergence Across Dollar-Denominated 
++Digital Products" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6483619", "URL": 
+ "https://doi.org/10.2139/ssrn.6483619", "abstract": "<jats:p>This paper analyzes a class of DePIN protocols 
+@@ -30,75 +577,27 @@
+ Sustainability and Demand&amp;nbsp;&lt;span&gt;Concentration in GeoDePIN Networks&lt;/span&gt;\n&lt;/div&gt;" 
+-], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6483118", "URL": "https://doi.org/10.2139/ssrn.6483118", 
+-"abstract": "<jats:p>&lt;div&gt;\n Five dollar-denominated digital products share a denomination and a target 
+-price. They share little else of relevance to institutional diligence. USDC, USDT, and USDG are payment 
+-stablecoins issued under three different regulatory regimes (US state money transmitter licenses, British 
+-Virgin Islands law, and the Monetary Authority of Singapore framework). DAI is an overcollateralized 
+-stablecoin with no issuer, maintained by smart contract governance. OUSG is a tokenized Treasury wrapper 
+-structured as a Delaware limited partnership. Each product presents as a “dollar,” yet each requires a 
+-structurally different diligence package for institutional adoption.\n&lt;/div&gt;\n&lt;div&gt;\n 
+-&lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n This paper develops a four-dimension taxonomy (legal claim type, 
+-system of record architecture, insolvency regime, and collateral operability profile) that classifies these 
+-products and predicts which categories of the Minimum Viable Equivalence Pack (MVEP) diligence framework are 
+-binding for each type. The paper extends the Control Layer Intensity Index (CLII) to all five operators, maps 
+-the contagion dependencies across the product set, stress-tests each product against the Silicon Valley Bank 
+-(SVB) scenario applied to current structures, and constructs an eight-metric collateral eligibility 
+-framework.\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Six findings emerge. First, 
+-binding MVEP categories are predictable from the four-dimension classification. Second, operator regulation 
+-intensity and product equivalence are separate dimensions that require separate measurement: Circle scored 
+-highest on the CLII (0.92) and experienced a 13% depeg during SVB; Tether scored lower (0.52) and maintained 
+-its peg. Third, CLII score and collateral eligibility can move in opposite directions, with USDT scoring 
+-higher than USDC on eligibility despite lower regulatory intensity, because USDT has no documented stress 
+-depeg. Fourth, contagion flows from simple, liquid payment stablecoins to complex products that hold them, the 
+-opposite of the direction commonly assumed in traditional finance, with evidence from two production events 
+-(SVB March 2023, Circle pool incident March 2025). Fifth, each product has traded its SVB-era concentration 
+-risk for a different one: the vulnerability migrated but did not disappear. Sixth, the product with the most 
+-liquidation paths (OUSG, three) has the worst collateral eligibility; path count is misleading, and path 
+-quality determines eligibility.\n&lt;/div&gt;</jats:p>", "author": [ { "ORCID": 
+-"https://orcid.org/0009-0006-3642-2450", "affiliation": [], "authenticated-orcid": true, "family": "Zukowski", 
+-"given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": "first" } ], 
+-"content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2026, 4, 20 
+-] ], "date-time": "<TS>", "timestamp": 1776699135000 }, "deposited": { "date-parts": [ [ 2026, 4, 20 ] ], 
+-"date-time": "<TS>", "timestamp": 1776704416000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 
+-4, 20 ] ], "date-time": "<TS>", "timestamp": 1776707339345, "version": "3.51.2" }, "is-referenced-by-count": 
+-0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, 
+-"prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { 
+-"author": "Circle", "journal-title": "USDC and Silicon Valley Bank", "key": "ref1", "year": "2023" }, { 
+-"article-title": "FDIC Creates a Deposit Insurance National Bank of Santa Clara to Protect Insured Depositors 
+-of Silicon Valley Bank", "author": "Coinlaw", "journal-title": "Press release", "key": "ref2", "year": "2023" 
+-}, { "author": "Makerdao", "journal-title": "The Market Collapse of March 12-13, 2020: How It Impacted 
+-MakerDAO", "key": "ref3", "year": "2020" }, { "journal-title": "BUIDL Instant Redemption Facility", "key": 
+-"ref4", "year": "2025" }, { "article-title": "Minimum Viable Equivalence Packs: An Institutional Diligence 
+-Framework for Tokenized Products", "author": "Paxos", "journal-title": "Paxos Introduces Global Dollar 
+-(USDG)", "key": "ref5", "year": "2024" }, { "article-title": "Routing the Dollar: Gateway Infrastructure, 
+-Monetary Policy Transmission, and the Dollar's International Functions in Digital Markets", "author": "Z 
+-Zukowski", "journal-title": "SSRN Working Paper No. 6267698. Prepared for the Fifth Conference on the 
+-International Roles of the U.S. Dollar, Federal Reserve Board and Federal Reserve Bank of New York", "key": 
+-"ref6", "year": "2026" } ], "reference-count": 6, "references-count": 6, "resource": { "primary": { "URL": 
+-"https://www.ssrn.com/abstract=6483118" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
+-"title": [ "Five Dollars: Legal Structure, Operator Risk, and Diligence Divergence Across Dollar-Denominated 
+-Digital Products" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6599278", "URL": 
+-"https://doi.org/10.2139/ssrn.6599278", "abstract": "<jats:p>Initial token allocation design does not predict 
+-governance concentration. A 40-protocol cross-section spanning DePIN, DeFi, infrastructure, and social token 
+-categories documents that the percentage of tokens allocated to team and investors at launch is uninformative 
+-about post-distribution governance concentration (Pearson r = 0.19, p = 0.25, N = 37): protocols with generous 
+-community distributions show concentration comparable to those with heavy insider allocations. Hyperliquid, 
+-the only protocol in the sample with zero venture capital and a 31% community airdrop, shows the lowest 
+-DeFi-subsample HHI (0.005), but the broader null holds across allocation designs. Evidence is consistent with 
+-post-distribution market dynamics shaping concentration more than initial structural 
+-design.&amp;nbsp;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Four supporting findings sharpen the 
+-picture. First, protocols with more insider wallets in their top-holder sets exhibit higher concentration 
+-among non-insider holders (Spearman rho = 0.54, p = 0.001, N = 34), indicating that insider-heavy protocols 
+-develop concentrated governance ecosystems, not merely concentrated insider positions. Second, sector 
+-membership predicts concentration: DePIN protocols are more concentrated than DeFi (Mann-Whitney p = 0.031, 
+-Cohen’s d = 0.96), and the effect survives multivariate adjustment for protocol age, valuation, and insider 
+-allocation (Table 6, p &amp;lt; 0.05 in Models 1 and 2; borderline at p = 0.050 in Model 3; adjusted R² 0.14 
+-to 0.17). Third, on-chain subsidy intensity correlates with concentration in levels (r = 0.58, p = 0.008, N = 
+-20) but entirely through Livepeer (88.5x subsidy): excluding Livepeer, the correlation is not significant (r = 
+-0.12, p = 0.63). Fourth, delegation amplifies concentration unevenly: voting-power HHI reaches 3 to 6 times 
+-holding HHI in DePIN, while two infrastructure protocols diverge (Optimism 0.79x, Arbitrum 4.3x), consistent 
+-with institutional design at the operator and router level, rather than sector classification, driving 
+-governance outcomes.&amp;nbsp;\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Token 
+-inequality (Gini, dispersion across all holders) and governance concentration (HHI, share held by the top 
+-holders) capture distinct properties of the same holder set. Inequality is severe in every protocol (Gini 0.73 
+-to 0.98), while concentration varies across two orders of magnitude (HHI 0.004 to 0.199); their moderate 
++], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6599278", "URL": "https://doi.org/10.2139/ssrn.6599278", 
++"abstract": "<jats:p>Initial token allocation design does not predict governance concentration. A 40-protocol 
++cross-section spanning DePIN, DeFi, infrastructure, and social token categories documents that the percentage 
++of tokens allocated to team and investors at launch is uninformative about post-distribution governance 
++concentration (Pearson r = 0.19, p = 0.25, N = 37): protocols with generous community distributions show 
++concentration comparable to those with heavy insider allocations. Hyperliquid, the only protocol in the sample 
++with zero venture capital and a 31% community airdrop, shows the lowest DeFi-subsample HHI (0.005), but the 
++broader null holds across allocation designs. Evidence is consistent with post-distribution market dynamics 
++shaping concentration more than initial structural design.&amp;nbsp;\n&lt;div&gt;\n 
++&lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Four supporting findings sharpen the picture. First, protocols with 
++more insider wallets in their top-holder sets exhibit higher concentration among non-insider holders (Spearman 
++rho = 0.54, p = 0.001, N = 34), indicating that insider-heavy protocols develop concentrated governance 
++ecosystems, not merely concentrated insider positions. Second, sector membership predicts concentration: DePIN 
++protocols are more concentrated than DeFi (Mann-Whitney p = 0.031, Cohen’s d = 0.96), and the effect survives 
++multivariate adjustment for protocol age, valuation, and insider allocation (Table 6, p &amp;lt; 0.05 in 
++Models 1 and 2; borderline at p = 0.050 in Model 3; adjusted R² 0.14 to 0.17). Third, on-chain subsidy 
++intensity correlates with concentration in levels (r = 0.58, p = 0.008, N = 20) but entirely through Livepeer 
++(88.5x subsidy): excluding Livepeer, the correlation is not significant (r = 0.12, p = 0.63). Fourth, 
++delegation amplifies concentration unevenly: voting-power HHI reaches 3 to 6 times holding HHI in DePIN, while 
++two infrastructure protocols diverge (Optimism 0.79x, Arbitrum 4.3x), consistent with institutional design at 
++the operator and router level, rather than sector classification, driving governance 
++outcomes.&amp;nbsp;\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Token inequality 
++(Gini, dispersion across all holders) and governance concentration (HHI, share held by the top holders) 
++capture distinct properties of the same holder set. Inequality is severe in every protocol (Gini 0.73 to 
++0.98), while concentration varies across two orders of magnitude (HHI 0.004 to 0.199); their moderate 
+ correlation (r = 0.54) shows that inequality metrics cannot substitute for direct concentration 
+@@ -325,517 +824,20 @@
+ "subtype": "preprint", "title": [ "Governance Concentration Beyond Token Allocation: An Institutional Design 
+-Analysis of DePIN and DeFi" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6412731", "URL": 
+-"https://doi.org/10.2139/ssrn.6412731", "abstract": "<jats:p>Dollar stablecoins extend the dollar’s exchange, 
+-store-of-value, and funding functions into blockchain markets, largely outside the Federal Reserve’s standard 
+-supervisory and reporting perimeter, though not necessarily outside all federal or state oversight. We argue 
+-the policy-relevant unit of analysis is not the token but the gateway (the issuer, exchange, or protocol that 
+-routes stablecoin value) because the same dollar token inherits different compliance, monetary, and safe-haven 
+-properties depending on which gateway processes it.Using daily Ethereum gateway transfer volumes (19 entities, 
+-51 addresses, 27.7 percent of USDC/USDT value), monthly counterparty networks (15 gateways, 35 months, 3,804 
+-unique dyads), and stress-episode windows around the Silicon Valley Bank (SVB) crisis and the Binance USD 
+-(BUSD) regulatory action, we report three descriptive findings.First, stablecoin supply is cointegrated with 
+-Fed balance-sheet variables in a regime-dependent way; a Treasury bill minus on-chain lending-rate spread 
+-provides mechanism-consistent opportunity-cost evidence. The relationship is dollar-specific, absent for 
+-Bitcoin or Ethereum. Cointegration is strongest during quantitative tightening (trace = 48.18) and weakens 
+-during easing (trace = 17.71) even as level correlations remain strong (r = -0.98).Second, that co-movement 
+-distributes unevenly across the gateway layer: institutional gateways (both regulated and offshore) share the 
+-aggregate inverse relationship with Fed assets while permissionless protocols trend in the opposite direction, 
+-and the routing network is concentrating; volume doubled over three years while unique counterparties declined 
+-25 percent and cross-gateway counterparties fell from 5.8 to 2.6 percent.Third, within the dollar-pegged 
+-settlement instruments we observe, stress behavior is gateway-contingent: capital routes across gateways 
+-rather than out of dollar-pegged stablecoins, with tier share recovery coinciding with the SVB intervention 
+-sequence and the restoration of USDC convertibility, though causal attribution across intervention tools is 
+-not identified. Fragmentation manifests primarily as competition and concentration within the dollar’s own 
+-gateway infrastructure, rather than as substitution into non-dollar-pegged instruments. For monitoring 
+-purposes, gateway-level flow data are more informative than token-level aggregates for assessing regulatory 
+-exposure, concentration risk, and stress routing.</jats:p>", "author": [ { "affiliation": [], "family": 
+-"Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": "first" } 
+-], "content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2026, 3, 
+-14 ] ], "date-time": "<TS>", "timestamp": 1773464971000 }, "deposited": { "date-parts": [ [ 2026, 3, 14 ] ], 
+-"date-time": "<TS>", "timestamp": 1773465086000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 
+-3, 14 ] ], "date-time": "<TS>", "timestamp": 1773468090785, "version": "3.50.1" }, "is-referenced-by-count": 
+-0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, 
+-"prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { 
+-"author": "G Afonso", "first-page": "1", "journal-title": "Federal Reserve Bank of New York Economic Policy 
+-Review", "key": "ref1", "volume": "29", "year": "2019" }, { "DOI": "10.1093/rfs/hhx141", "article-title": 
+-"Monetary Policy Implementation and Financial Vulnerability: Evidence from the Overnight Reverse Repurchase 
+-Facility", "author": "A G Anderson", "doi-asserted-by": "crossref", "first-page": "3643", "issue": "9", 
+-"journal-title": "Review of Financial Studies", "key": "ref2", "volume": "31", "year": "2018" }, { 
+-"article-title": "The Influence of Stablecoin Issuances on Cryptocurrency Markets", "author": "L Ante", 
+-"journal-title": "Finance Research Letters", "key": "ref3", "volume": "41", "year": "2023" }, { 
+-"article-title": "DeFi Risks and the Decentralisation Illusion", "author": "S Aramonte", "first-page": "21", 
+-"journal-title": "BIS Quarterly Review", "key": "ref4", "year": "2022" }, { "article-title": "The Stable in 
+-Stablecoins", "author": "G Baughman", "journal-title": "FEDS Notes, Board of Governors of the Federal Reserve 
+-System", "key": "ref5", "year": "2022" }, { "DOI": "10.1016/j.jmoneco.2014.11.011", "article-title": "Capital 
+-Flows and the Risk-Taking Channel of Monetary Policy", "author": "V Bruno", "doi-asserted-by": "crossref", 
+-"first-page": "119", "journal-title": "Journal of Monetary Economics", "key": "ref6", "volume": "71", "year": 
+-"2015" }, { "article-title": "Central Bank Digital Currency: A Literature Review", "author": "F Carapella", 
+-"journal-title": "FEDS Notes, Board of Governors of the Federal Reserve System", "key": "ref7", "year": "2020" 
+-}, { "author": "C Catalini", "journal-title": "On the Economic Design of Stablecoins", "key": "ref8", "year": 
+-"2021" }, { "author": "Clarity Act", "journal-title": "Digital Asset Market Clarity Act (H.R. 3633), U.S. 
+-House Financial Services Committee", "key": "ref9", "year": "2025" }, { "article-title": "Adds provisions on 
+-distributed ledger application layers", "author": "Senate Clarity Act", "journal-title": "Treasury guidance 
+-within 360 days, and temporary holds", "key": "ref10", "volume": "3633", "year": "2026" }, { "article-title": 
+-"Are Stablecoins Safe Money?", "author": "A Avernas", "journal-title": "Guiding and Establishing National 
+-Innovation for U.S. Stablecoins Act, Pub. L. 119-27, S. 1582, signed", "key": "ref11", "year": "2023" }, { 
+-"author": "Fdic Nprm", "key": "ref12", "year": "2025" }, { "author": "Ncua Nprm", "key": "ref13", "year": 
+-"2026" }, { "author": "Occ Nprm", "key": "ref14", "year": "2026" }, { "article-title": "Taming Wildcat 
+-Stablecoins", "author": "G B Gorton", "first-page": "909", "issue": "3", "journal-title": "University of 
+-Chicago Law Review", "key": "ref15", "volume": "90", "year": "2023" }, { "DOI": "10.1093/rfs/hhac034", 
+-"article-title": "The Rise of Finance Companies and FinTech Lenders in Small Business Lending", "author": "M 
+-Gopal", "doi-asserted-by": "crossref", "first-page": "4859", "issue": "11", "journal-title": "Review of 
+-Financial Studies", "key": "ref16", "volume": "35", "year": "2022" }, { "DOI": "10.1093/qje/qjaa036", 
+-"article-title": "Banking, Trade, and the Making of a Dominant Currency", "author": "G Gopinath", 
+-"doi-asserted-by": "crossref", "first-page": "783", "issue": "2", "journal-title": "Quarterly Journal of 
+-Economics", "key": "ref17", "volume": "136", "year": "2021" }, { "DOI": 
+-"10.1146/annurev-economics-080217-053518", "article-title": "The International Monetary and Financial System", 
+-"author": "P.-O Gourinchas", "doi-asserted-by": "crossref", "first-page": "859", "journal-title": "Annual 
+-Review of Economics", "key": "ref18", "volume": "11", "year": "2019" }, { "article-title": "The Decentralized 
+-Financial Crisis: Attacking DeFi", "author": "L Gudgeon", "journal-title": "Crypto Valley Conference on 
+-Blockchain Technology", "key": "ref19", "year": "2020" }, { "author": "C R Harvey", "journal-title": "DeFi and 
+-the Future of Finance", "key": "ref20", "year": "2021" }, { "article-title": "How Stable Are Stablecoins?", 
+-"author": "L T Hoang", "first-page": "838", "issue": "8", "journal-title": "European Journal of Finance", 
+-"key": "ref21", "volume": "29", "year": "2021" }, { "DOI": "10.1093/restud/rdad108", "article-title": "Dollar 
+-Safety and the Global Financial Cycle", "author": "Z Jiang", "doi-asserted-by": "crossref", "first-page": 
+-"2878", "issue": "5", "journal-title": "Review of Economic Studies", "key": "ref22", "volume": "91", "year": 
+-"2024" }, { "author": "R Kozhan", "journal-title": "Decentralized Stablecoins and Collateral Risk", "key": 
+-"ref23", "year": "2021" }, { "article-title": "What Keeps Stablecoins Stable?", "author": "R K Lyons", 
+-"journal-title": "Journal of International Money and Finance", "key": "ref24", "year": "2023" }, { 
+-"article-title": "Cryptocurrencies and Decentralized Finance (DeFi)", "author": "I Makarov", "journal-title": 
+-"Brookings Papers on Economic Activity", "key": "ref25", "year": "2022" }, { "DOI": "10.1093/restud/rdaa019", 
+-"article-title": "U.S. Monetary Policy and the Global Financial Cycle", "author": "S Miranda-Agrippino", 
+-"doi-asserted-by": "crossref", "first-page": "2754", "issue": "6", "journal-title": "Review of Economic 
+-Studies", "key": "ref26", "volume": "87", "year": "2020" }, { "article-title": "Interpretive Letter 1174: 
+-Chief Counsel's Interpretation Clarifying Authority of Banks to Use Stablecoins", "journal-title": "Office of 
+-the Comptroller of the Currency", "key": "ref27", "year": "2021" }, { "article-title": "Liquidations: DeFi on 
+-a Knife-Edge", "author": "D Perez", "first-page": "457", "journal-title": "Financial Cryptography and Data 
+-Security", "key": "ref28", "year": "2021" }, { "DOI": "10.1016/0304-4076(94)01697-6", "article-title": 
+-"Cointegration and Speed of Convergence to Equilibrium", "author": "M H Pesaran", "doi-asserted-by": 
+-"crossref", "first-page": "117", "issue": "1-2", "journal-title": "Journal of Econometrics", "key": "ref29", 
+-"volume": "71", "year": "1996" }, { "article-title": "President's Working Group on Financial Markets", 
+-"author": "Fdic", "journal-title": "Report on Stablecoins. U.S. Department of the Treasury, November. Office 
+-of the Comptroller of the Currency", "key": "ref30", "year": "2020" }, { "article-title": "The 
+-Herfindahl-Hirschman Index", "author": "S A Rhoades", "first-page": "188", "issue": "3", "journal-title": 
+-"Federal Reserve Bulletin", "key": "ref31", "volume": "79", "year": "1993" }, { "journal-title": "Merger 
+-Guidelines", "key": "ref32", "year": "2023" }, { "article-title": "Designation of Tornado Cash as a Specially 
+-Designated National", "journal-title": "Office of Foreign Assets Control", "key": "ref33", "year": "2022" }, { 
+-"article-title": "Stablecoin Payments from the Ground Up", "journal-title": "Research Report", "key": "ref34", 
+-"year": "2025" }, { "article-title": "McKinsey Digital, January. Treasury Borrowing Advisory Committee 
+-(2025)", "author": "Island Castle", "journal-title": "TBAC Presentation to the U.S. Treasury", "key": "ref35", 
+-"year": "2024" }, { "article-title": "Visa Crypto Research, in partnership with Allium Labs", "journal-title": 
+-"Visa", "key": "ref36", "year": "2024" }, { "author": "Jessie Wang", "journal-title": "FEDS Notes, Board of 
+-Governors of the Federal Reserve System", "key": "ref37", "year": "2025" }, { "author": "Jessie Wang", 
+-"journal-title": "FEDS Notes, Board of Governors of the Federal Reserve System", "key": "ref38", "year": 
+-"2025" } ], "reference-count": 38, "references-count": 38, "resource": { "primary": { "URL": 
+-"https://www.ssrn.com/abstract=6412731" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
+-"title": [ "Routing the Dollar:,Gateway Infrastructure, Monetary Policy Transmission, and the Dollar’s 
+-International Functions in Digital Markets" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6483198", 
+-"URL": "https://doi.org/10.2139/ssrn.6483198", "abstract": "<jats:p>&lt;div&gt;\n &lt;span&gt;Institutional 
+-tokenization of US securities is proceeding through three distinct strategies, each synthesizing 
+-infrastructure from different combinations of regulated entities. Strategy 1 (the Regulated Collateral 
+-Circuit) constructs a closed loop where DTC-tokenized Treasuries serve as 24/7 margin collateral, settled in 
+-bank-issued deposit tokens, with clearing through Ubyx. Strategy 2 (the Multi-Issuer Yield Stack) composes a 
+-product holding tokenized Treasuries from five issuers with a smart redemption router that eliminates the 
+-single-pool dependency identified in the Minimum Viable Equivalence Pack (MVEP) framework. Strategy 3 (the 
+-Tokenized Equity Rails) builds the complete issuance-to-trading pipeline for tokenized US equities using 
+-SEC-approved exchange infrastructure from Nasdaq (approved March 18, 2026) and NYSE (Securitize MoU, March 24, 
+-2026).&lt;/span&gt;\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n This paper maps each 
+-strategy against the MVEP’s ten categories, develops nine strategy-specific stress scenarios traced through 
+-MVEP category failure chains, analyzes the cross-strategy concentration of Securitize as the system-of-record 
+-operator across all three strategies, identifies the corporate actions reconciliation gap as Strategy 3’s most 
+-novel failure mode, develops an infrastructure competition framework for the emerging deposit-token market 
+-(JPMD, BNY deposits, Citi deposits, with Ubyx clearing), and specifies observable phase gates with 
+-quantitative thresholds gating each strategy transition. The analysis draws on the Control Layer Intensity 
+-Index (CLII) and MVEP frameworks developed in companion papers (Zukowski, 2026a; Zukowski, 2026b; Zukowski, 
+-2026c).\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Four findings emerge. First, each 
+-strategy satisfies different MVEP categories with different strength: Strategy 1 is strongest on custody and 
+-settlement finality (DTC + Canton atomic settlement), Strategy 2 is strongest on collateral operability 
+-(redundant multi-pool redemption), and Strategy 3 is strongest on rights parity (SEC-mandated identical 
+-rights) but weakest on reconciliation (the corporate actions gap). Second, Securitize’s presence as transfer 
+-agent across all three strategies creates a system-level concentration risk that entity-level CLII scores do 
+-not capture: a 72-hour Securitize operational failure would degrade all three strategies simultaneously. 
+-Third, the corporate actions reconciliation gap (record date, ex-date, and stock split problems in 24/7 
+-tokenized equity trading) requires one of three architectures (trading halt, blockchain-as-authoritative, or 
+-dual-record synchronization), each with distinct MVEP implications. Fourth, the deposit-token market (JPMD, 
+-BNY, Citi) is the control-layer competition applied to institutional settlement: the entity that issues the 
+-dominant deposit token captures the settlement-layer rent, and Ubyx’s clearing function determines whether 
+-this becomes a monopoly or a competitive market.\n&lt;/div&gt;</jats:p>", "author": [ { "ORCID": 
+-"https://orcid.org/0009-0006-3642-2450", "affiliation": [], "authenticated-orcid": true, "family": "Zukowski", 
+-"given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": "first" } ], 
+-"content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2026, 4, 20 
+-] ], "date-time": "<TS>", "timestamp": 1776699136000 }, "deposited": { "date-parts": [ [ 2026, 4, 20 ] ], 
+-"date-time": "<TS>", "timestamp": 1776701701000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 
+-4, 20 ] ], "date-time": "<TS>", "timestamp": 1776704827606, "version": "3.51.2" }, "is-referenced-by-count": 
+-0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, 
+-"prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { 
+-"author": "Circle", "journal-title": "USDC and Silicon Valley Bank", "key": "ref1", "year": "2023" }, { 
+-"article-title": "Tokenized Deposits for Collateral and Margin Workflows", "author": "Dtcc", "journal-title": 
+-"Press release", "key": "ref2", "year": "2025" }, { "article-title": "SEC Approval: Tokenized Securities 
+-Trading Framework", "author": "/ Barclays", "journal-title": "Nasdaq", "key": "ref3", "year": "2026" }, { 
+-"author": "Nyse/Securitize", "journal-title": "Memorandum of Understanding: NYSE Digital Trading Platform", 
+-"key": "ref4", "year": "2026" }, { "journal-title": "BUIDL Instant Redemption Facility", "key": "ref5", 
+-"year": "2025" }, { "author": "Z Zukowski", "journal-title": "Routing the Dollar: Gateway Infrastructure, 
+-Monetary Policy Transmission, and the Dollar's International Functions in Digital Markets", "key": "ref6", 
+-"year": "2026" }, { "author": "Z Zukowski", "journal-title": "Minimum Viable Equivalence Packs: An 
+-Institutional Diligence Framework for Tokenized Products", "key": "ref7", "year": "2026" }, { "article-title": 
+-"Seven Dollars: Legal Structure, Operator Risk, and Diligence Divergence Across Dollar-Denominated Digital 
+-Products", "author": "Z Zukowski", "journal-title": "SSRN Working Paper. Zach Zukowski is a Senior Investment 
+-Analyst at Borderless Capital and an independent researcher at tokenization.systems. Contact: 
+-zach@tokenization.systems", "key": "ref8", "year": "2026" } ], "reference-count": 8, "references-count": 8, 
+-"resource": { "primary": { "URL": "https://www.ssrn.com/abstract=6483198" } }, "score": <SCORE>, "source": 
+-"Crossref", "subtype": "preprint", "title": [ "Three Tokenization Strategies: Infrastructure Competition, 
+-Settlement Architecture, and Operational Risk in Institutional Digital Asset Markets" ], "type": 
+-"posted-content" }, { "DOI": "10.2139/ssrn.6326018", "URL": "https://doi.org/10.2139/ssrn.6326018", 
+-"abstract": "<jats:p>&lt;p&gt;Token design lacks a coherent discipline. Projects assemble mechanisms from 
+-precedent, failures are attributed to market conditions rather than predictable design flaws, and no 
+-established field integrates the economics, control theory, game theory, and constitutional design that token 
+-systems require. We frame the resulting practice as systems engineering: coordinating autonomous agents under 
+-uncertainty while distributing ownership to contributors without centralized enforcement. What distinguishes 
+-protocols from historical private currency issuance is programmable enforcement of issuance rules and 
+-dissolution of the capital-labor boundary when contribution generates ownership.&lt;/p&gt;\n&lt;p&gt;We 
+-develop MeshNet, a fictional but empirically parameterized decentralized wireless protocol that specifies five 
+-integrated mechanisms: productive staking, reputation-weighted governance, burn-mint value capture, conviction 
+-voting, and PID-controlled adaptive emissions. Parameters are calibrated to Helium hardware economics, 
+-Filecoin collateral ratios, and governance data from 12 DePIN protocols. A 240-run agent-based ensemble, 
+-supplemented by 566 sensitivity and adversarial runs, stress-tests these mechanisms over five years under four 
+-macroeconomic scenarios.&lt;/p&gt;\n&lt;p&gt;Three findings stand out. First, adaptive emission functions as 
+-insurance: the PID controller compresses worst-case variance by 6× (coefficient of variation from 0.544 to 
+-0.087 under competitor shock) while sustaining 8,880 nodes at the 5th percentile versus 1,049 under static 
+-policy. Second, this advantage is conditional: bull markets produce identical outcomes, and the engineering 
+-premium emerges only under sustained contraction. Third, without pre-planned guardrails the controller can 
+-trigger integral wind-up, reinforcing the case for simulation-first design methodology. Reputation-weighted 
+-governance reduces voting-power concentration (Gini from 0.89 to 0.72). The design methodology generalizes to 
+-token economies facing analogous coordination problems.&lt;/p&gt;</jats:p>", "author": [ { "affiliation": [], 
+-"family": "Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": 
+-"first" } ], "content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ 
+-[ 2026, 3, 11 ] ], "date-time": "<TS>", "timestamp": 1773246614000 }, "deposited": { "date-parts": [ [ 2026, 
+-3, 11 ] ], "date-time": "<TS>", "timestamp": 1773246614000 }, "group-title": "SSRN", "indexed": { 
+-"date-parts": [ [ 2026, 3, 12 ] ], "date-time": "<TS>", "timestamp": 1773312849617, "version": "3.50.1" }, 
+-"is-referenced-by-count": 0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { 
+-"date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": 
+-"Elsevier BV", "reference-count": 0, "references-count": 0, "resource": { "primary": { "URL": 
+-"https://www.ssrn.com/abstract=6326018" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
+-"title": [ "Tokenomics as Systems Engineering: Capital, Labor, Land, and the Design of Autonomous Economies" 
+-], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6363138", "URL": "https://doi.org/10.2139/ssrn.6363138", 
+-"abstract": "<jats:p>&lt;div&gt;\n When Circle disclosed $3.3 billion in USDC reserves at Silicon Valley Bank 
+-on March 10, 2023, every tier label, attestation report, and “institutional grade” designation failed to 
+-surface the exposure. USDC traded at $0.87. The episode revealed that tokenized product diligence lacks a 
+-common standard: rights parity, custody segregation, system-of-record primacy, and insolvency treatment were 
+-each unexamined or untested at the moment they mattered most.\n&lt;/div&gt;\n&lt;div&gt;\n 
+-&lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n This paper develops the Minimum Viable Equivalence Pack (MVEP), a 
+-nine-category institutional diligence framework that specifies the minimum artifacts, observable metrics, and 
+-pass/fail tests required to clear a risk committee’s threshold for any tokenized product. The framework 
+-decomposes equivalence into three independently testable claims: legal (rights, priority, enforceability), 
+-operational (system of record, reconciliation, exception handling), and economic (settlement finality 
+-inclusive of value integrity and convertibility). A product can satisfy one dimension while failing another; 
+-the SVB weekend broke all three simultaneously.\n&lt;/div&gt;\n&lt;div&gt;\n 
+-&lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n The MVEP is applied to two asset classes where institutional volume is 
+-concentrating: tokenized Treasury bills and money market fund shares (where records integrity and settlement 
+-finality dominate) and tokenized private credit (where rights enforcement and servicing continuity dominate). 
+-For composed products, equivalence degrades to the weakest layer. The paper introduces continuous monitoring 
+-through the Control Layer Intensity Index (CLII), a scoring methodology originally developed for stablecoin 
+-gateway infrastructure, extended here to custody segregation, reconciliation integrity, and concentration risk 
+-across tokenized products. The MVEP is designed to be wrong in known ways: its value lies in making the 
+-standard explicit, the gaps visible, and the failure modes predictable.\n&lt;/div&gt;</jats:p>", "author": [ { 
+-"affiliation": [], "family": "Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": 
+-"crossref" } ], "sequence": "first" } ], "content-domain": { "crossmark-restriction": false, "domain": [] }, 
+-"created": { "date-parts": [ [ 2026, 3, 10 ] ], "date-time": "<TS>", "timestamp": 1773167599000 }, 
+-"deposited": { "date-parts": [ [ 2026, 7, 1 ] ], "date-time": "<TS>", "timestamp": 1782896990000 }, 
+-"group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 7, 1 ] ], "date-time": "<TS>", "timestamp": 
+-1782899304708, "version": "3.54.5" }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 2026 ] ] }, 
+-"member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", "published": { "date-parts": [ 
+-[ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { "author": "M Hester", "journal-title": "Getting 
+-Back on Base: Statement on the Dismissal of the Civil Enforcement Action Against Coinbase", "key": "ref1", 
+-"year": "2025" }, { "author": "M Hester", "journal-title": "Token Safe Harbor Proposal 2.0, U.S. Sec. & Exch. 
+-Comm'n (2021)", "key": "ref2" }, { "author": "M Hester", "journal-title": "Statement on SEC v", "key": "ref3", 
+-"year": "2023" }, { "author": "M Hester", "journal-title": "On Today's Episode of As the Crypto World Turns: 
+-Statement on ShapeShift AG", "key": "ref4" }, { "author": "Exch", "key": "ref5", "year": "2024" }, { "author": 
+-"M Hester", "journal-title": "NFTs & the SEC: Statement on Impact Theory", "key": "ref6" }, { "author": 
+-"Comm'n", "key": "ref7", "year": "2023" }, { "author": "M Hester", "journal-title": "Omakase: Statement on In 
+-the Matter of Flyfish Club", "key": "ref8", "year": "2024" }, { "journal-title": "References Articles, books, 
+-and reports", "key": "ref9" }, { "article-title": "IMF Note 2026/001 (Int'l Monetary Fund", "author": "Adrian 
+-Tobias", "journal-title": "Rashad Ahmed & I�aki Aldasoro, Stablecoins and Safe Asset Prices", "key": "ref10", 
+-"year": "2026" }, { "author": "Dan Awrey", "journal-title": "Cornell L. Rev", "key": "ref11", "volume": "106", 
+-"year": "2020" }, { "author": "Dan Awrey", "journal-title": "Duke L.J", "key": "ref12", "volume": "75", 
+-"year": "2025" }, { "article-title": "Unbundling Banking, Money, and Payments", "author": "Dan Awrey", 
+-"journal-title": "Geo. L.J", "key": "ref13", "volume": "715", "year": "2022" }, { "author": "Dan Awrey", 
+-"journal-title": "Macro Musings podcast interview (Mercatus Ctr. at George Mason Univ", "key": "ref14", 
+-"year": "2026" }, { "article-title": "Open Access, Interoperability, and the DTCC's Unexpected Path to 
+-Monopoly", "author": "Dan Awrey", "journal-title": "Project Helvetia Phase II: Settling Tokenised Assets in 
+-Wholesale CBDC", "key": "ref15", "volume": "132", "year": "2022" }, { "author": "Ryan Banerjee", 
+-"journal-title": "Elasticity of Money in Production Networks, Working Capital, Credit Lines and Financial 
+-Conditions", "key": "ref16", "year": "2018" }, { "journal-title": "Basel Comm. on Banking Supervision, 
+-Prudential Treatment of Cryptoasset Exposures", "key": "ref17", "year": "2022" }, { "article-title": "BitMart 
+-Strategic Research, State of Real-World Assets (RWA): From Permission to Practice", "author": "Garth 
+-Baughman", "journal-title": "The Stable in Stablecoins", "key": "ref18", "year": "2022" }, { "article-title": 
+-"The Credit Ratings Game, 67", "author": "Patrick Bolton", "journal-title": "J. Fin", "key": "ref19", "year": 
+-"2012" }, { "article-title": "The Private Law of Stablecoins, 54 Ariz", "author": "Kara Bruce", 
+-"journal-title": "St. L.J", "key": "ref20", "year": "2022" }, { "article-title": "Conference of State Bank 
+-Supervisors, Money Transmission Modernization Act (MTMA) (2024)", "author": "Francesca Carapella", 
+-"journal-title": "Stablecoins in 2025: Developments and Financial Stability Implications, FEDS Notes (Bd. of 
+-Governors of the Fed. Reserve Sys", "key": "ref21", "year": "2023" }, { "author": "John Crawford", 
+-"journal-title": "Digital Dollars", "key": "ref22", "volume": "113" }, { "author": "Douglas W Diamond", 
+-"journal-title": "Bank Runs, Deposit Insurance, and Liquidity", "key": "ref23", "volume": "91", "year": "1983" 
+-}, { "article-title": "Public Comment to the OCC on Implementation of the GENIUS Act", "author": "Chuan Du", 
+-"journal-title": "the Shadow of Bank Runs: Lessons from the Silicon Valley Bank Failure and Its Impact on 
+-Stablecoins, FEDS Notes (Bd. of Governors of the Fed. Reserve Sys", "key": "ref24", "year": "2014" }, { 
+-"article-title": "Oops! The Unfortunate (but Basic) Error in the New UCC Article 12, 11 Tex", "author": "David 
+-Frisch", "journal-title": "A&M L. Rev", "key": "ref25", "volume": "515", "year": "2024" }, { "article-title": 
+-"Stablecoins Versus Tokenised Deposits: Implications for the Singleness of Money", "author": "Rodney Garratt", 
+-"issue": "73", "journal-title": "Anna Gelpern & Erik F. Gerding, Inside Safe Assets", "key": "ref26", 
+-"volume": "33", "year": "2016" }, { "article-title": "Protecting the Sovereign's Money Monopoly", "author": "B 
+-Gary", "journal-title": "Univ. of Mich. L. & Econ. Working Paper", "key": "ref27", "volume": "228", "year": 
+-"2022" }, { "article-title": "Taming Wildcat Stablecoins", "author": "B Gary", "journal-title": "L. Rev", 
+-"key": "ref28", "volume": "909", "year": "2023" }, { "DOI": "10.1017/CBO9780511791307", "author": "Avner 
+-Greif", "doi-asserted-by": "crossref", "journal-title": "Institutions and the Path to the Modern Economy: 
+-Lessons from Medieval Trade", "key": "ref29", "year": "2006" }, { "author": "Sam Hempel", "journal-title": 
+-"Banks in the Age of Stablecoins: Lessons from Their Historical Responses to Financial Innovations", "key": 
+-"ref30", "year": "2026" }, { "article-title": "Initial Coin Offerings: Financing Growth with Cryptocurrency 
+-Token Sales", "author": "Sabrina T Howell", "journal-title": "Rev. Fin. Stud", "key": "ref31", "volume": 
+-"3925", "year": "2020" }, { "article-title": "Inventing New Institutions: The Design Perspective, 69", 
+-"author": "Leonid Hurwicz", "journal-title": "Am. J. Agric. Econ", "key": "ref32", "volume": "395" }, { 
+-"article-title": "Principles on Digital Assets and Private Law (2023)", "journal-title": "Int'l Inst. for the 
+-Unification of Priv. Law (UNIDROIT)", "key": "ref33", "year": "2002" }, { "journal-title": "Swaps & 
+-Derivatives Ass'n, Navigating Bankruptcy in Digital Asset Markets: Netting and Collateral Enforceability", 
+-"key": "ref34", "year": "2023" }, { "article-title": "Does It Matter Who Pays for Bond Ratings? Historical 
+-Evidence, 105", "author": "J X Jiang", "journal-title": "Shohini Kundu, Seongjin Park & Nishant Vats, The 
+-Geography of Bank Deposits and the Origins of Aggregate Fluctuations", "key": "ref35", "volume": "412", 
+-"year": "2012" }, { "article-title": "Stablecoins: Growth Potential and Impact on Banking, Bd. of Governors of 
+-the Fed", "author": "Y Gordon", "journal-title": "Rsrv. Sys., Int'l Fin. Discussion Paper", "key": "ref36", 
+-"volume": "1334", "year": "2022" }, { "article-title": "The Lending Impact of Stablecoin-Induced Deposit 
+-Outflows (Legal Econ. LLC working paper", "author": "A R Nigrinis", "journal-title": "SSRN", "key": "ref37", 
+-"volume": "5586850", "year": "2025" }, { "author": "K Christopher", "journal-title": "Regulating Centralized 
+-Stablecoins: Comparing MiCAR and the GENIUS Act", "key": "ref38", "year": "2026" }, { "article-title": "The 
+-Moneyness of Stablecoins", "author": "K Christopher", "journal-title": "Off. of the Comptroller of the 
+-Currency, Interpretive Letter 1170", "key": "ref39", "volume": "136", "year": "2020" }, { "author": "Oliver 
+-Wyman", "journal-title": "Deposit Tokens: A Foundation for Stable Digital Money", "key": "ref40", "year": 
+-"2023" }, { "author": "T Saule", "journal-title": "New Tech v. New Deal: Fintech as a Systemic Phenomenon", 
+-"key": "ref41" }, { "article-title": "The Liquidity Advantage: How OUSG Provides Robust", "journal-title": 
+-"Ondo Finance", "key": "ref42", "year": "2025" }, { "article-title": "How and Why Credit Rating Agencies Are 
+-Not Like Other Gatekeepers", "author": "Frank Partnoy", "journal-title": "Financial Gatekeepers: Can They 
+-Protect Investors? 59", "key": "ref43", "year": "2006" }, { "article-title": "Money as Infrastructure", 
+-"author": "Morgan Ricks", "journal-title": "Colum. Bus. L. Rev", "key": "ref44", "volume": "757", "year": 
+-"2018" }, { "article-title": "The CEA Studied the Wrong Question on Stablecoin \"Yield\" and Community Banks", 
+-"author": "Sayee Srinivasan", "journal-title": "ABA Banking Journal: ABA DataBank", "key": "ref45", "year": 
+-"2026" }, { "article-title": "Digital Assets and the Property Question, 78 Fla", "author": "Andrea Tosato", 
+-"journal-title": "Treasury Borrowing Advisory Committee, U.S. Dep't of the Treasury", "key": "ref46", "year": 
+-"2026" }, { "author": "V Tsyrennikov", "journal-title": "Impact on Community Bank Deposits", "key": "ref47", 
+-"year": "2025" }, { "journal-title": "Report to Congress on Assigned Credit Ratings (as Required by Section 
+-939F of the Dodd-Frank Wall Street Reform and Consumer Protection Act", "key": "ref48", "year": "2012" }, { 
+-"journal-title": "Vantage Bank Texas & Custodia Bank, Hazel Network: Unified Tokenized Bank Deposit and 
+-Stablecoin Token", "key": "ref49", "year": "2026" }, { "article-title": "Megan Rodden & Anthony Seira, Primary 
+-and Secondary Markets for Stablecoins", "author": "Cy Watsky", "journal-title": "The Credit Rating Agencies", 
+-"key": "ref50", "volume": "24", "year": "2010" }, { "author": "T M Whited", "journal-title": "Will Central 
+-Bank Digital Currency Disintermediate Banks?", "key": "ref51", "year": "2022" }, { "author": "Zach Zukowski", 
+-"journal-title": "Routing the Dollar: Gateway Infrastructure, Monetary Policy Transmission, and the", "key": 
+-"ref52" }, { "journal-title": "Dollar's International Functions in Digital Markets", "key": "ref53", "year": 
+-"2026" }, { "author": "Zach Zukowski", "journal-title": "Systems Engineering Approach to Programmable 
+-Incentive Design", "key": "ref54", "volume": "6364158", "year": "2026" }, { "author": "Zach Zukowski", 
+-"journal-title": "Seven Dollars: A Comparative Framework for Major Dollar-Denominated Digital Products", 
+-"key": "ref55", "volume": "6483118", "year": "2026" }, { "author": "Zach Zukowski", "journal-title": "Three 
+-Tokenization Strategies: Infrastructure Competition, Settlement Architecture, and Operational Risk in 
+-Institutional Digital Asset Capital Markets", "key": "ref56", "volume": "6483198", "year": "2026" }, { 
+-"author": "Zach Zukowski", "journal-title": "Auditing Governance Concentration Beyond Token Allocation: A 
+-Live-Governance Study of 52 Token Protocols", "key": "ref57", "volume": "6599278", "year": "2026" }, { 
+-"article-title": "Guiding and Establishing National Innovation for U.S. Stablecoins Act of 2025", 
+-"journal-title": "Statutes, regulations, and codes FDIC Official Signs and Advertising Requirements", "key": 
+-"ref58", "volume": "328", "year": "2024" }, { "author": "U C C Art", "journal-title": "Am. L. Inst. & Unif. L. 
+-Comm'", "key": "ref59", "year": "2022" }, { "author": "U C C", "journal-title": "Am. L. Inst. & Unif. L. 
+-Comm'", "key": "ref60", "year": "1994" }, { "author": "U C C", "journal-title": "Am. L. Inst. & Unif. L. 
+-Comm'n", "key": "ref61", "year": "2001" }, { "author": "U C C Art", "journal-title": "Controllable Electronic 
+-Records", "key": "ref62", "volume": "12", "year": "2022" } ], "reference-count": 62, "references-count": 62, 
+-"resource": { "primary": { "URL": "https://www.ssrn.com/abstract=6363138" } }, "score": <SCORE>, "source": 
+-"Crossref", "subtype": "preprint", "title": [ "Minimum Viable Equivalence Packs: An Institutional Diligence 
+-Framework for Tokenized Products" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6352118", "URL": 
+-"https://doi.org/10.2139/ssrn.6352118", "abstract": "<jats:p>When a token network's adaptive reward controller 
+-mistakes a temporary infrastructure outage for a permanent loss of operators, it over-compensates with higher 
+-rewards. This over-reaction accidentally builds a financial buffer that protects the network when a real 
+-economic shock arrives. This counterintuitive finding emerges from a 624-run agent-based simulation of a DePIN 
+-token economy extended with an operational risk layer (infrastructure outages, key losses, correlated software 
+-failures, and regulatory disruptions) calibrated to empirical failure rates across Ethereum, Helium, Geodnet, 
+-and Filecoin. Under competitor shock, the adaptive controller reduces worst-case outcome variance by 6.89×, up 
+-from 6.25× without operational risk. The analytical prediction was that infrastructure failures would make the 
+-controller less effective at stabilizing the network; instead, they make it more effective. Fixedrate reward 
+-schedules, which cannot adjust to any source of disruption, perform even worse (outcome variability increases 
+-from 0.544 to 0.569), widening the adaptive controller's advantage. A second finding reveals a design 
+-vulnerability not apparent from economic-only simulation. Reputation systems that gate recovery on a 
+-performance threshold break when routine failures make that threshold unachievable. At 0.5% daily downtime, an 
+-operator has only a 16% chance of clearing the recovery threshold in any given quarter. The result: average 
+-reputation decays to 0.18 on a 0-5 scale, effectively disabling reputationweighted governance. The collapse is 
+-structural; no adjustment to the decay rate fixes it, but lowering the recovery threshold to 0.95 restores 
+-stability. The operational risk taxonomy draws on two emerging standards: the Validator Operation Standard 
+-(ValOS), with 74 active risk vectors and 64 testable controls, and the Node Operator Risk Standard (NORS), 
+-providing institutional certification across 31 control objectives. Lido V3 stVaults, which set each 
+-operator's collateral requirements based on their risk score, demonstrate that ValOS-aligned risk assessment 
+-already governs economic outcomes on Ethereum mainnet. The simulation methodology provides a template for 
+-extending other agent-based token simulations with operational risk.</jats:p>", "author": [ { "affiliation": 
+-[], "family": "Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], 
+-"sequence": "first" } ], "content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { 
+-"date-parts": [ [ 2026, 3, 10 ] ], "date-time": "<TS>", "timestamp": 1773167653000 }, "deposited": { 
+-"date-parts": [ [ 2026, 7, 23 ] ], "date-time": "<TS>", "timestamp": 1784802303000 }, "group-title": "SSRN", 
+-"indexed": { "date-parts": [ [ 2026, 7, 23 ] ], "date-time": "<TS>", "timestamp": 1784804605099, "version": 
+-"3.55.0" }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { 
+-"date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": 
+-"Elsevier BV", "reference": [ { "journal-title": "OPE10: Operational Risk, Definitions and Application", 
+-"key": "ref1", "year": "2023" }, { "author": "B Beyer", "journal-title": "O'Reilly Media. cadCAD. Complex 
+-Adaptive Dynamics Computer-Aided Design: a Python framework for modelling and simulating complex systems", 
+-"key": "ref2", "year": "2016" }, { "article-title": "Flash Boys 2.0: Frontrunning in Decentralized Exchanges, 
+-Miner Extractable Value, and Consensus Instability", "author": "M Castro", "journal-title": "Proceedings of 
+-OSDI. CoinDesk", "key": "ref3", "year": "1999" }, { "article-title": "Operational Risk in Token Economies: How 
+-Infrastructure Failures Strengthen Adaptive Controllers Under Sustained Shocks, Expose Reputation Design 
+-Defects, and Reveal What a Bolted-On Risk Layer Can", "author": "J Dormans", "journal-title": "Proceedings of 
+-the GAMEON-NA Conference", "key": "ref4", "volume": "26", "year": "2009" }, { "article-title": "Errors and 
+-Artefacts in Agent-Based Modelling", "author": "J M Gal�n", "issue": "1", "journal-title": "Journal of 
+-Artificial Societies and Social Simulation", "key": "ref5", "volume": "12", "year": "2009" }, { 
+-"article-title": "The Byzantine Generals Problem", "author": "L Lamport", "journal-title": "ACM TOPLAS. NORS. 
+-Node Operator Risk Standard", "key": "ref6", "year": "1982" }, { "article-title": "Verification and Validation 
+-of Simulation Models", "author": "R G Sargent", "journal-title": "Proceedings of the 2010", "key": "ref7", 
+-"year": "2010" }, { "first-page": "166", "journal-title": "TokenSPICE: EVM Agent-Based Token Simulator. Ocean 
+-Protocol / T. McConaghy", "key": "ref8" }, { "article-title": "Routing the Dollar: Gateway Infrastructure, 
+-Monetary Policy Transmission, and the Dollar's International Functions in Digital Markets", "author": "P 
+-Windrum", "journal-title": "SSRN Working Paper 6364158. Zukowski, Z. (2026a)", "key": "ref9", "volume": "10", 
+-"year": "2007" } ], "reference-count": 9, "references-count": 9, "resource": { "primary": { "URL": 
+-"https://www.ssrn.com/abstract=6352118" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
+-"title": [ "Operational Risk in Token Economies: How Infrastructure Failures Strengthen Adaptive Controllers 
+-and Break Reputation Systems" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6267698", "URL": 
+-"https://doi.org/10.2139/ssrn.6267698", "abstract": "<jats:p>&lt;p&gt;Dollar stablecoins extend the dollar’s 
+-exchange, store-of-value, and funding functions into blockchain markets, largely outside the Federal Reserve’s 
+-standard supervisory and reporting perimeter. We argue the policy-relevant unit of analysis is the 
+-&lt;i&gt;gateway&lt;/i&gt;&amp;nbsp;(the issuer, exchange, or protocol that routes stablecoin value) because 
+-the same dollar token inherits different compliance, monetary, and safe-haven properties depending on which 
+-gateway processes it.&lt;/p&gt;\n&lt;p&gt;&lt;span&gt;Three findings:&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;First, 
+-stablecoin supply is cointegrated with Fed balance-sheet variables in a regime-dependent way; a Treasury bill 
+-minus on-chain lending-rate spread provides mechanism-consistent opportunity-cost evidence. The relationship 
+-is dollar-specific, absent for Bitcoin or Ethereum. Cointegration is strongest during quantitative tightening 
+-and weakens during easing even as level correlations remain high.&lt;/p&gt;\n&lt;p&gt;Second, the long-run 
+-co-movement distributes unevenly across the gateway layer.&lt;/p&gt;\n&lt;p&gt;Third, within the dollar-pegged 
+-settlement instruments we observe, stress behavior is gateway-contingent.&lt;/p&gt;</jats:p>", "author": [ { 
+-"affiliation": [], "family": "Zukowski", "given": "Zach", "role": [ { "role": "author", "vocabulary": 
+-"crossref" } ], "sequence": "first" } ], "content-domain": { "crossmark-restriction": false, "domain": [] }, 
+-"created": { "date-parts": [ [ 2026, 3, 11 ] ], "date-time": "<TS>", "timestamp": 1773246701000 }, 
+-"deposited": { "date-parts": [ [ 2026, 3, 11 ] ], "date-time": "<TS>", "timestamp": 1773264604000 }, 
+-"group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 3, 12 ] ], "date-time": "<TS>", "timestamp": 
+-1773323228997, "version": "3.50.1" }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 2026 ] ] }, 
+-"member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, "prefix": "10.2139", "published": { "date-parts": [ 
+-[ 2026 ] ] }, "publisher": "Elsevier BV", "reference": [ { "author": "G Afonso", "first-page": "1", 
+-"journal-title": "Federal Reserve Bank of New York Economic Policy Review", "key": "ref1", "volume": "29", 
+-"year": "2019" }, { "DOI": "10.1093/rfs/hhx141", "article-title": "Monetary Policy Implementation and 
+-Financial Vulnerability: Evidence from the Overnight Reverse Repurchase Facility", "author": "A G Anderson", 
+-"doi-asserted-by": "crossref", "first-page": "3643", "issue": "9", "journal-title": "Review of Financial 
+-Studies", "key": "ref2", "volume": "31", "year": "2018" }, { "article-title": "The Influence of Stablecoin 
+-Issuances on Cryptocurrency Markets", "author": "L Ante", "journal-title": "Finance Research Letters", "key": 
+-"ref3", "volume": "41", "year": "2023" }, { "article-title": "DeFi Risks and the Decentralisation Illusion", 
+-"author": "S Aramonte", "first-page": "21", "journal-title": "BIS Quarterly Review", "key": "ref4", "year": 
+-"2022" }, { "article-title": "The Stable in Stablecoins", "author": "G Baughman", "journal-title": "FEDS 
+-Notes, Board of Governors of the Federal Reserve System", "key": "ref5", "year": "2022" }, { "DOI": 
+-"10.1016/j.jmoneco.2014.11.011", "article-title": "Capital Flows and the Risk-Taking Channel of Monetary 
+-Policy", "author": "V Bruno", "doi-asserted-by": "crossref", "first-page": "119", "journal-title": "Journal of 
+-Monetary Economics", "key": "ref6", "volume": "71", "year": "2015" }, { "article-title": "Central Bank Digital 
+-Currency: A Literature Review", "author": "F Carapella", "journal-title": "FEDS Notes, Board of Governors of 
+-the Federal Reserve System", "key": "ref7", "year": "2020" }, { "author": "C Catalini", "journal-title": "On 
+-the Economic Design of Stablecoins", "key": "ref8", "year": "2021" }, { "author": "Clarity Act", 
+-"journal-title": "Digital Asset Market Clarity Act (H.R. 3633), U.S. House Financial Services Committee", 
+-"key": "ref9", "year": "2025" }, { "article-title": "Adds provisions on distributed ledger application 
+-layers", "author": "Senate Clarity Act", "journal-title": "Treasury guidance within 360 days, and temporary 
+-holds", "key": "ref10", "volume": "3633", "year": "2026" }, { "article-title": "Are Stablecoins Safe Money?", 
+-"author": "A Avernas", "journal-title": "Guiding and Establishing National Innovation for U.S. Stablecoins 
+-Act, Pub. L. 119-27, S. 1582, signed", "key": "ref11", "year": "2023" }, { "author": "Fdic Nprm", "key": 
+-"ref12", "year": "2025" }, { "author": "Ncua Nprm", "key": "ref13", "year": "2026" }, { "author": "Occ Nprm", 
+-"key": "ref14", "year": "2026" }, { "article-title": "Taming Wildcat Stablecoins", "author": "G B Gorton", 
+-"first-page": "909", "issue": "3", "journal-title": "University of Chicago Law Review", "key": "ref15", 
+-"volume": "90", "year": "2023" }, { "DOI": "10.1093/rfs/hhac034", "article-title": "The Rise of Finance 
+-Companies and FinTech Lenders in Small Business Lending", "author": "M Gopal", "doi-asserted-by": "crossref", 
+-"first-page": "4859", "issue": "11", "journal-title": "Review of Financial Studies", "key": "ref16", "volume": 
+-"35", "year": "2022" }, { "DOI": "10.1093/qje/qjaa036", "article-title": "Banking, Trade, and the Making of a 
+-Dominant Currency", "author": "G Gopinath", "doi-asserted-by": "crossref", "first-page": "783", "issue": "2", 
+-"journal-title": "Quarterly Journal of Economics", "key": "ref17", "volume": "136", "year": "2021" }, { "DOI": 
+-"10.1146/annurev-economics-080217-053518", "article-title": "The International Monetary and Financial System", 
+-"author": "P.-O Gourinchas", "doi-asserted-by": "crossref", "first-page": "859", "journal-title": "Annual 
+-Review of Economics", "key": "ref18", "volume": "11", "year": "2019" }, { "article-title": "The Decentralized 
+-Financial Crisis: Attacking DeFi", "author": "L Gudgeon", "journal-title": "Crypto Valley Conference on 
+-Blockchain Technology", "key": "ref19", "year": "2020" }, { "author": "C R Harvey", "journal-title": "DeFi and 
+-the Future of Finance", "key": "ref20", "year": "2021" }, { "article-title": "How Stable Are Stablecoins?", 
+-"author": "L T Hoang", "first-page": "838", "issue": "8", "journal-title": "European Journal of Finance", 
+-"key": "ref21", "volume": "29", "year": "2021" }, { "DOI": "10.1093/restud/rdad108", "article-title": "Dollar 
+-Safety and the Global Financial Cycle", "author": "Z Jiang", "doi-asserted-by": "crossref", "first-page": 
+-"2878", "issue": "5", "journal-title": "Review of Economic Studies", "key": "ref22", "volume": "91", "year": 
+-"2024" }, { "author": "R Kozhan", "journal-title": "Decentralized Stablecoins and Collateral Risk", "key": 
+-"ref23", "year": "2021" }, { "article-title": "What Keeps Stablecoins Stable?", "author": "R K Lyons", 
+-"journal-title": "Journal of International Money and Finance", "key": "ref24", "year": "2023" }, { 
+-"article-title": "Cryptocurrencies and Decentralized Finance (DeFi)", "author": "I Makarov", "journal-title": 
+-"Brookings Papers on Economic Activity", "key": "ref25", "year": "2022" }, { "DOI": "10.1093/restud/rdaa019", 
+-"article-title": "U.S. Monetary Policy and the Global Financial Cycle", "author": "S Miranda-Agrippino", 
+-"doi-asserted-by": "crossref", "first-page": "2754", "issue": "6", "journal-title": "Review of Economic 
+-Studies", "key": "ref26", "volume": "87", "year": "2020" }, { "article-title": "Interpretive Letter 1174: 
+-Chief Counsel's Interpretation Clarifying Authority of Banks to Use Stablecoins", "journal-title": "Office of 
+-the Comptroller of the Currency", "key": "ref27", "year": "2021" }, { "article-title": "Liquidations: DeFi on 
+-a Knife-Edge", "author": "D Perez", "first-page": "457", "journal-title": "Financial Cryptography and Data 
+-Security", "key": "ref28", "year": "2021" }, { "DOI": "10.1016/0304-4076(94)01697-6", "article-title": 
+-"Cointegration and Speed of Convergence to Equilibrium", "author": "M H Pesaran", "doi-asserted-by": 
+-"crossref", "first-page": "117", "issue": "1-2", "journal-title": "Journal of Econometrics", "key": "ref29", 
+-"volume": "71", "year": "1996" }, { "article-title": "President's Working Group on Financial Markets", 
+-"author": "Fdic", "journal-title": "Report on Stablecoins. U.S. Department of the Treasury, November. Office 
+-of the Comptroller of the Currency", "key": "ref30", "year": "2020" }, { "article-title": "The 
+-Herfindahl-Hirschman Index", "author": "S A Rhoades", "first-page": "188", "issue": "3", "journal-title": 
+-"Federal Reserve Bulletin", "key": "ref31", "volume": "79", "year": "1993" }, { "journal-title": "Merger 
+-Guidelines", "key": "ref32", "year": "2023" }, { "article-title": "Designation of Tornado Cash as a Specially 
+-Designated National", "journal-title": "Office of Foreign Assets Control", "key": "ref33", "year": "2022" }, { 
+-"article-title": "Stablecoin Payments from the Ground Up", "journal-title": "Research Report", "key": "ref34", 
+-"year": "2025" }, { "article-title": "McKinsey Digital, January. Treasury Borrowing Advisory Committee 
+-(2025)", "author": "Island Castle", "journal-title": "TBAC Presentation to the U.S. Treasury", "key": "ref35", 
+-"year": "2024" }, { "article-title": "Visa Crypto Research, in partnership with Allium Labs", "journal-title": 
+-"Visa", "key": "ref36", "year": "2024" }, { "author": "Jessie Wang", "journal-title": "FEDS Notes, Board of 
+-Governors of the Federal Reserve System", "key": "ref37", "year": "2025" }, { "author": "Jessie Wang", 
+-"journal-title": "FEDS Notes, Board of Governors of the Federal Reserve System", "key": "ref38", "year": 
+-"2025" } ], "reference-count": 38, "references-count": 38, "resource": { "primary": { "URL": 
+-"https://www.ssrn.com/abstract=6267698" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
+-"title": [ "Routing the Dollar: Gateway Infrastructure, Monetary Policy Transmission, and the Dollar's 
+-International Functions in Digital Markets" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.6364158", 
+-"URL": "https://doi.org/10.2139/ssrn.6364158", "abstract": "<jats:p>Token design lacks a coherent discipline. 
+-Projects assemble mechanisms from precedent, failures are attributed to market conditions rather than 
+-predictable design flaws, and no established field integrates the economics, control theory, game theory, and 
+-constitutional design that token systems require. We frame the resulting practice as systems engineering: 
+-coordinating autonomous agents under uncertainty while distributing ownership to contributors without 
+-centralized enforcement. What distinguishes protocols from historical private currency issuance is 
+-programmable enforcement of issuance rules and reconfiguration of the capital-labor boundary that results when 
+-verified contribution generates ownership.&amp;nbsp; &lt;br&gt;&lt;br&gt;We develop MeshNet, a fictional but 
+-empirically parameterized decentralized wireless protocol that specifies five integrated mechanisms: 
+-productive staking, reputation-weighted governance, burn-mint value capture, conviction voting, and PID 
+-(proportional-integral-derivative)-controlled adaptive emissions. Parameters are calibrated to Helium hardware 
+-economics, Filecoin collateral ratios, and governance data from 12 DePIN and DeFi protocols. A 240-run 
+-agent-based ensemble, supplemented by 566 sensitivity and adversarial runs, stress-tests these mechanisms over 
+-five years under four macroeconomic scenarios.&amp;nbsp;&lt;br&gt;&lt;br&gt;The simulation yields three 
+-principal findings. First, adaptive emission functions as insurance: the PID controller compresses worst-case 
+-variance by 6× (coefficient of variation from 0.544 to 0.087 under competitor shock) while sustaining 8,880 
+-nodes at the 5th percentile versus 1,049 under static policy. Second, this advantage is conditional: bull 
+-markets produce identical outcomes, and the engineering premium emerges only under sustained contraction. 
+-Third, without pre-planned guardrails the controller can trigger integral wind-up, reinforcing the case for 
+-simulation-first design methodology. The methodology generalizes to any token economy that must coordinate 
+-autonomous agents under uncertainty.</jats:p>", "author": [ { "affiliation": [], "family": "Zukowski", 
+-"given": "Zach", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": "first" } ], 
+-"content-domain": { "crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2026, 3, 10 
+-] ], "date-time": "<TS>", "timestamp": 1773167517000 }, "deposited": { "date-parts": [ [ 2026, 3, 10 ] ], 
+-"date-time": "<TS>", "timestamp": 1773167517000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2026, 
+-3, 11 ] ], "date-time": "<TS>", "timestamp": 1773239277690, "version": "3.50.1" }, "is-referenced-by-count": 
+-0, "issued": { "date-parts": [ [ 2026 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2026 ] ] }, 
+-"prefix": "10.2139", "published": { "date-parts": [ [ 2026 ] ] }, "publisher": "Elsevier BV", 
+-"reference-count": 0, "references-count": 0, "resource": { "primary": { "URL": 
+-"https://www.ssrn.com/abstract=6364158" } }, "score": <SCORE>, "source": "Crossref", "subtype": "preprint", 
+-"title": [ "Adaptive Tokenomics: A Systems Engineering Approach to Programmable Incentive Design" ], "type": 
+-"posted-content" }, { "DOI": "10.2139/ssrn.4640853", "URL": "https://doi.org/10.2139/ssrn.4640853", "author": 
+-[ { "affiliation": [], "family": "Zukowski", "given": "Miroslaw", "role": [ { "role": "author", "vocabulary": 
+-"crossref" } ], "sequence": "first" }, { "affiliation": [], "family": "Semprini", "given": "Giovanni", "role": 
+-[ { "role": "author", "vocabulary": "crossref" } ], "sequence": "additional" } ], "content-domain": { 
+-"crossmark-restriction": false, "domain": [] }, "created": { "date-parts": [ [ 2023, 12, 7 ] ], "date-time": 
+-"<TS>", "timestamp": 1701923746000 }, "deposited": { "date-parts": [ [ 2023, 12, 7 ] ], "date-time": "<TS>", 
+-"timestamp": 1701933351000 }, "group-title": "SSRN", "indexed": { "date-parts": [ [ 2023, 12, 8 ] ], 
+-"date-time": "<TS>", "timestamp": 1701996361328 }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 
+-2023 ] ] }, "member": "78", "posted": { "date-parts": [ [ 2023 ] ] }, "prefix": "10.2139", "published": { 
+-"date-parts": [ [ 2023 ] ] }, "publisher": "Elsevier BV", "reference": [ { "article-title": "Lowtemperature 
+-operation of heating systems to enable 4th generation district heating: A review", "author": "Dorte Skaarup 
+-�stergaard", "journal-title": "Energy", "key": "ref1", "volume": "248", "year": "2022" }, { "DOI": 
+-"10.1016/j.enbuild.2015.09.064", "article-title": "Experimental study of energy performance in low-temperature 
+-hydronic heating systems", "author": "Arefeh Hesaraki", "doi-asserted-by": "crossref", "first-page": "108", 
+-"journal-title": "Energy and Buildings", "key": "ref2", "volume": "109", "year": "2015" }, { "article-title": 
+-"Research on heating performance of heating radiator at low temperature", "author": "Zongjiang Liu", 
+-"journal-title": "Journal of Building Engineering", "key": "ref3", "volume": "36", "year": "2021" }, { "DOI": 
++Analysis of DePIN and DeFi" ], "type": "posted-content" }, { "DOI": "10.2139/ssrn.4640853", "URL": 
++"https://doi.org/10.2139/ssrn.4640853", "author": [ { "affiliation": [], "family": "Zukowski", "given": 
++"Miroslaw", "role": [ { "role": "author", "vocabulary": "crossref" } ], "sequence": "first" }, { 
++"affiliation": [], "family": "Semprini", "given": "Giovanni", "role": [ { "role": "author", "vocabulary": 
++"crossref" } ], "sequence": "additional" } ], "content-domain": { "crossmark-restriction": false, "domain": [] 
++}, "created": { "date-parts": [ [ 2023, 12, 7 ] ], "date-time": "<TS>", "timestamp": 1701923746000 }, 
++"deposited": { "date-parts": [ [ 2023, 12, 7 ] ], "date-time": "<TS>", "timestamp": 1701933351000 }, 
++"group-title": "SSRN", "indexed": { "date-parts": [ [ 2023, 12, 8 ] ], "date-time": "<TS>", "timestamp": 
++1701996361328 }, "is-referenced-by-count": 0, "issued": { "date-parts": [ [ 2023 ] ] }, "member": "78", 
++"posted": { "date-parts": [ [ 2023 ] ] }, "prefix": "10.2139", "published": { "date-parts": [ [ 2023 ] ] }, 
++"publisher": "Elsevier BV", "reference": [ { "article-title": "Lowtemperature operation of heating systems to 
++enable 4th generation district heating: A review", "author": "Dorte Skaarup �stergaard", "journal-title": 
++"Energy", "key": "ref1", "volume": "248", "year": "2022" }, { "DOI": "10.1016/j.enbuild.2015.09.064", 
++"article-title": "Experimental study of energy performance in low-temperature hydronic heating systems", 
++"author": "Arefeh Hesaraki", "doi-asserted-by": "crossref", "first-page": "108", "journal-title": "Energy and 
++Buildings", "key": "ref2", "volume": "109", "year": "2015" }, { "article-title": "Research on heating 
++performance of heating radiator at low temperature", "author": "Zongjiang Liu", "journal-title": "Journal of 
++Building Engineering", "key": "ref3", "volume": "36", "year": "2021" }, { "DOI": 
+ "10.1016/j.enbuild.2013.10.030", "article-title": "Low temperature radiator heating distribution and emission 

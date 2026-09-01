@@ -1,0 +1,41 @@
+--- stored
++++ fetched
+@@ -11,12 +11,12 @@
+ September 16, 2025 Stavan Parikh VP/GM, Payments, Google Rao Surapaneni VP/GM, Business Applications Platform, 
+-Google Cloud Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Today, 
+-Google announced the Agent Payments Protocol (AP2), an open protocol developed with leading payments and 
+-technology companies to securely initiate and transact agent-led payments across platforms. The protocol can 
+-be used as an extension of the Agent2Agent (A2A) protocol and Model Context Protocol (MCP). In concert with 
+-industry rules and standards, it establishes a payment-agnostic framework for users, merchants, and payments 
+-providers to transact with confidence across all types of payment methods. We’re collaborating with a diverse 
+-group of more than 60 organizations to help shape the future of agentic payments, including Adyen, American 
+-Express, Ant International, Coinbase, Etsy, Forter, Intuit, JCB, Mastercard, Mysten Labs, Paypal, Revolut, 
+-Salesforce, ServiceNow, UnionPay International, Worldpay, and more. Why is a protocol needed? AI agents are 
+-capable of transacting on behalf of users, which creates a need to establish a common foundation to securely 
++Google Cloud Try Gemini Enterprise today The front door to AI in the workplace Try now Today, Google announced 
++the Agent Payments Protocol (AP2), an open protocol developed with leading payments and technology companies 
++to securely initiate and transact agent-led payments across platforms. The protocol can be used as an 
++extension of the Agent2Agent (A2A) protocol and Model Context Protocol (MCP). In concert with industry rules 
++and standards, it establishes a payment-agnostic framework for users, merchants, and payments providers to 
++transact with confidence across all types of payment methods. We’re collaborating with a diverse group of more 
++than 60 organizations to help shape the future of agentic payments, including Adyen, American Express, Ant 
++International, Coinbase, Etsy, Forter, Intuit, JCB, Mastercard, Mysten Labs, Paypal, Revolut, Salesforce, 
++ServiceNow, UnionPay International, Worldpay, and more. Why is a protocol needed? AI agents are capable of 
++transacting on behalf of users, which creates a need to establish a common foundation to securely 
+ authenticate, validate, and convey an agent’s authority to transact. While today’s payment systems generally 
+@@ -244,8 +244,8 @@
+ out our public GitHub repository to see the complete technical specification, documentation, and reference 
+-implementations. Posted in AI & Machine Learning Open Source Related articles Security & Identity Cloud CISO 
+-Perspectives: Sticking to security fundamentals in the AI era By Chris Betz • 6-minute read AI & Machine 
+-Learning How agents can delegate better By Nenad Tomasev • 5-minute read AI & Machine Learning Expanding 
+-Google Antigravity for enterprise customers By Scott Densmore • 6-minute read Databases How AlloyDB ScaNN 
+-scales vector search to 10 billion vectors By Bin Song • 4-minute read Footer Links Follow us Google Cloud 
+-Google Cloud Products Privacy Terms Cookies management controls Help Language ‪English‬ ‪Deutsch‬ ‪Français‬ 
+-‪한국어‬ ‪日本語‬
++implementations. Posted in AI & Machine Learning Open Source Related articles Startups Reimagining work: How 
++Pythian’s internal AI playbook delivers customer ROI By Paul Lewis • 5-minute read AI & Machine Learning 
++FinOps for the AI era: New flexible billing and cost controls for agents By Michael Gerstenhaber • 9-minute 
++read AI & Machine Learning Now introducing Gemini Enterprise for Legal By Thomas Kurian • 9-minute read AI & 
++Machine Learning Now introducing Gemini Enterprise for Financial Services By Thomas Kurian • 8-minute read 
++Footer Links Follow us Google Cloud Google Cloud Products Privacy Terms Cookies management controls Help 
++Language ‪English‬ ‪Deutsch‬ ‪Français‬ ‪한국어‬ ‪日本語‬

@@ -1,0 +1,20 @@
+{
+  "title": "Replication package: Who Controls Agentic Payments? Facilitator Concentration, Subsidy Pipelines, and Settlement Accountability in x402",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Zukowski, Zachary",
+      "affiliation": "Tokenization Systems"
+    }
+  ],
+  "description": "SQL, raw query results, the facilitator attribution census, concentration recompute scripts, dated external-anchor captures and the published figures for the C4 agentic-payments control-layer measurement. Every number in the paper reproduces from these artifacts plus public on-chain data. The orchestration and capture-attestation apparatus is withheld and bears on no measurement.",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "agentic payments",
+    "x402",
+    "stablecoins",
+    "payment facilitators",
+    "market concentration",
+    "financial measurement"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+ "_provenance": {
+  "derivation": "derive_hhi_sensitivity.py (D6 item 2)",
+  "inputs": [
+   "handoff/workflow_runs/agentic_payments_phase1_2026-06-11/results/p1_base_may_fac_volume.result.json",
+   "handoff/workflow_runs/agentic_payments_polygon_acquisition_2026-06-11/x402_facilitator_attribution_merged_2026-06-11.csv",
+   "handoff/workflow_runs/agentic_payments_phase2_2026-06-11/results/p2_solana_may_split.result.json",
+   "research_content/papers/C4_agentic_payments_control/working/exhibits_2026-07-03/data/table2_base_may2026.json",
+   "research_content/papers/C4_agentic_payments_control/working/exhibits_2026-07-03/data/table3_solana_may2026.json"
+  ],
+  "guards": "printed Table 2/3 values, raw and corrected HHIs, and exhibits data shares all asserted before exclusions",
+  "exclusion_rule": "Base: drop mrdn (validated proxy pipeline) from the corrected split; Solana: drop relai (small-cardinality cluster) from the full split"
+ },
+ "base_may2026": {
+  "raw": {
+   "hhi_count": 5965,
+   "hhi_value": 5621,
+   "n": 3041318,
+   "usd": 1030242
+  },
+  "corrected": {
+   "hhi_count": 6009,
+   "hhi_value": 4040,
+   "n": 3030230,
+   "usd": 652882
+  },
+  "pipeline_excluded": {
+   "hhi_count": 6053,
+   "hhi_value": 4182,
+   "n": 3019142,
+   "usd": 279271,
+   "top_count": {
+    "facilitator": "coinbase",
+    "share_pct": 75.9
+   },
+   "top_value": {
+    "facilitator": "coinbase",
+    "share_pct": 60.3
+   },
+   "value_shares_pct": {
+    "coinbase": 60.3,
+    "fluxa": 20.3,
+    "relai": 10.4,
+    "payAI": 4.0,
+    "anyspend": 2.5
+   }
+  }
+ },
+ "solana_may2026": {
+  "as_printed": {
+   "hhi_count": 4203,
+   "hhi_value": 4915,
+   "n": 799769,
+   "usd": 134374
+  },
+  "relai_excluded": {
+   "hhi_count": 4368,
+   "hhi_value": 6651,
+   "n": 784130,
+   "usd": 112308,
+   "top_count": {
+    "facilitator": "dexter",
+    "share_pct": 52.9
+   },
+   "top_value": {
+    "facilitator": "coinbase",
+    "share_pct": 79.5
+   },
+   "value_shares_pct": {
+    "coinbase": 79.5,
+    "dexter": 18.0,
+    "payAI": 2.2,
+    "openfacilitator": 0.1,
+    "corbits": 0.1
+   }
+  }
+ },
+ "store_observation_not_applied": "relai on Base is itself mostly self-hop: 9,818 of its 11,996 May transfers route to a registry address, so its external-seller leg is 2,178 transfers / 14,493 USD against the raw 11,996 / 28,997 printed in Table 2. Per-facilitator corrections beyond Meridian remain deferred per PAPER.md Section 11; recorded here as a store observation only."
+}

@@ -1,0 +1,8 @@
+--- stored
++++ fetched
+@@ -233,3 +233,3 @@
+ string on failure. ​ network string required ​ payer string ​ errorReason string ​ authContext object Verify 
+-x402 Payment (Deprecated) Execute ERC-20 Permit ⌘ I Powered by This documentation is built and hosted on 
+-Mintlify, a developer documentation platform
++x402 Payment (Deprecated) Execute ERC-20 Permit Powered by This documentation is built and hosted on Mintlify, 
++a developer documentation platform

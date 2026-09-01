@@ -1,0 +1,6 @@
+Data, query results and anchor captures: Creative Commons Attribution 4.0 International (CC BY 4.0).
+Scripts: MIT.
+
+Attribute as: Zukowski, Zachary. Replication package for Who Controls Agentic Payments? Tokenization Systems, 2026.
+
+The captures under anchors/ are third-party documents reproduced for verification of the citations in the paper; their own terms govern their reuse.

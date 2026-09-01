@@ -1,0 +1,52 @@
+{
+  "_provenance": "Derived Option A corrected Base July 2026 split for Figure 2 rebuild (Phase 2). May baseline retained in text. Shares from base_july_option_a_snapshot.json.",
+  "panel": "Base",
+  "month": "2026-07",
+  "share_unit": "percent",
+  "hhi_count": 6512,
+  "hhi_value": 4700,
+  "facilitators": [
+    {
+      "name": "Coinbase (CDP)",
+      "count_payments": 2866853,
+      "count_share": 78.5,
+      "usd": 88669.77,
+      "value_share": 27.3
+    },
+    {
+      "name": "fluxa",
+      "count_payments": 688463,
+      "count_share": 18.8,
+      "usd": 18512.36,
+      "value_share": 5.7
+    },
+    {
+      "name": "payAI",
+      "count_payments": 32707,
+      "count_share": 0.9,
+      "usd": 2397.25,
+      "value_share": 0.7
+    },
+    {
+      "name": "Meridian (mrdn)",
+      "count_payments": 8552,
+      "count_share": 0.2,
+      "usd": 203337.06,
+      "value_share": 62.6
+    },
+    {
+      "name": "relai",
+      "count_payments": 81,
+      "count_share": 0.0,
+      "usd": 0.77,
+      "value_share": 0.0
+    },
+    {
+      "name": "all others",
+      "count_payments": 57346,
+      "count_share": 1.6,
+      "usd": 11974.01,
+      "value_share": 3.7
+    }
+  ]
+}

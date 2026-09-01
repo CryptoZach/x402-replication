@@ -1,0 +1,58 @@
+--- stored
++++ fetched
+@@ -23,28 +23,28 @@
+ France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia 
+-(Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA 
+-(English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) 
+-Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed Newsletter Breadcrumb Home 
+-Products & Platforms Platforms Google Pay We’re donating Agent Payments Protocol to the FIDO Alliance to 
+-support the future of secure, agentic payments. Stavan Parikh VP/GM, Payments Apr 28, 2026 For agentic 
+-technology to scale, it needs to work for everyone. That’s why over the last few months, we’ve shared new open 
+-commerce and payments standards to serve as the building blocks for the future of AI shopping. Now, to help 
+-further scale this technology and promote industry-wide innovation, we’re donating the Agent Payments Protocol 
+-(AP2) to the FIDO Alliance, a renowned industry association focused on creating open standards. Transitioning 
+-ownership to the FIDO Alliance ensures AP2 remains platform-agnostic and community-led, while accelerating 
+-adoption of secure agentic payments. Today on GitHub , we’re also releasing AP2 v.0.2, which introduces 
+-critical updates for autonomous transactions, including “Human Not Present” payments, which will allow agents 
+-to securely execute payments autonomously — like securing and purchasing limited-run tickets the moment 
+-they’re on sale — based on pre-authorized user instructions. AP2 is also helping to drive industry standards 
+-like Verifiable Intent, a new, AP2-compatible standard co-developed with Mastercard and also being donated to 
+-FIDO, that creates a tamper-proof log of user-authorized agent actions to ensure accountability. With growing 
+-support from leaders across the industry, AP2 establishes the open, collaborative foundation for agents to 
+-transact safely across any platform. Posted in: Google Pay Google Ads Related stories Google Pay Tap to pay 
+-with Google Pay is coming to Walmart. By Stavan Parikh Google Ads Make AI Max work for your business with new 
+-testing and planning tools. By Brandon Ervin Google Ads What 3 creatives built with unlimited access to Google 
+-Flow By Stephanie Horton Google Ads Evolve your marketing with new AI tools By Josh Moser Privacy Terms Help 
+-More of Google Google Products About the Blog Global (English) Africa (English) Australia (English) Brasil 
+-(Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France 
+-(Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 
+-日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) 
+-Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige 
+-(Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文)
++(Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (Melayu) الشرق الأوسط وشمال أفريقيا (اللغة 
++العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) 
++România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed Newsletter 
++Breadcrumb Home Products & Platforms Platforms Google Pay We’re donating Agent Payments Protocol to the FIDO 
++Alliance to support the future of secure, agentic payments. Stavan Parikh VP/GM, Payments Apr 28, 2026 For 
++agentic technology to scale, it needs to work for everyone. That’s why over the last few months, we’ve shared 
++new open commerce and payments standards to serve as the building blocks for the future of AI shopping. Now, 
++to help further scale this technology and promote industry-wide innovation, we’re donating the Agent Payments 
++Protocol (AP2) to the FIDO Alliance, a renowned industry association focused on creating open standards. 
++Transitioning ownership to the FIDO Alliance ensures AP2 remains platform-agnostic and community-led, while 
++accelerating adoption of secure agentic payments. Today on GitHub , we’re also releasing AP2 v.0.2, which 
++introduces critical updates for autonomous transactions, including “Human Not Present” payments, which will 
++allow agents to securely execute payments autonomously — like securing and purchasing limited-run tickets the 
++moment they’re on sale — based on pre-authorized user instructions. AP2 is also helping to drive industry 
++standards like Verifiable Intent, a new, AP2-compatible standard co-developed with Mastercard and also being 
++donated to FIDO, that creates a tamper-proof log of user-authorized agent actions to ensure accountability. 
++With growing support from leaders across the industry, AP2 establishes the open, collaborative foundation for 
++agents to transact safely across any platform. Posted in: Google Pay Google Ads Related stories Google Ads 
++Reach your audience in new ways with August’s Demand Gen Drop. Google Pay Tap to pay with Google Pay is coming 
++to Walmart. By Stavan Parikh Google Ads Make AI Max work for your business with new testing and planning 
++tools. By Brandon Ervin Google Ads What 3 creatives built with unlimited access to Google Flow By Stephanie 
++Horton Privacy Terms Help More of Google Google Products About the Blog Global (English) Africa (English) 
++Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland 
++(Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) 
++Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (Melayu) الشرق الأوسط 
++وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) 
++Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文)

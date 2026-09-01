@@ -1,0 +1,13 @@
+{
+  "access_time_utc": "2026-08-05T20:51:48Z",
+  "capture_method": "playwright chromium headless, viewport 1600x1400, networkidle + 4s",
+  "companies_agentic_payments": 545,
+  "companies_tracked_all_categories": 3473,
+  "founded_2025": 76,
+  "founded_2026_ytd": 393,
+  "founded_sentence": "76 cos founded in 2025, then 393 in 2026 YTD, a 5.2x jump in 7 months",
+  "jump_multiple": "5.2x",
+  "jump_window_months": 7,
+  "pre_seed_share_pct": 89,
+  "source_url": "https://stablescape.xyz/"
+}

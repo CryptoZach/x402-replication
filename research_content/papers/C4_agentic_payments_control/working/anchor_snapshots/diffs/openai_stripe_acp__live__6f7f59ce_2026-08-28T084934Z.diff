@@ -1,0 +1,60 @@
+--- stored
++++ fetched
+@@ -18,3 +18,3 @@
+ Global businesses In-app payments Marketplaces Money management Platforms SaaS By industry AI companies 
+-Creator economy Gaming Hospitality, travel, and leisure Insurance Media and entertainment Nonprofits 
++Creator economy Fintech Gaming Hospitality, travel, and leisure Insurance Media and entertainment Nonprofits 
+ Professional services Retail Ecosystem Partners Stripe App Marketplace Documentation Stripe docs API reference 
+@@ -40,18 +40,18 @@
+ automation Global businesses In-app payments Marketplaces Money management Platforms SaaS By industry AI 
+-companies Creator economy Gaming Hospitality, travel, and leisure Insurance Media and entertainment Nonprofits 
+-Professional services Public sector Retail Ecosystem Partners Stripe App Marketplace Documentation Stripe docs 
+-API reference Libraries and SDKs Stripe Apps Guides Accept online payments Implement a prebuilt checkout Build 
+-a platform or marketplace Manage subscriptions Offer usage-based billing Issue stablecoin-backed cards 
+-Provision and manage services with agents Resources App integrations Code samples Developers blog API status 
+-Learn Blog Customer stories Guides Support Get support Managed support plans Professional services Company 
+-Product roadmap Sessions annual conference Careers Newsroom Stripe Press Contact Contact sales Become a 
+-partner Blog Product Stripe on X Developing an open standard for agentic commerce September 29, 2025 Jeff 
+-Weinstein Product Lead, Agentic Commerce Steve Kaliski Engineering Lead, Agentic Commerce Over the past few 
+-decades, commerce has shifted in distinct waves—from physical stores to ecommerce, from one-size-fits-all 
+-catalogs to personalized recommendations, and from desktop to mobile shopping. Customers have always adapted, 
+-learning how to search, trust online checkouts, and click “buy now.” With the rise of AI, commerce is 
+-approaching another fundamental change. Today, we announced that Stripe is powering OpenAI’s newly launched 
+-commerce experience: Instant Checkout in ChatGPT. ChatGPT users in the US can now buy from US Etsy 
+-sellers—and, coming soon, from over a million Shopify merchants, such as Glossier, Vuori, Spanx, and 
+-SKIMS—directly in chat. Instant Checkout is powered by the Agentic Commerce Protocol (ACP), a new open 
++companies Creator economy Fintech Gaming Hospitality, travel, and leisure Insurance Media and entertainment 
++Nonprofits Professional services Public sector Retail Ecosystem Partners Stripe App Marketplace Documentation 
++Stripe docs API reference Libraries and SDKs Stripe Apps Guides Accept online payments Implement a prebuilt 
++checkout Build a platform or marketplace Manage subscriptions Offer usage-based billing Issue 
++stablecoin-backed cards Provision and manage services with agents Resources App integrations Code samples 
++Developers blog API status Learn Blog Customer stories Guides Support Get support Managed support plans 
++Professional services Company Product roadmap Sessions annual conference Careers Newsroom Stripe Press Contact 
++Contact sales Become a partner Blog Product Stripe on X Developing an open standard for agentic commerce 
++September 29, 2025 Jeff Weinstein Product Lead, Agentic Commerce Steve Kaliski Engineering Lead, Agentic 
++Commerce Over the past few decades, commerce has shifted in distinct waves—from physical stores to ecommerce, 
++from one-size-fits-all catalogs to personalized recommendations, and from desktop to mobile shopping. 
++Customers have always adapted, learning how to search, trust online checkouts, and click “buy now.” With the 
++rise of AI, commerce is approaching another fundamental change. Today, we announced that Stripe is powering 
++OpenAI’s newly launched commerce experience: Instant Checkout in ChatGPT. ChatGPT users in the US can now buy 
++from US Etsy sellers—and, coming soon, from over a million Shopify merchants, such as Glossier, Vuori, Spanx, 
++and SKIMS—directly in chat. Instant Checkout is powered by the Agentic Commerce Protocol (ACP), a new open 
+ standard codeveloped by Stripe and OpenAI that enables programmatic commerce flows between buyers, AI agents, 
+@@ -126,9 +126,9 @@
+ Crypto Ecommerce Embedded finance Finance automation Global businesses In-app payments Marketplaces Money 
+-management Platforms SaaS AI companies Creator economy Gaming Hospitality, travel, and leisure Insurance Media 
+-and entertainment Nonprofits Professional services Public sector Retail Integrations & custom solutions Stripe 
+-App Marketplace Stripe Partner ecosystem Professional services Developers Documentation API reference API 
+-status API changelog Libraries and SDKs Stripe Projects Developer blog Resources Guides Customer stories Blog 
+-Community Sessions annual conference Privacy & terms Prohibited & restricted businesses Licenses Sitemap 
+-Cookie settings Your privacy choices More resources Company Product roadmap Careers Newsroom Stripe Press 
+-Contact sales Support Get support Managed support plans CA residents: +1 888 926 2289 Sign in © 2026 Stripe, 
+-LLC
++management Platforms SaaS AI companies Creator economy Fintech Gaming Hospitality, travel, and leisure 
++Insurance Media and entertainment Nonprofits Professional services Public sector Retail Integrations & custom 
++solutions Stripe App Marketplace Stripe Partner ecosystem Professional services Developers Documentation API 
++reference API status API changelog Libraries and SDKs Stripe Projects Developer blog Resources Guides Customer 
++stories Blog Community Sessions annual conference Privacy & terms Prohibited & restricted businesses Licenses 
++Sitemap Cookie settings Your privacy choices More resources Company Product roadmap Careers Newsroom Stripe 
++Press Contact sales Support Get support Managed support plans CA residents: +1 888 926 2289 Sign in © 2026 
++Stripe, LLC

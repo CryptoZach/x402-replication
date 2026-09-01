@@ -1,0 +1,104 @@
+{
+ "_provenance": {
+  "derivation": "derive_coverage_series.py (D6 item 3)",
+  "numerator_denominator_store": "handoff/workflow_runs/agentic_payments_june_refresh_2026-07-03/results/base_auth_monthly.json (committed; closed months stable; not re-queried)",
+  "fleet_store": "results/fleet15_auth_monthly.result.json (this run; June-only, so the fleet-set-aside reading differs from fleet-in only in 2026-06)",
+  "definitions": "PAPER.md Section 3.3: fleet-in-denominator and fleet-set-aside; events are Base USDC AuthorizationUsed",
+  "printed_anchor_notes": [
+   "June readings printed in Section 3.3 (43 / 96 percent) asserted and reproduced",
+   "the 92.3 percent May anchor is a trailing-30-day window at the census date, not calendar May; calendar-May fleet-in is 89.53 percent (not a contradiction; different window)"
+  ]
+ },
+ "series": [
+  {
+   "m": "2025-10",
+   "registry_auth_events": 4022252,
+   "non_registry_auth_events": 158037,
+   "fleet_auth_events": 0,
+   "coverage_fleet_in_denominator_pct": 96.22,
+   "coverage_fleet_set_aside_pct": 96.22,
+   "registry_authorizers": 175202,
+   "non_registry_authorizers": 41173
+  },
+  {
+   "m": "2025-11",
+   "registry_auth_events": 64243084,
+   "non_registry_auth_events": 270621,
+   "fleet_auth_events": 0,
+   "coverage_fleet_in_denominator_pct": 99.58,
+   "coverage_fleet_set_aside_pct": 99.58,
+   "registry_authorizers": 118734,
+   "non_registry_authorizers": 48634
+  },
+  {
+   "m": "2025-12",
+   "registry_auth_events": 43025526,
+   "non_registry_auth_events": 509346,
+   "fleet_auth_events": 0,
+   "coverage_fleet_in_denominator_pct": 98.83,
+   "coverage_fleet_set_aside_pct": 98.83,
+   "registry_authorizers": 46768,
+   "non_registry_authorizers": 42634
+  },
+  {
+   "m": "2026-01",
+   "registry_auth_events": 12099139,
+   "non_registry_auth_events": 315060,
+   "fleet_auth_events": 0,
+   "coverage_fleet_in_denominator_pct": 97.46,
+   "coverage_fleet_set_aside_pct": 97.46,
+   "registry_authorizers": 14557,
+   "non_registry_authorizers": 31022
+  },
+  {
+   "m": "2026-02",
+   "registry_auth_events": 1408343,
+   "non_registry_auth_events": 339357,
+   "fleet_auth_events": 0,
+   "coverage_fleet_in_denominator_pct": 80.58,
+   "coverage_fleet_set_aside_pct": 80.58,
+   "registry_authorizers": 22601,
+   "non_registry_authorizers": 25721
+  },
+  {
+   "m": "2026-03",
+   "registry_auth_events": 1796356,
+   "non_registry_auth_events": 339381,
+   "fleet_auth_events": 0,
+   "coverage_fleet_in_denominator_pct": 84.11,
+   "coverage_fleet_set_aside_pct": 84.11,
+   "registry_authorizers": 14806,
+   "non_registry_authorizers": 24593
+  },
+  {
+   "m": "2026-04",
+   "registry_auth_events": 2259727,
+   "non_registry_auth_events": 206799,
+   "fleet_auth_events": 0,
+   "coverage_fleet_in_denominator_pct": 91.62,
+   "coverage_fleet_set_aside_pct": 91.62,
+   "registry_authorizers": 38600,
+   "non_registry_authorizers": 24785
+  },
+  {
+   "m": "2026-05",
+   "registry_auth_events": 2957902,
+   "non_registry_auth_events": 346030,
+   "fleet_auth_events": 0,
+   "coverage_fleet_in_denominator_pct": 89.53,
+   "coverage_fleet_set_aside_pct": 89.53,
+   "registry_authorizers": 110727,
+   "non_registry_authorizers": 110831
+  },
+  {
+   "m": "2026-06",
+   "registry_auth_events": 5467211,
+   "non_registry_auth_events": 7258237,
+   "fleet_auth_events": 7033614,
+   "coverage_fleet_in_denominator_pct": 42.96,
+   "coverage_fleet_set_aside_pct": 96.05,
+   "registry_authorizers": 48286,
+   "non_registry_authorizers": 65970
+  }
+ ]
+}

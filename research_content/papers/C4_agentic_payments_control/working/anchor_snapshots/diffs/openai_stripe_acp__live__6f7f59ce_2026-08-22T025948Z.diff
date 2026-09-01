@@ -1,0 +1,240 @@
+--- stored
++++ fetched
+@@ -1,22 +1,21 @@
+ Chat with Stripe sales 8 sales reps available We're here to discuss your business needs. Chat now with sales 
+-Developing an open standard for agentic commerce Products Solutions Developers Resources Pricing Guide me 
+-Dashboard Sign in Sign in Contact sales Back Products Solutions Developers Resources Pricing Dashboard Sign in 
+-Sign in Not sure where to start? Tell us about your business to get personalized Stripe product 
+-recommendations. Find what's right for you Payments Payments Online payments Managed Payments Merchant of 
+-record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components 
+-Payment methods Access to 125+ Terminal In-person payments Authorization Boost Acceptance optimizations Link 
+-Accelerated checkout Financial Connections Linked financial account data Revenue Billing Recurring revenue 
+-Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales 
+-tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data 
+-sync Money management Treasury Business finances Global Payouts Payouts to third parties Capital Business 
+-financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases 
+-Platforms and marketplaces Connect Payments for platforms Capital for platforms Customer financing Treasury 
+-for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s 
+-ahead Radar Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity 
+-verification Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI. Watch now By 
+-stage Enterprises Startups By use case Agentic commerce Crypto Ecommerce Embedded finance Finance automation 
+-Global businesses In-app payments Marketplaces Money management Platforms SaaS By industry AI companies 
+-Creator economy Gaming Hospitality, travel, and leisure Insurance Media and entertainment Nonprofits 
+-Professional services Retail Ecosystem Partners Stripe App Marketplace Documentation Stripe docs API reference 
+-Libraries and SDKs Stripe Apps Guides Accept online payments Implement a prebuilt checkout Build a platform or 
++Developing an open standard for agentic commerce Products Solutions Developers Resources Pricing Dashboard 
++Sign in Sign in Contact sales Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in 
++Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments 
++Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 125+ Terminal 
++In-person payments Authorization Boost Acceptance optimizations Link Accelerated checkout Financial 
++Connections Linked financial account data Revenue Billing Recurring revenue Metronome Usage-based billing 
++Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue 
++Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money management 
++Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, 
++stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Platforms and 
++marketplaces Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms 
++Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Radar 
++Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification 
++Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI. Watch now By stage 
++Enterprises Startups By use case Agentic commerce Crypto Ecommerce Embedded finance Finance automation Global 
++businesses In-app payments Marketplaces Money management Platforms SaaS By industry AI companies Creator 
++economy Gaming Hospitality, travel, and leisure Insurance Media and entertainment Nonprofits Professional 
++services Retail Ecosystem Partners Stripe App Marketplace Documentation Stripe docs API reference Libraries 
++and SDKs Stripe Apps Guides Accept online payments Implement a prebuilt checkout Build a platform or 
+ marketplace Manage subscriptions Offer usage-based billing Issue stablecoin-backed cards Provision and manage 
+@@ -36,99 +35,97 @@
+ Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification 
+-Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI. Watch now Not sure where 
+-to start? Tell us about your business to get personalized Stripe product recommendations. Find what's right 
+-for you By stage Enterprises Startups By use case Agentic commerce Crypto Ecommerce Embedded finance Finance 
+-automation Global businesses In-app payments Marketplaces Money management Platforms SaaS By industry AI 
+-companies Creator economy Gaming Hospitality, travel, and leisure Insurance Media and entertainment Nonprofits 
+-Professional services Public sector Retail Ecosystem Partners Stripe App Marketplace Documentation Stripe docs 
+-API reference Libraries and SDKs Stripe Apps Guides Accept online payments Implement a prebuilt checkout Build 
+-a platform or marketplace Manage subscriptions Offer usage-based billing Issue stablecoin-backed cards 
+-Provision and manage services with agents Resources App integrations Code samples Developers blog API status 
+-Learn Blog Customer stories Guides Support Get support Managed support plans Professional services Company 
+-Product roadmap Sessions annual conference Careers Newsroom Stripe Press Contact Contact sales Become a 
+-partner Blog Product Stripe on X Developing an open standard for agentic commerce September 29, 2025 Jeff 
+-Weinstein Product Lead, Agentic Commerce Steve Kaliski Engineering Lead, Agentic Commerce Over the past few 
+-decades, commerce has shifted in distinct waves—from physical stores to ecommerce, from one-size-fits-all 
+-catalogs to personalized recommendations, and from desktop to mobile shopping. Customers have always adapted, 
+-learning how to search, trust online checkouts, and click “buy now.” With the rise of AI, commerce is 
+-approaching another fundamental change. Today, we announced that Stripe is powering OpenAI’s newly launched 
+-commerce experience: Instant Checkout in ChatGPT. ChatGPT users in the US can now buy from US Etsy 
+-sellers—and, coming soon, from over a million Shopify merchants, such as Glossier, Vuori, Spanx, and 
+-SKIMS—directly in chat. Instant Checkout is powered by the Agentic Commerce Protocol (ACP), a new open 
+-standard codeveloped by Stripe and OpenAI that enables programmatic commerce flows between buyers, AI agents, 
+-and businesses. It provides a blueprint for how businesses can make their checkouts agent-ready so that 
+-customers using AI agents, such as ChatGPT, can buy products directly from where they’re discovering them. The 
+-ACP specification is available for businesses and AI agents to implement starting today. If your business is 
+-interested in participating in Instant Checkout in ChatGPT or you want to get access to other AI agents, 
+-please reach out . What we’ve heard For the past year, we’ve been exploring and pressure-testing our 
+-assumptions in agentic commerce, and working with all of you has shaped our view of what’s required: customers 
+-should be able to securely buy where they discover; businesses should be able to sell through new channels 
+-without giving up trust, brand, or control; and AI agents should be able to enable transactions without 
+-exposing customer credentials. Through testing with real users, we’ve learned: Trust is essential. With AI 
+-agents now capable of initiating transactions on behalf of buyers, businesses need a way to confirm purchases, 
+-securely accept payment credentials, respond to new fraud signals, and update their risk models to 
+-differentiate good bots from bad bots. Fragmentation is painful. Businesses want to reach more customers 
+-through new agentic channels, but they don’t want to build custom capabilities for each agent nor maintain 
+-dozens of bespoke integrations. The AI economy needs standardized infrastructure to flourish. Flexibility is 
+-required. Agents will enable new types of commerce beyond one-time, one-merchant synchronous purchasing, such 
+-as “buy for me” background capabilities, multi-merchant carts, and usage models. Businesses want to support 
+-any new flows without rebuilding their stack. An open protocol for agentic commerce Businesses need to manage 
+-the balance of increasing conversion, minimizing fraud, and growing long-term customer relationships. Stripe 
+-has been helping the world’s fastest-growing businesses succeed online for more than 15 years, and we drew on 
+-this experience to make ACP optimized for businesses, trusted by consumers, and powerful for agents. Built for 
+-businesses: With ACP, you maintain your customer relationships as the merchant of record, retaining control 
+-over which products can be sold, how they’re presented, how transactions are processed, and how orders are 
+-fulfilled. Designed to work with your existing systems: ACP can connect with any commerce backend and payments 
+-infrastructure. You don’t need to build custom inventory or payments connections for each individual AI agent 
+-you want to sell through. Instead, with ACP, you build once and can distribute to any ACP-compatible AI agent. 
+-Supports complex flows: ACP supports flexible configurations for many commerce types, including physical and 
+-digital goods, subscriptions, and asynchronous purchases. Our goal is to make the specification support custom 
+-checkout capabilities, such as managing in-store pickups or dynamic pricing, through AI agents. ACP is open 
+-source, Apache 2.0 licensed, and community-designed. You can implement the specification to transact with any 
+-AI agent using any compatible payment provider. How it works: A transaction powered by ACP Here’s how ACP 
+-works for buyers, AI agents, businesses, and payment providers: Buyer: The buyer discovers a product or 
+-service via an AI surface, selects what they want to buy, picks a saved payment credential or adds a new one, 
+-and grants permission to initiate a checkout through the AI agent. AI agent: The agent interfaces with the 
+-buyer, showing products, displaying checkout, and collecting payment details. When the buyer confirms, the 
+-agent makes a request to the business to initiate checkout on behalf of the buyer. Business: The business 
+-receives a checkout request and secure payment credential details from the AI agent. The business can choose 
+-to accept or decline the transaction using payment and fraud signals, and is the merchant of record. Payment 
+-provider: The AI agent communicates with the business’s payment provider to relay payment credentials via a 
+-secure token for the business to charge the buyer. The use of the token is programmatically controlled, 
+-permissioned, and logged. How to get started To learn how to configure your checkout for agentic commerce, 
+-read the ACP specification . To get ready for Instant Checkout in ChatGPT or sell through future AI agents, 
+-please reach out to our team . If you already process payments with Stripe, you will be able to enable agentic 
+-payments in your existing integration by updating as little as one line of code. If you currently process with 
+-another provider, you can still use Stripe for agentic payments. To learn more, read our docs . We’re focused 
+-on making ACP business-friendly, ready for any AI agent, and flexible across industries and business models. 
+-Working with partners such as OpenAI helped us test the ACP against real-world complexity, and made it 
+-flexible enough to support the future breadth of agentic commerce. We invite anyone to help improve ACP; learn 
+-more at agenticcommerce.dev . Subscribe to the Stripe Blog Stay connected with Stripe and receive new blog 
+-posts in your inbox. Something went wrong on our end. Sorry about that. You can still contact us at 
+-sales@stripe.com . We're sorry, but we're unable to serve your request. Subscribe Stripe will handle your data 
+-pursuant to its Privacy Policy By submitting this form, you acknowledge and consent that your personal data 
+-will be processed in accordance with Stripe's Privacy Policy and that your data will be stored outside of 
+-China in accordance with Stripe's Privacy Policy . Thank you for subscribing. You'll receive blog updates in 
+-your inbox soon. Like this post? Join our team. Stripe builds financial tools and economic infrastructure for 
+-the internet. View roles Have any feedback or questions? We’d love to hear from you. Contact us United States 
+-(English) Australia English Austria Deutsch English Belgium Nederlands Français Deutsch English Brazil 
+-Português English Bulgaria English Canada English Français Croatia English Italiano Cyprus English Czech 
+-Republic English Denmark English Estonia English Finland English Svenska France Français English Germany 
+-Deutsch English Gibraltar English Greece English Hong Kong SAR, China English 简体中文 Hungary English India 
+-English Ireland English Italy Italiano English Japan 日本語 English Latvia English Liechtenstein Deutsch English 
+-Lithuania English Luxembourg Français Deutsch English Mainland China 简体中文 English Malaysia English 简体中文 Malta 
+-English Mexico Español English Netherlands Nederlands English New Zealand English Norway English Poland 
+-English Portugal Português English Romania English Singapore English 简体中文 Slovakia English Slovenia English 
+-Italiano Spain Español English Sweden Svenska English Switzerland Deutsch Français Italiano English Thailand 
+-ไทย English United Arab Emirates English United Kingdom English United States English Español 简体中文 Products & 
+-pricing Pricing Atlas Authorization Boost Billing Capital Checkout Climate Connect Crypto Data Pipeline 
+-Elements Financial Connections Identity Invoicing Issuing Link Managed Payments Payment links Payments Payouts 
+-Radar Revenue Recognition Stripe Sigma Tax Terminal Treasury Solutions Enterprises Startups Agentic commerce 
+-Crypto Ecommerce Embedded finance Finance automation Global businesses In-app payments Marketplaces Money 
+-management Platforms SaaS AI companies Creator economy Gaming Hospitality, travel, and leisure Insurance Media 
+-and entertainment Nonprofits Professional services Public sector Retail Integrations & custom solutions Stripe 
+-App Marketplace Stripe Partner ecosystem Professional services Developers Documentation API reference API 
+-status API changelog Libraries and SDKs Stripe Projects Developer blog Resources Guides Customer stories Blog 
+-Community Sessions annual conference Privacy & terms Prohibited & restricted businesses Licenses Sitemap 
+-Cookie settings Your privacy choices More resources Company Product roadmap Careers Newsroom Stripe Press 
+-Contact sales Support Get support Managed support plans CA residents: +1 888 926 2289 Sign in © 2026 Stripe, 
+-LLC
++Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI. Watch now By stage 
++Enterprises Startups By use case Agentic commerce Crypto Ecommerce Embedded finance Finance automation Global 
++businesses In-app payments Marketplaces Money management Platforms SaaS By industry AI companies Creator 
++economy Gaming Hospitality, travel, and leisure Insurance Media and entertainment Nonprofits Professional 
++services Public sector Retail Ecosystem Partners Stripe App Marketplace Documentation Stripe docs API 
++reference Libraries and SDKs Stripe Apps Guides Accept online payments Implement a prebuilt checkout Build a 
++platform or marketplace Manage subscriptions Offer usage-based billing Issue stablecoin-backed cards Provision 
++and manage services with agents Resources App integrations Code samples Developers blog API status Learn Blog 
++Customer stories Guides Support Get support Managed support plans Professional services Company Product 
++roadmap Sessions annual conference Careers Newsroom Stripe Press Contact Contact sales Become a partner Blog 
++Product Stripe on X Developing an open standard for agentic commerce September 29, 2025 Jeff Weinstein Product 
++Lead, Agentic Commerce Steve Kaliski Engineering Lead, Agentic Commerce Over the past few decades, commerce 
++has shifted in distinct waves—from physical stores to ecommerce, from one-size-fits-all catalogs to 
++personalized recommendations, and from desktop to mobile shopping. Customers have always adapted, learning how 
++to search, trust online checkouts, and click “buy now.” With the rise of AI, commerce is approaching another 
++fundamental change. Today, we announced that Stripe is powering OpenAI’s newly launched commerce experience: 
++Instant Checkout in ChatGPT. ChatGPT users in the US can now buy from US Etsy sellers—and, coming soon, from 
++over a million Shopify merchants, such as Glossier, Vuori, Spanx, and SKIMS—directly in chat. Instant Checkout 
++is powered by the Agentic Commerce Protocol (ACP), a new open standard codeveloped by Stripe and OpenAI that 
++enables programmatic commerce flows between buyers, AI agents, and businesses. It provides a blueprint for how 
++businesses can make their checkouts agent-ready so that customers using AI agents, such as ChatGPT, can buy 
++products directly from where they’re discovering them. The ACP specification is available for businesses and 
++AI agents to implement starting today. If your business is interested in participating in Instant Checkout in 
++ChatGPT or you want to get access to other AI agents, please reach out . What we’ve heard For the past year, 
++we’ve been exploring and pressure-testing our assumptions in agentic commerce, and working with all of you has 
++shaped our view of what’s required: customers should be able to securely buy where they discover; businesses 
++should be able to sell through new channels without giving up trust, brand, or control; and AI agents should 
++be able to enable transactions without exposing customer credentials. Through testing with real users, we’ve 
++learned: Trust is essential. With AI agents now capable of initiating transactions on behalf of buyers, 
++businesses need a way to confirm purchases, securely accept payment credentials, respond to new fraud signals, 
++and update their risk models to differentiate good bots from bad bots. Fragmentation is painful. Businesses 
++want to reach more customers through new agentic channels, but they don’t want to build custom capabilities 
++for each agent nor maintain dozens of bespoke integrations. The AI economy needs standardized infrastructure 
++to flourish. Flexibility is required. Agents will enable new types of commerce beyond one-time, one-merchant 
++synchronous purchasing, such as “buy for me” background capabilities, multi-merchant carts, and usage models. 
++Businesses want to support any new flows without rebuilding their stack. An open protocol for agentic commerce 
++Businesses need to manage the balance of increasing conversion, minimizing fraud, and growing long-term 
++customer relationships. Stripe has been helping the world’s fastest-growing businesses succeed online for more 
++than 15 years, and we drew on this experience to make ACP optimized for businesses, trusted by consumers, and 
++powerful for agents. Built for businesses: With ACP, you maintain your customer relationships as the merchant 
++of record, retaining control over which products can be sold, how they’re presented, how transactions are 
++processed, and how orders are fulfilled. Designed to work with your existing systems: ACP can connect with any 
++commerce backend and payments infrastructure. You don’t need to build custom inventory or payments connections 
++for each individual AI agent you want to sell through. Instead, with ACP, you build once and can distribute to 
++any ACP-compatible AI agent. Supports complex flows: ACP supports flexible configurations for many commerce 
++types, including physical and digital goods, subscriptions, and asynchronous purchases. Our goal is to make 
++the specification support custom checkout capabilities, such as managing in-store pickups or dynamic pricing, 
++through AI agents. ACP is open source, Apache 2.0 licensed, and community-designed. You can implement the 
++specification to transact with any AI agent using any compatible payment provider. How it works: A transaction 
++powered by ACP Here’s how ACP works for buyers, AI agents, businesses, and payment providers: Buyer: The buyer 
++discovers a product or service via an AI surface, selects what they want to buy, picks a saved payment 
++credential or adds a new one, and grants permission to initiate a checkout through the AI agent. AI agent: The 
++agent interfaces with the buyer, showing products, displaying checkout, and collecting payment details. When 
++the buyer confirms, the agent makes a request to the business to initiate checkout on behalf of the buyer. 
++Business: The business receives a checkout request and secure payment credential details from the AI agent. 
++The business can choose to accept or decline the transaction using payment and fraud signals, and is the 
++merchant of record. Payment provider: The AI agent communicates with the business’s payment provider to relay 
++payment credentials via a secure token for the business to charge the buyer. The use of the token is 
++programmatically controlled, permissioned, and logged. How to get started To learn how to configure your 
++checkout for agentic commerce, read the ACP specification . To get ready for Instant Checkout in ChatGPT or 
++sell through future AI agents, please reach out to our team . If you already process payments with Stripe, you 
++will be able to enable agentic payments in your existing integration by updating as little as one line of 
++code. If you currently process with another provider, you can still use Stripe for agentic payments. To learn 
++more, read our docs . We’re focused on making ACP business-friendly, ready for any AI agent, and flexible 
++across industries and business models. Working with partners such as OpenAI helped us test the ACP against 
++real-world complexity, and made it flexible enough to support the future breadth of agentic commerce. We 
++invite anyone to help improve ACP; learn more at agenticcommerce.dev . Subscribe to the Stripe Blog Stay 
++connected with Stripe and receive new blog posts in your inbox. Something went wrong on our end. Sorry about 
++that. You can still contact us at sales@stripe.com . We're sorry, but we're unable to serve your request. 
++Subscribe Stripe will handle your data pursuant to its Privacy Policy By submitting this form, you acknowledge 
++and consent that your personal data will be processed in accordance with Stripe's Privacy Policy and that your 
++data will be stored outside of China in accordance with Stripe's Privacy Policy . Thank you for subscribing. 
++You'll receive blog updates in your inbox soon. Like this post? Join our team. Stripe builds financial tools 
++and economic infrastructure for the internet. View roles Have any feedback or questions? We’d love to hear 
++from you. Contact us United States (English) Australia English Austria Deutsch English Belgium Nederlands 
++Français Deutsch English Brazil Português English Bulgaria English Canada English Français Croatia English 
++Italiano Cyprus English Czech Republic English Denmark English Estonia English Finland English Svenska France 
++Français English Germany Deutsch English Gibraltar English Greece English Hong Kong SAR, China English 简体中文 
++Hungary English India English Ireland English Italy Italiano English Japan 日本語 English Latvia English 
++Liechtenstein Deutsch English Lithuania English Luxembourg Français Deutsch English Mainland China 简体中文 
++English Malaysia English 简体中文 Malta English Mexico Español English Netherlands Nederlands English New Zealand 
++English Norway English Poland English Portugal Português English Romania English Singapore English 简体中文 
++Slovakia English Slovenia English Italiano Spain Español English Sweden Svenska English Switzerland Deutsch 
++Français Italiano English Thailand ไทย English United Arab Emirates English United Kingdom English United 
++States English Español 简体中文 Products & pricing Pricing Atlas Authorization Boost Billing Capital Checkout 
++Climate Connect Crypto Data Pipeline Elements Financial Connections Identity Invoicing Issuing Link Managed 
++Payments Payment links Payments Payouts Radar Revenue Recognition Stripe Sigma Tax Terminal Treasury Solutions 
++Enterprises Startups Agentic commerce Crypto Ecommerce Embedded finance Finance automation Global businesses 
++In-app payments Marketplaces Money management Platforms SaaS AI companies Creator economy Gaming Hospitality, 
++travel, and leisure Insurance Media and entertainment Nonprofits Professional services Public sector Retail 
++Integrations & custom solutions Stripe App Marketplace Stripe Partner ecosystem Professional services 
++Developers Documentation API reference API status API changelog Libraries and SDKs Stripe Projects Developer 
++blog Resources Guides Customer stories Blog Community Sessions annual conference Privacy & terms Prohibited & 
++restricted businesses Licenses Sitemap Cookie settings Your privacy choices More resources Company Product 
++roadmap Careers Newsroom Stripe Press Contact sales Support Get support Managed support plans CA residents: +1 
++888 926 2289 Sign in © 2026 Stripe, LLC

@@ -1,0 +1,255 @@
+--- stored
++++ fetched
+@@ -1,6 +1,6 @@
+-Stablecoin Market Map 2026: 6,141 Companies Tracked | Verda Ventures VERDA VENTURES Ecosystem maps The 
+-geography Check if you're listed The Stablescape Map 6,141 companies are on the map. Is yours? Stablescape is 
++Stablecoin Market Map 2026: 6,142 Companies Tracked | Verda Ventures VERDA VENTURES Ecosystem maps The 
++geography Check if you're listed The Stablescape Map 6,142 companies are on the map. Is yours? Stablescape is 
+ Verda Ventures' live index of the global stablecoin economy. Search it, see who is really building each part 
+-of the market, and find the number worth quoting. Check if you're listed Get your company listed → 6,141 
+-companies indexed 148 countries 12 categories 7 regions Live dataset · Updated August 2026 · Curated by Verda 
++of the market, and find the number worth quoting. Check if you're listed Get your company listed → 6,142 
++companies indexed 149 countries 12 categories 7 regions Live dataset · Updated August 2026 · Curated by Verda 
+ Ventures Methodology & coverage What's on Stablescape 01 Find your company Search all 6,128 companies on your 
+@@ -12,61 +12,62 @@
+ Click any finding to drill into the underlying companies. The EM thesis 01 Total share Emerging markets are a 
+-large share of global stablecoin infrastructure formation 2,006 of 6,141 tracked companies (33%) operate 
+-primarily in LatAm, Africa, MENA, or APAC. The EM thesis 02 Bifurcation Where stablecoins meet local economies 
+-leans EM. Where growth-stage and AI live leans US. On/Off Ramps is the most EM-skewed category at 63% (382 of 
+-609 disclosed-region cos). Agentic Payments is the least at 20%. The bifurcation tracks where the technology 
+-touches the real world: on-ramps, wallets, remittances, and consumer use cases over-index in EM. The breakout 
+-03 Fastest forming Agentic Payments leads on formation, the category is in earliest expansion 950 companies, 
+-more than any other category. 171 cos founded in 2025, then 377 in 2026 YTD, a 2.2x jump in 8 months. 97% of 
+-venture-staged cos are Pre-seed or Seed. No other category is forming at this pace. The breakout 04 YoY leader 
+-The fastest-forming category by founding-year growth is Agentic Payments in 2026 Agentic Payments grew +235% 
+-in 2025 (51 cos founded in 2024, 171 in 2025), the fastest of any category with a meaningful base. 8 months 
+-into 2026, Agentic Payments leads, up +120% against its full 2025 base. Maturity & exits 05 Maturity Most of 
+-the map is still early stage Wallet Infrastructure leads on maturity with 21.5% of its venture-staged 
+-companies past Seed (68 of 317), followed by Compliance / RegTech at 18.1%. 0 of the 12 categories have more 
+-than a quarter of companies past Seed. At the other end, just 2.5% of Agentic Payments cos are. Formation has 
+-dramatically outpaced graduation past Seed. Maturity & exits 06 Acquirers MoonPay and Stripe are each 
+-consolidating the stablecoin payments stack via M&A MoonPay and Stripe have taken 3 of 23 confirmed 
+-acquisitions each (MoonPay: Iron, Meso, Helio · Stripe: Bridge $1.1B, Privy, Valor Connect). Other acquirers 
+-in the wave: Fireblocks (2), Polygon (2), Amadeus Protocol, Anchorage, Checkout.com. The big-payments 
+-incumbents are buying their way into stablecoin infra rather than building. Africa and MENA anchors 07 Africa 
+-Nigeria is 60% of Africa's stablecoin universe 280 of 465 tracked African companies operate in Nigeria. Kenya 
+-(45) and South Africa (42) trail distantly. Africa's stablecoin story is effectively a Nigerian one. Africa 
+-and MENA anchors 08 MENA UAE is 68% of MENA's tracked stablecoin universe 202 of 296 tracked MENA companies 
+-operate in the UAE, the most concentrated regional story outside the US. Dubai's VARA framework and Gulf 
+-capital flows produce a cluster you don't see elsewhere. APAC and LatAm anchors 09 APAC Singapore anchors APAC 
+-at 25% of the region 181 of 715 APAC companies operate in Singapore. Hong Kong (112), India (86), and 
+-Australia (78) form the tier-2 cluster. Singapore's MAS licensing regime is producing the region's only clear 
+-hub. APAC and LatAm anchors 10 LatAm LatAm leads with On/Off Ramps Of 530 LatAm companies tracked, 112 sit in 
+-On/Off Ramps, ahead of Cross-Border B2B Payments (76). The shape of the universe 11 Recent formation 35% of 
+-2025-2026 stablecoin formation operates in North America 558 of 1,595 recently-founded companies with 
+-disclosed region are based in North America, far ahead of Europe (321) and combined emerging markets (679). 
+-The agentic-payments wave that's driving 2025-2026 formation is heavily concentrated in US tech hubs, even as 
+-the all-time EM share holds at 33%. The shape of the universe 12 Top 5 countries Stablecoin infrastructure 
+-spans 148 countries but is concentrated in 5 40% of all tracked companies sit in just five countries: United 
+-States (1,445), United Kingdom (301), Nigeria (280), Canada (210), United Arab Emirates (202). Four of the 
+-five are the largest country in their region. Outside the top 5, no other country tops Switzerland's 183 
+-companies. Volume by category Where the stablecoin universe concentrates Each bar is total tracked companies 
+-in a category, segmented by primary operating region. Region segments computed across the 4,949 of 6,141 
+-companies (81%) with a tagged region. Click any segment or label to drill in. Cross-Border B2B Payments 592 
+-Agentic Payments 950 Stablecoin Issuance 261 Stablecoin Infrastructure 785 Merchant & Payment Processing 899 
+-RWA Tokenization 655 Wallet Infrastructure 401 On/Off Ramps 644 Crypto Banking 357 Treasury / FX / 
+-Orchestration 245 Compliance / RegTech 185 Consumer Remittances 167 Category × region heatmap The geography of 
+-each stack layer Darker = denser. Cells computed across the 4,949 of 6,141 companies (81%) with a tagged 
+-region. North America Europe LatAm Africa MENA APAC Cross-Border B2B Payments 190 96 76 92 22 69 Agentic 
+-Payments 263 85 9 3 18 58 Stablecoin Issuance 72 65 21 13 17 40 Stablecoin Infrastructure 264 167 41 16 38 91 
+-Merchant & Payment Processing 211 185 70 77 40 103 RWA Tokenization 207 176 69 12 55 90 Wallet Infrastructure 
+-105 110 29 11 29 66 On/Off Ramps 80 147 112 154 38 78 Crypto Banking 95 95 59 36 16 37 Treasury / FX / 
+-Orchestration 83 59 19 9 7 31 Compliance / RegTech 50 61 7 5 10 26 Consumer Remittances 51 26 18 37 6 26 
+-Maturity by category What stage of company dominates each category Stage distribution by last known funding 
+-round, computed across the 4,930 of 6,141 companies (80%) with a disclosed funding-round stage. The remaining 
+-1,211 (bootstrapped, undisclosed-round, or stage-unknown) are not shown. Click a segment to see those 
++large share of global stablecoin infrastructure formation 1,659 of 6,142 tracked companies (27%) are based in 
++an emerging market. Classification is country-level: IMF advanced economies (including Japan, Singapore, Hong 
++Kong, South Korea, and Australia) do not count as EM. The EM thesis 02 Bifurcation Where stablecoins meet 
++local economies leans EM. Where growth-stage and AI live leans US. On/Off Ramps is the most EM-skewed category 
++at 67% (411 of 610 disclosed-region cos). Agentic Payments is the least at 11%. The bifurcation tracks where 
++the technology touches the real world: on-ramps, wallets, remittances, and consumer use cases over-index in 
++EM. The breakout 03 Fastest forming Agentic Payments leads on formation, the category is in earliest expansion 
++950 companies, more than any other category. 171 cos founded in 2025, then 377 in 2026 YTD, a 2.2x jump in 8 
++months. 97% of venture-staged cos are Pre-seed or Seed. No other category is forming at this pace. The 
++breakout 04 YoY leader The fastest-forming category by founding-year growth is Agentic Payments in 2026 
++Agentic Payments grew +235% in 2025 (51 cos founded in 2024, 171 in 2025), the fastest of any category with a 
++meaningful base. 8 months into 2026, Agentic Payments leads, up +120% against its full 2025 base. Maturity & 
++exits 05 Maturity Most of the map is still early stage Wallet Infrastructure leads on maturity with 21.5% of 
++its venture-staged companies past Seed (68 of 317), followed by Compliance / RegTech at 18.1%. 0 of the 12 
++categories have more than a quarter of companies past Seed. At the other end, just 2.5% of Agentic Payments 
++cos are. Formation has dramatically outpaced graduation past Seed. Maturity & exits 06 Acquirers MoonPay and 
++Stripe are each consolidating the stablecoin payments stack via M&A MoonPay and Stripe have taken 3 of 23 
++confirmed acquisitions each (MoonPay: Iron, Meso, Helio · Stripe: Bridge $1.1B, Privy, Valor Connect). Other 
++acquirers in the wave: Fireblocks (2), Polygon (2), Amadeus Protocol, Anchorage, Checkout.com. The 
++big-payments incumbents are buying their way into stablecoin infra rather than building. Africa and MENA 
++anchors 07 Africa Nigeria is 60% of Africa's stablecoin universe 280 of 465 tracked African companies operate 
++in Nigeria. Kenya (45) and South Africa (42) trail distantly. Africa's stablecoin story is effectively a 
++Nigerian one. Africa and MENA anchors 08 MENA UAE is 68% of MENA's tracked stablecoin universe 203 of 297 
++tracked MENA companies operate in the UAE, the most concentrated regional story outside the US. Dubai's VARA 
++framework and Gulf capital flows produce a cluster you don't see elsewhere. APAC and LatAm anchors 09 APAC 
++Singapore anchors APAC at 25% of the region 181 of 719 APAC companies operate in Singapore. Hong Kong (112), 
++India (86), and Australia (78) form the tier-2 cluster. Singapore's MAS licensing regime is producing the 
++region's only clear hub. APAC and LatAm anchors 10 LatAm LatAm leads with On/Off Ramps Of 532 LatAm companies 
++tracked, 112 sit in On/Off Ramps, ahead of Cross-Border B2B Payments (77). The shape of the universe 11 Recent 
++formation 35% of 2025-2026 stablecoin formation operates in North America 560 of 1,596 recently-founded 
++companies with disclosed region are based in North America, far ahead of Europe (323) and combined emerging 
++markets (597). The agentic-payments wave that's driving 2025-2026 formation is heavily concentrated in US tech 
++hubs, even as the all-time EM share holds at 27%. The shape of the universe 12 Top 5 countries Stablecoin 
++infrastructure spans 149 countries but is concentrated in 5 40% of all tracked companies sit in just five 
++countries: United States (1,446), United Kingdom (301), Nigeria (280), Canada (210), United Arab Emirates 
++(203). Four of the five are the largest country in their region. Outside the top 5, no other country tops 
++Switzerland's 183 companies. Volume by category Where the stablecoin universe concentrates Each bar is total 
++tracked companies in a category, segmented by primary operating region. Region segments computed across the 
++4,967 of 6,142 companies (81%) with a tagged region. Click any segment or label to drill in. Cross-Border B2B 
++Payments 592 Agentic Payments 950 Stablecoin Issuance 262 Stablecoin Infrastructure 787 Merchant & Payment 
++Processing 899 RWA Tokenization 654 Wallet Infrastructure 401 On/Off Ramps 644 Crypto Banking 356 Treasury / 
++FX / Orchestration 245 Compliance / RegTech 185 Consumer Remittances 167 Category × region heatmap The 
++geography of each stack layer Darker = denser. Cells computed across the 4,967 of 6,142 companies (81%) with a 
++tagged region. North America Europe LatAm Africa MENA APAC Cross-Border B2B Payments 190 96 77 92 22 69 
++Agentic Payments 263 85 9 3 18 58 Stablecoin Issuance 73 66 22 13 17 41 Stablecoin Infrastructure 264 169 42 
++16 40 91 Merchant & Payment Processing 212 186 70 77 40 105 RWA Tokenization 208 176 67 12 54 90 Wallet 
++Infrastructure 106 109 29 11 29 67 On/Off Ramps 80 148 112 154 38 78 Crypto Banking 96 95 60 36 16 37 Treasury 
++/ FX / Orchestration 84 60 19 9 7 31 Compliance / RegTech 50 61 7 5 10 26 Consumer Remittances 51 26 18 37 6 
++26 Maturity by category What stage of company dominates each category Stage distribution by last known funding 
++round, computed across the 4,930 of 6,142 companies (80%) with a disclosed funding-round stage. The remaining 
++1,212 (bootstrapped, undisclosed-round, or stage-unknown) are not shown. Click a segment to see those 
+ companies. The ACQUIRED column lists confirmed acquisitions, which stay in the map and in every count. Hover 
+ each chip for acquirer / year / value, or click it to open the profile. ACQUIRED Cross-Border B2B Payments 68% 
+-20% BVNK Reap Beam Bridge Rail Agentic Payments 88% Bitte Protocol Stablecoin Issuance 57% 28% 11% Mountain 
+-Protocol Blue EMI Stablecoin Infrastructure 56% 26% Fern Money Iron Merchant & Payment Processing 81% 14% Loop 
+-Crypto Helio RWA Tokenization 63% 23% Hashnote Wallet Infrastructure 56% 23% 13% Zodia Custody Baanx Group Ltd 
+-Dynamic FORDEFI Privy Sequence Valor Connect On/Off Ramps 76% 16% Coinme Meso Crypto Banking 66% 18% 10% TRES 
+-Custody Treasury / FX / Orchestration 72% 20% Compliance / RegTech 62% 20% Consumer Remittances 80% 11% 
++20% BVNK Reap Beam Bridge Rail Agentic Payments 88% Bitte Protocol Stablecoin Issuance 56% 27% 11% Mountain 
++Protocol Blue EMI Stablecoin Infrastructure 56% 26% 10% Fern Money Iron Merchant & Payment Processing 81% 14% 
++Loop Crypto Helio RWA Tokenization 63% 23% Hashnote Wallet Infrastructure 56% 23% 13% Zodia Custody Baanx 
++Group Ltd Dynamic FORDEFI Privy Sequence Valor Connect On/Off Ramps 76% 16% Coinme Meso Crypto Banking 66% 18% 
++TRES Custody Treasury / FX / Orchestration 72% 20% Compliance / RegTech 62% 20% Consumer Remittances 80% 11% 
+ Category breakdown What sub-sectors make up each category Each category splits into more granular sub-sectors. 
+-Subcategory coverage: 100% (6,140 of 6,141 companies) . Hover a category name for a one-line description. 
++Subcategory coverage: 100% (6,141 of 6,142 companies) . Hover a category name for a one-line description. 
+ Click any sub-sector to drill into its companies. Cross-Border B2B Payments 592 companies · 7 sub-categories 
+@@ -76,17 +77,17 @@
+ Discovery 118 AI-Native Fintech Tooling 66 Agentic Payments 53 Agent Credit & Underwriting 16 Stablecoin 
+-Issuance 261 companies · 5 sub-categories Non-USD Currency Stablecoins 80 Algorithmic / Crypto-Backed 
++Issuance 262 companies · 5 sub-categories Non-USD Currency Stablecoins 81 Algorithmic / Crypto-Backed 
+ Stablecoins 69 USD-Pegged Stablecoins 56 Yield-Bearing Stablecoins 34 Stablecoin Issuers 22 Stablecoin 
+-Infrastructure 785 companies · 10 sub-categories Settlement Infrastructure 180 DeFi Protocols 160 Stablecoin 
++Infrastructure 787 companies · 11 sub-categories Settlement Infrastructure 180 DeFi Protocols 160 Stablecoin 
+ Yield & Earn 111 Analytics & Orchestration 93 Issuance Platforms & Tooling 82 Liquidity & Collateral Markets 
+-61 Banking-as-a-Service 50 Stablecoin-Native L1s 29 CBDC Infrastructure 18 Lending / Credit 1 Merchant & 
+-Payment Processing 899 companies · 5 sub-categories Payment Gateway 298 Stablecoin Payment Rails 259 Merchant 
+-Acceptance / Commerce 145 Crypto Cards 101 Payment Processing 96 RWA Tokenization 655 companies · 9 
+-sub-categories Tokenization Platforms 373 Private Credit On-Chain 64 Real Estate (institutional) 54 
+-Commodities (institutional) 50 Equity & Bond Tokenization 50 Tokenized Treasuries & Money Markets 44 Trade 
+-Finance 18 Crypto-Native Neobanks 1 Stablecoin Cross-Border Rails 1 Wallet Infrastructure 401 companies · 7 
+-sub-categories Self-Custody Wallets 136 Embedded Wallets / WaaS 93 Custody (institutional) 76 Wallet 
+-Infrastructure 36 Developer Tools 30 Account Abstraction & Smart Wallets 25 Hardware Wallets 5 On/Off Ramps 
+-644 companies · 5 sub-categories Fiat-Crypto Ramps 387 Off-Ramps (Crypto-to-Fiat) 95 On/Off Ramps 71 P2P 
+-Exchanges 60 Aggregator / Routing 31 Crypto Banking 357 companies · 5 sub-categories Crypto-Native Neobanks 
+-234 Stablecoin Bank Accounts 34 Crypto Banking 32 Digital Asset Banks 32 Crypto Prime Brokerage 25 Treasury / 
++61 Banking-as-a-Service 50 Stablecoin-Native L1s 29 CBDC Infrastructure 19 Lending / Credit 1 Stablecoin 
++Payment Rails 1 Merchant & Payment Processing 899 companies · 5 sub-categories Payment Gateway 298 Stablecoin 
++Payment Rails 259 Merchant Acceptance / Commerce 145 Crypto Cards 101 Payment Processing 96 RWA Tokenization 
++654 companies · 9 sub-categories Tokenization Platforms 372 Private Credit On-Chain 64 Real Estate 
++(institutional) 54 Commodities (institutional) 50 Equity & Bond Tokenization 50 Tokenized Treasuries & Money 
++Markets 44 Trade Finance 18 Crypto-Native Neobanks 1 Stablecoin Cross-Border Rails 1 Wallet Infrastructure 401 
++companies · 7 sub-categories Self-Custody Wallets 136 Embedded Wallets / WaaS 93 Custody (institutional) 76 
++Wallet Infrastructure 36 Developer Tools 30 Account Abstraction & Smart Wallets 25 Hardware Wallets 5 On/Off 
++Ramps 644 companies · 5 sub-categories Fiat-Crypto Ramps 387 Off-Ramps (Crypto-to-Fiat) 95 On/Off Ramps 71 P2P 
++Exchanges 60 Aggregator / Routing 31 Crypto Banking 356 companies · 5 sub-categories Crypto-Native Neobanks 
++233 Stablecoin Bank Accounts 34 Crypto Banking 32 Digital Asset Banks 32 Crypto Prime Brokerage 25 Treasury / 
+ FX / Orchestration 245 companies · 4 sub-categories Lending / Credit 106 Stablecoin FX / Orchestration 66 
+@@ -102,5 +103,5 @@
+ Cross-Border B2B Payments 20 22 33 43 60 63 70 127 72 2025 Agentic Payments 5 7 8 13 23 25 51 171 377 2026 
+-Stablecoin Issuance 7 17 11 20 29 25 41 38 25 2024 Stablecoin Infrastructure 48 25 35 64 65 69 75 143 91 2025 
+-Merchant & Payment Processing 35 32 29 57 59 59 69 176 172 2025 RWA Tokenization 38 33 41 62 61 63 59 112 82 
+-2025 Wallet Infrastructure 23 20 16 52 35 34 39 42 49 2021 On/Off Ramps 31 27 28 41 67 37 44 104 104 2025 
++Stablecoin Issuance 7 17 11 20 29 25 41 38 25 2024 Stablecoin Infrastructure 48 25 35 64 66 70 75 143 91 2025 
++Merchant & Payment Processing 35 32 29 57 59 59 68 177 172 2025 RWA Tokenization 38 33 41 62 61 62 59 112 82 
++2025 Wallet Infrastructure 23 20 16 52 36 33 39 42 49 2021 On/Off Ramps 31 27 28 41 67 37 44 104 104 2025 
+ Crypto Banking 20 15 19 29 31 29 43 58 52 2025 Treasury / FX / Orchestration 11 7 7 23 21 22 27 45 38 2025 
+@@ -110,10 +111,10 @@
+ per the Formation Waves card. Read the YoY % as directional , not exact, particularly for newer agent-economy 
+-categories. The 2026 column is year-to-date (through 2026-08-21). The '25→'26 YTD column compares partial 2026 
++categories. The 2026 column is year-to-date (through 2026-08-28). The '25→'26 YTD column compares partial 2026 
+ to full 2025, so negative values may mean "on pace to land below 2025," not actual decline. 2022 2023 2024 
+ 2025 2026 YTD '23→'24 '24→'25 '25→'26 YTD Agentic Payments 23 25 51 171 377 +104% +235% +120% Merchant & 
+-Payment Processing 59 59 69 176 172 +17% +155% -2% Compliance / RegTech 13 10 8 20 30 -20% +150% +50% On/Off 
+-Ramps 67 37 44 104 104 +19% +136% +0% Stablecoin Infrastructure 65 69 75 143 91 +9% +91% -36% RWA Tokenization 
+-61 63 59 112 82 -6% +90% -27% Consumer Remittances 17 14 18 33 24 +29% +83% -27% Cross-Border B2B Payments 60 
++Payment Processing 59 59 68 177 172 +15% +160% -3% Compliance / RegTech 13 10 8 20 30 -20% +150% +50% On/Off 
++Ramps 67 37 44 104 104 +19% +136% +0% Stablecoin Infrastructure 66 70 75 143 91 +7% +91% -36% RWA Tokenization 
++61 62 59 112 82 -5% +90% -27% Consumer Remittances 17 14 18 33 24 +29% +83% -27% Cross-Border B2B Payments 60 
+ 63 70 127 72 +11% +81% -43% Treasury / FX / Orchestration 21 22 27 45 38 +23% +67% -16% Crypto Banking 31 29 
+-43 58 52 +48% +35% -10% Wallet Infrastructure 35 34 39 42 49 +15% +8% +17% Stablecoin Issuance 29 25 41 38 25 
++43 58 52 +48% +35% -10% Wallet Infrastructure 36 33 39 42 49 +18% +8% +17% Stablecoin Issuance 29 25 41 38 25 
+ +64% -7% -34% Growth by geography Where formation is accelerating fastest within each region Top 3 categories 
+@@ -137,3 +138,3 @@
+ Issuance 4 → 15 +275% Top sub: Non-USD Currency Stablecoins 1→7 +600% Geographic granularity Which countries 
+-anchor each region Top countries within each region by company count, computed across the 4,953 of 6,141 
++anchor each region Top countries within each region by company count, computed across the 4,954 of 6,142 
+ companies (81%) with disclosed country. Click a country to see the underlying list. The US dominates North 
+@@ -141,31 +142,31 @@
+ headquarters, not target market. A Delaware C-Corp may primarily serve LatAm. A Cayman or BVI entity may 
+-operate globally. North America 1,671 United States 1,445 Canada 210 Bermuda 1 Europe 1,272 United Kingdom 301 
+-Switzerland 183 Germany 80 France 70 Poland 57 LatAm 530 Brazil 161 Argentina 62 Mexico 56 Colombia 42 Panama 
+-40 Africa 465 Nigeria 280 Kenya 45 South Africa 42 Ghana 18 Benin 6 MENA 296 United Arab Emirates 202 Turkey 
+-33 Israel 23 Bahrain 7 Iran 6 APAC 715 Singapore 181 Hong Kong 112 India 86 Australia 78 Japan 42 6,141 
+-companies tracked Region 83% · 5,074 disclosed Country 81% · 4,953 disclosed Founding year 86% · 5,302 
+-disclosed Stage 80% · 4,930 disclosed Coverage notes ↓ 6,141 Companies tracked across 12 categories , 7 
+-regions , and 148 countries . Methodology · coverage · caveats How to read this What this is. The 6,141 
+-companies on this map are Verda Ventures' curated view of the global stablecoin and crypto-fintech 
+-infrastructure ecosystem. We believe it represents a strong directional sample of the universe, but coverage 
+-is not 100% exhaustive. New companies are added weekly as we identify them. If you operate a relevant company 
+-we don't have listed, add it through the Submit a company form on this site. Field coverage. Of 6,141 
+-companies tracked: 4,953 (81%) have a disclosed country, 5,302 (86%) have a founding year either verified 
+-through public sources or directionally indicated by the company's inception year in our dataset, and 4,930 
+-(80%) have a disclosed funding-round stage (bootstrapped and undisclosed-round companies are not counted here, 
+-matching the maturity chart). Charts render only the disclosed subset for each dimension. Companies without 
+-disclosed values are excluded from the relevant view rather than shown in an "unknown" bucket. Founding-year 
+-and stage data depend on third-party enrichment, sparser for stealth and very-early-stage companies. Treat 
+-both as directional , particularly in Agentic Payments and other newer categories. Submit a company or 
+-correction. Use the Submit a company form, or the Suggest a correction button on any record. A person reviews 
+-every submission before the dataset changes. Claim your profile. If your company is on the map, open its 
+-record and use Claim this profile. Claims are verified through your company email domain or Google sign-in, 
+-and corrections from claimed profiles are reviewed first. Claimed companies can list up to four secondary 
+-categories, shown on the profile and matched in database filters as self-reported, and never counted in 
+-statistics. Methodology. Categorization combines third-party enrichment, automated classification against a 
+-public corpus, and manual review. Founding year is the company's disclosed year where available, otherwise a 
+-directional proxy from the date the company was first ingested into our underlying data source. Treat newer 
+-categories (Agentic Payments, RWA tokenization) as directional rather than exact. Disclosure. This dashboard 
+-is for informational purposes only. It is not investment advice, an offer to sell or a solicitation of an 
+-offer to buy any security, and does not represent the views of any company mentioned. Verda Ventures may hold 
+-positions in or have evaluated companies on this page.
++operate globally. North America 1,677 United States 1,446 Canada 210 Bermuda 2 British Virgin Islands 1 Cayman 
++Islands 1 Europe 1,277 United Kingdom 301 Switzerland 183 Germany 80 France 70 Poland 57 LatAm 532 Brazil 161 
++Argentina 62 Mexico 56 Colombia 42 Panama 40 Africa 465 Nigeria 280 Kenya 45 South Africa 42 Ghana 18 Benin 6 
++MENA 297 United Arab Emirates 203 Turkey 33 Israel 23 Bahrain 7 Iran 6 APAC 719 Singapore 181 Hong Kong 112 
++India 86 Australia 78 Japan 42 6,142 companies tracked Region 83% · 5,075 disclosed Country 81% · 4,954 
++disclosed Founding year 86% · 5,303 disclosed Stage 80% · 4,930 disclosed Coverage notes ↓ 6,142 Companies 
++tracked across 12 categories , 7 regions , and 149 countries . Methodology · coverage · caveats How to read 
++this What this is. The 6,142 companies on this map are Verda Ventures' curated view of the global stablecoin 
++and crypto-fintech infrastructure ecosystem. We believe it represents a strong directional sample of the 
++universe, but coverage is not 100% exhaustive. New companies are added weekly as we identify them. If you 
++operate a relevant company we don't have listed, add it through the Submit a company form on this site. Field 
++coverage. Of 6,142 companies tracked: 4,954 (81%) have a disclosed country, 5,303 (86%) have a founding year 
++either verified through public sources or directionally indicated by the company's inception year in our 
++dataset, and 4,930 (80%) have a disclosed funding-round stage (bootstrapped and undisclosed-round companies 
++are not counted here, matching the maturity chart). Charts render only the disclosed subset for each 
++dimension. Companies without disclosed values are excluded from the relevant view rather than shown in an 
++"unknown" bucket. Founding-year and stage data depend on third-party enrichment, sparser for stealth and 
++very-early-stage companies. Treat both as directional , particularly in Agentic Payments and other newer 
++categories. Submit a company or correction. Use the Submit a company form, or the Suggest a correction button 
++on any record. A person reviews every submission before the dataset changes. Claim your profile. If your 
++company is on the map, open its record and use Claim this profile. Claims are verified through your company 
++email domain or Google sign-in, and corrections from claimed profiles are reviewed first. Claimed companies 
++can list up to four secondary categories, shown on the profile and matched in database filters as 
++self-reported, and never counted in statistics. Methodology. Categorization combines third-party enrichment, 
++automated classification against a public corpus, and manual review. Founding year is the company's disclosed 
++year where available, otherwise a directional proxy from the date the company was first ingested into our 
++underlying data source. Treat newer categories (Agentic Payments, RWA tokenization) as directional rather than 
++exact. Disclosure. This dashboard is for informational purposes only. It is not investment advice, an offer to 
++sell or a solicitation of an offer to buy any security, and does not represent the views of any company 
++mentioned. Verda Ventures may hold positions in or have evaluated companies on this page.

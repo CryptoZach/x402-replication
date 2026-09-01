@@ -1,0 +1,120 @@
+{
+ "anchors": {
+  "allium_estimates": {
+   "live::3d896a0f": "0e1615981364e70d92925821fca797291484b8aac2a72432b252afef7dd0d89b"
+  },
+  "artemis_solana_estimate": {
+   "live::dbe2f328": "eb9335f72fb652257907e61c9abce0040847caa6e20806ebe6409e14abf826d9"
+  },
+  "cdp_batch_settlement": {
+   "live::05ecabb7": "193190916d90f40732196cc8f7722cfcb2b74e679d164f1c7a9cb414e262d46d"
+  },
+  "cdp_polygon_launch": {
+   "live::6779f78d": "UNMEASURED:http_4xx"
+  },
+  "cdp_pricing": {
+   "live::4efeadbb": "be4d31cb5981b7724c8bfd3c5d6e45de97255644d47bc81a32bb413b96cb1921"
+  },
+  "chainalysis_x402": {
+   "live::58e84a96": "32f370a80f7fb9fb3cd269e615b431ce8ec00e5386db1acb066a6481cbb4d07c"
+  },
+  "coinbase_x402_launch": {
+   "live::b364404b": "UNMEASURED:http_4xx",
+   "wayback::520100ba": "95fb4b2769faa4d390f807a41a09a4744374b598b515dcc30e161e6870a9cc4b",
+   "wayback::d26cd17e": "eaa339d69f8bc694cef2b353a00efd3d4fdef850a4436aaf7810a51864d1814d"
+  },
+  "eip3009": {
+   "live::afa8b049": "79a9b90985d6d492ba3e0dc80a2e5e92000dc00df97244a0afa2e1a4df2614ee"
+  },
+  "eip712": {
+   "live::e6a4988d": "f01d89bb41de19804ee17ebe20c0e22984840f00e63c95a7c16c67d9e874cfdf"
+  },
+  "erc7760": {
+   "live::4e66ef8a": "ccd62363a517a9501c9b8189e5638ee7e4674d9efaa9c27a85eb2f2798e85e23"
+  },
+  "fsb_consultation": {
+   "live::69de4a89": "01cd9a4a255bb85b52a2e988b9717ae43e12e978deadc5331e131495b0cf85f1"
+  },
+  "google_ap2": {
+   "live::617fd3be": "8d9969d291707d5b70a908ef26503fc06ba191f43c08ae7d6f2ea2cd652085d1",
+   "live::c765382b": "c0fc8cb495a60f9a8dba5fe6ba5f41a74cec86d70efd5ef575e3146c375a65db",
+   "live::e3322d16": "83594fd32027eb6632aa937800550e038eeaefa327efeb2badda642dc14eac71"
+  },
+  "hmg2010_section53": {
+   "live::677bf64d": "19c3a551cea1d4945e18fed4164c14cca4411a0027f532128031c4464c6cc70d"
+  },
+  "lf_press_polygon_base": {
+   "live::17f730f8": "19cdf6d6c7277196aa3800bbdb68645201cea6cba4a10a9a90498457d565ddab"
+  },
+  "memo_site_page": {
+   "live::8a96d47e": "22bb69cb196cc1ddfc6f243ae8432ba1be2f00d0af840f5715c700d40336900a"
+  },
+  "memo_ssrn_status": {
+   "live::43b7c465": "31e5f62972f21d5fa2d0100bb5e6dc423c8e77f0e72328379b568f8ae7d878a1"
+  },
+  "meridian_docs": {
+   "live::13c00575": "65c5de4451e0181e125ac1dcc4cebdb94515f628553f5ab312e3f2b6425c31c6",
+   "live::3e201f88": "589fd7f2f1dce26775c12c3ef1ae495a9aadbb9ac10a805f553cd77eb99ee7a3",
+   "live::b99039d5": "a8d40b7b89cb4bd2aa21e52e432e7a47dc57bec4e366e7a99bd177f785f8e342",
+   "wayback::82fa2838": "7ad32f061616a2a41e67a3d547dd9c04d072f2a20974ed959ef071d26609d718"
+  },
+  "mexc_meridian_cashback": {
+   "live::3deaba85": "UNMEASURED:http_4xx"
+  },
+  "mg2023_thresholds": {
+   "live::92b2fb06": "30941edf21286044863afd646731f32d33ff98eb5e65a2dd00c67205e0548b1b"
+  },
+  "openai_stripe_acp": {
+   "live::6f7f59ce": "VOLATILE",
+   "live::8ae73c2a": "eb5b319b443915dd6ce28e3cdb2866eb96ac0b9fcf7c9abfbde451915be03f21",
+   "live::8aedc3ab": "UNMEASURED:http_4xx",
+   "wayback::7b0f1942": "5d976779e500ed43545dea671310cfaa202d23ed69357393262c29efd8c23acd"
+  },
+  "polygon_facilitator_docs": {
+   "live::5a5efb7c": "9f06a75bf5379996b38c0cd87241f3505df39c7024d6cdbc83ed003ef5f28337"
+  },
+  "polygon_gas_rebate": {
+   "live::2153423e": "8d61dfcb320b7dd04dac7fda4e914be130d4df0faac018fad17d490a4cb548be"
+  },
+  "regulation_e_1005_11": {
+   "live::d03dcd04": "f48a2823a2dd2474eae3ddf6bd4d72d4160cb7e94560c640a39faedae179b596"
+  },
+  "rfc9110_402": {
+   "live::92f51d16": "3a2d0c14c9ad16a3ccba6b07655231f68c4785aa3c10499ec133a6009701d183"
+  },
+  "ssrn_6267698": {
+   "live::62185d24": "1e069ba157a6a59edf7522a31e327f433b069663f11997197dfc8bcf6c495762",
+   "live::c622bf22": "961fd61e63a690473143f2c23d5301674fd714e462b8d309b0f0409a69f54271"
+  },
+  "thirdweb_facilitator": {
+   "live::f8d68670": "7dff5979f3300495c5e2277a137734ee6e57d2fe33bdcb7e096094e466e5333e"
+  },
+  "usdc_freeze": {
+   "live::58d3f3d7": "7fc621d5f2e57c1287ccc3324d025484d756aaaefbbccbc40fcccc22cb654711",
+   "live::c51b129b": "e2c3d68e0a3efcd42add28bfbd080b82ceffd0e02607d480e85f69e0bb41478d"
+  },
+  "verda_ventures_formation": {
+   "live::1c7dc2b3": "00c44cd284388f2e1c21eaf1bcc98a69d3df84abb661f9c9075318e1bc58ee0c"
+  },
+  "x402_foundation": {
+   "live::17f730f8": "19cdf6d6c7277196aa3800bbdb68645201cea6cba4a10a9a90498457d565ddab"
+  },
+  "x402_org_volume": {
+   "live::d940433b": "20c956babe24b8163d119547349aa0bd767ab28755fe38de5dd52ca70464b20b"
+  },
+  "x402_spec_schemes": {
+   "live::6e65fca3": "dbde76d0cf794fc1a13cba0d10c0e996795410d8cd8000d1734a5b4f9da4c425",
+   "live::87d785ba": "c1341c4fd2f5cc56b46f6d4552a07f70d1c4571ca48165b84dd3cba189786de0",
+   "live::a9f84e21": "e58bca25a9fe77b6f2a6fbd69bd7d383c7cc88b268378d87e7470975ec035c18"
+  },
+  "x402scan_registry": {
+   "live::656a8bfc": "aca499d1a803826592209f9e25f9253f90520df912dd71113d45c8177f163f55"
+  }
+ },
+ "meta": {
+  "anchor_count": 32,
+  "captures": "research_content/papers/C4_agentic_payments_control/working/anchors_2026-08-05",
+  "store": "research_content/papers/C4_agentic_payments_control/working/anchor_snapshots",
+  "target_count": 46
+ }
+}

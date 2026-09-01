@@ -1,0 +1,531 @@
+{
+ "_provenance": {
+  "derivation": "derive_monthly_hhi.py (D6 item 4)",
+  "query_results": [
+   "results/base_fac_monthly_2025-10_2026-06.result.json",
+   "results/base_fac_auth_monthly_2025-10_2026-06.result.json"
+  ],
+  "committed_anchors": [
+   "handoff/workflow_runs/agentic_payments_june_refresh_2026-07-03/results/base_monthly.json",
+   "handoff/workflow_runs/agentic_payments_june_pairing_coverage_2026-07-03/results/aggregate_registry_internal_hop_by_month.json"
+  ],
+  "count_basis": "registry-facilitator submitted USDC transfers (the Table 1 count); mrdn_corrected collapses Meridian to its external leg (the Table 2 payments basis)",
+  "correction_policy": "mrdn_corrected applied only where the monthly pairing structure validates (2x-transfers and hop = events); 2025-11 fails the check (48 transfers, de minimis) and is labeled raw_only; per-payment pairing validation exists for May and June per PAPER.md Section 5",
+  "june_status": "June 2026 enters the series as a complete labeled month; concentration CLAIMS remain May-anchored per PAPER.md Section 3.5",
+  "guards": "Table 1 store, hop store, and printed May HHIs all asserted"
+ },
+ "series": [
+  {
+   "m": "2025-10",
+   "facilitators_active": 16,
+   "raw": {
+    "hhi_count": 4972,
+    "hhi_value": 4009,
+    "transfers": 4065328,
+    "usd": 3965328.04
+   },
+   "mrdn_corrected": {
+    "hhi_count": 4972,
+    "hhi_value": 4009,
+    "payments": 4065328,
+    "usd": 3965328.04
+   },
+   "mrdn_corrected_label": "no_mrdn_flow",
+   "full_hop_corrected": {
+    "hhi_count": 4958,
+    "hhi_value": 4007,
+    "transfers": 3872534,
+    "usd": 3960756.32
+   },
+   "mrdn_pairing": {
+    "present": false,
+    "consistent": null
+   },
+   "top_count_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 68.7
+   },
+   "top_value_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 59.6
+   },
+   "top_count_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 68.7
+   },
+   "top_value_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 59.6
+   }
+  },
+  {
+   "m": "2025-11",
+   "facilitators_active": 20,
+   "raw": {
+    "hhi_count": 5113,
+    "hhi_value": 6851,
+    "transfers": 64264312,
+    "usd": 27884714.11
+   },
+   "mrdn_corrected": null,
+   "mrdn_corrected_label": "raw_only_pairing_unvalidated",
+   "full_hop_corrected": {
+    "hhi_count": 5155,
+    "hhi_value": 6892,
+    "transfers": 63999976,
+    "usd": 27801667.73
+   },
+   "mrdn_pairing": {
+    "present": true,
+    "auth_events": 25,
+    "transfers": 48,
+    "internal_transfers": 4,
+    "consistent": false
+   },
+   "top_count_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 69.2
+   },
+   "top_value_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 81.9
+   },
+   "top_count_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 69.2
+   },
+   "top_value_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 81.9
+   }
+  },
+  {
+   "m": "2025-12",
+   "facilitators_active": 23,
+   "raw": {
+    "hhi_count": 4537,
+    "hhi_value": 3239,
+    "transfers": 43037218,
+    "usd": 3265945.59
+   },
+   "mrdn_corrected": {
+    "hhi_count": 4537,
+    "hhi_value": 3632,
+    "payments": 43034780,
+    "usd": 2934748.01
+   },
+   "mrdn_corrected_label": "corrected",
+   "full_hop_corrected": {
+    "hhi_count": 4551,
+    "hhi_value": 3675,
+    "transfers": 42969914,
+    "usd": 2917499.74
+   },
+   "mrdn_pairing": {
+    "present": true,
+    "auth_events": 2438,
+    "transfers": 4876,
+    "internal_transfers": 2438,
+    "consistent": true
+   },
+   "top_count_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 64.1
+   },
+   "top_value_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 39.2
+   },
+   "top_count_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 64.1
+   },
+   "top_value_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 43.6
+   }
+  },
+  {
+   "m": "2026-01",
+   "facilitators_active": 25,
+   "raw": {
+    "hhi_count": 5820,
+    "hhi_value": 3076,
+    "transfers": 12130123,
+    "usd": 1203956.15
+   },
+   "mrdn_corrected": {
+    "hhi_count": 5828,
+    "hhi_value": 2703,
+    "payments": 12121102,
+    "usd": 940535.44
+   },
+   "mrdn_corrected_label": "corrected",
+   "full_hop_corrected": {
+    "hhi_count": 5834,
+    "hhi_value": 2707,
+    "transfers": 12115084,
+    "usd": 939855.65
+   },
+   "mrdn_pairing": {
+    "present": true,
+    "auth_events": 9021,
+    "transfers": 18042,
+    "internal_transfers": 9021,
+    "consistent": true
+   },
+   "top_count_raw": {
+    "facilitator": "payAI",
+    "share_pct": 73.8
+   },
+   "top_value_raw": {
+    "facilitator": "mrdn",
+    "share_pct": 43.5
+   },
+   "top_count_of_record": {
+    "facilitator": "payAI",
+    "share_pct": 73.9
+   },
+   "top_value_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 38.4
+   }
+  },
+  {
+   "m": "2026-02",
+   "facilitators_active": 25,
+   "raw": {
+    "hhi_count": 3699,
+    "hhi_value": 5095,
+    "transfers": 1419951,
+    "usd": 2066780.29
+   },
+   "mrdn_corrected": {
+    "hhi_count": 3745,
+    "hhi_value": 5720,
+    "payments": 1410974,
+    "usd": 1922739.94
+   },
+   "mrdn_corrected_label": "corrected",
+   "full_hop_corrected": {
+    "hhi_count": 3778,
+    "hhi_value": 5734,
+    "transfers": 1404613,
+    "usd": 1920316.81
+   },
+   "mrdn_pairing": {
+    "present": true,
+    "auth_events": 8977,
+    "transfers": 17954,
+    "internal_transfers": 8977,
+    "consistent": true
+   },
+   "top_count_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 49.9
+   },
+   "top_value_raw": {
+    "facilitator": "virtuals",
+    "share_pct": 68.5
+   },
+   "top_count_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 50.2
+   },
+   "top_value_of_record": {
+    "facilitator": "virtuals",
+    "share_pct": 73.7
+   }
+  },
+  {
+   "m": "2026-03",
+   "facilitators_active": 26,
+   "raw": {
+    "hhi_count": 3385,
+    "hhi_value": 3963,
+    "transfers": 1820877,
+    "usd": 2276724.51
+   },
+   "mrdn_corrected": {
+    "hhi_count": 3419,
+    "hhi_value": 4276,
+    "payments": 1811797,
+    "usd": 2175400.08
+   },
+   "mrdn_corrected_label": "corrected",
+   "full_hop_corrected": {
+    "hhi_count": 3590,
+    "hhi_value": 4492,
+    "transfers": 1766479,
+    "usd": 2117654.05
+   },
+   "mrdn_pairing": {
+    "present": true,
+    "auth_events": 9080,
+    "transfers": 18160,
+    "internal_transfers": 9080,
+    "consistent": true
+   },
+   "top_count_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 47.6
+   },
+   "top_value_raw": {
+    "facilitator": "virtuals",
+    "share_pct": 59.4
+   },
+   "top_count_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 47.8
+   },
+   "top_value_of_record": {
+    "facilitator": "virtuals",
+    "share_pct": 62.2
+   }
+  },
+  {
+   "m": "2026-04",
+   "facilitators_active": 26,
+   "raw": {
+    "hhi_count": 6659,
+    "hhi_value": 5724,
+    "transfers": 2304609,
+    "usd": 1938921.96
+   },
+   "mrdn_corrected": {
+    "hhi_count": 6716,
+    "hhi_value": 6325,
+    "payments": 2294651,
+    "usd": 1829053.1
+   },
+   "mrdn_corrected_label": "corrected",
+   "full_hop_corrected": {
+    "hhi_count": 6831,
+    "hhi_value": 6482,
+    "transfers": 2275079,
+    "usd": 1806116.33
+   },
+   "mrdn_pairing": {
+    "present": true,
+    "auth_events": 9958,
+    "transfers": 19916,
+    "internal_transfers": 9958,
+    "consistent": true
+   },
+   "top_count_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 80.9
+   },
+   "top_value_raw": {
+    "facilitator": "payAI",
+    "share_pct": 74.4
+   },
+   "top_count_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 81.3
+   },
+   "top_value_of_record": {
+    "facilitator": "payAI",
+    "share_pct": 78.9
+   }
+  },
+  {
+   "m": "2026-05",
+   "facilitators_active": 25,
+   "raw": {
+    "hhi_count": 5965,
+    "hhi_value": 5621,
+    "transfers": 3041318,
+    "usd": 1030242.02
+   },
+   "mrdn_corrected": {
+    "hhi_count": 6009,
+    "hhi_value": 4040,
+    "payments": 3030230,
+    "usd": 652881.52
+   },
+   "mrdn_corrected_label": "corrected",
+   "full_hop_corrected": {
+    "hhi_count": 6071,
+    "hhi_value": 4228,
+    "transfers": 3014457,
+    "usd": 636845.65
+   },
+   "mrdn_pairing": {
+    "present": true,
+    "auth_events": 11088,
+    "transfers": 22176,
+    "internal_transfers": 11088,
+    "consistent": true
+   },
+   "top_count_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 75.3
+   },
+   "top_value_raw": {
+    "facilitator": "mrdn",
+    "share_pct": 72.9
+   },
+   "top_count_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 75.6
+   },
+   "top_value_of_record": {
+    "facilitator": "mrdn",
+    "share_pct": 57.2
+   }
+  },
+  {
+   "m": "2026-06",
+   "facilitators_active": 23,
+   "raw": {
+    "hhi_count": 6599,
+    "hhi_value": 4192,
+    "transfers": 5826498,
+    "usd": 687523.92
+   },
+   "mrdn_corrected": {
+    "hhi_count": 6618,
+    "hhi_value": 2838,
+    "payments": 5818141,
+    "usd": 475518.48
+   },
+   "mrdn_corrected_label": "corrected",
+   "full_hop_corrected": {
+    "hhi_count": 6656,
+    "hhi_value": 3026,
+    "transfers": 5801278,
+    "usd": 456388.24
+   },
+   "mrdn_pairing": {
+    "present": true,
+    "auth_events": 8357,
+    "transfers": 16714,
+    "internal_transfers": 8357,
+    "consistent": true
+   },
+   "top_count_raw": {
+    "facilitator": "coinbase",
+    "share_pct": 79.8
+   },
+   "top_value_raw": {
+    "facilitator": "mrdn",
+    "share_pct": 61.4
+   },
+   "top_count_of_record": {
+    "facilitator": "coinbase",
+    "share_pct": 79.9
+   },
+   "top_value_of_record": {
+    "facilitator": "mrdn",
+    "share_pct": 44.2
+   }
+  }
+ ],
+ "rank_persistence": {
+  "count_layer": [
+   {
+    "m": "2025-10",
+    "facilitator": "coinbase",
+    "share_pct": 68.7
+   },
+   {
+    "m": "2025-11",
+    "facilitator": "coinbase",
+    "share_pct": 69.2
+   },
+   {
+    "m": "2025-12",
+    "facilitator": "coinbase",
+    "share_pct": 64.1
+   },
+   {
+    "m": "2026-01",
+    "facilitator": "payAI",
+    "share_pct": 73.9
+   },
+   {
+    "m": "2026-02",
+    "facilitator": "coinbase",
+    "share_pct": 50.2
+   },
+   {
+    "m": "2026-03",
+    "facilitator": "coinbase",
+    "share_pct": 47.8
+   },
+   {
+    "m": "2026-04",
+    "facilitator": "coinbase",
+    "share_pct": 81.3
+   },
+   {
+    "m": "2026-05",
+    "facilitator": "coinbase",
+    "share_pct": 75.6
+   },
+   {
+    "m": "2026-06",
+    "facilitator": "coinbase",
+    "share_pct": 79.9
+   }
+  ],
+  "value_layer": [
+   {
+    "m": "2025-10",
+    "facilitator": "coinbase",
+    "share_pct": 59.6
+   },
+   {
+    "m": "2025-11",
+    "facilitator": "coinbase",
+    "share_pct": 81.9
+   },
+   {
+    "m": "2025-12",
+    "facilitator": "coinbase",
+    "share_pct": 43.6
+   },
+   {
+    "m": "2026-01",
+    "facilitator": "coinbase",
+    "share_pct": 38.4
+   },
+   {
+    "m": "2026-02",
+    "facilitator": "virtuals",
+    "share_pct": 73.7
+   },
+   {
+    "m": "2026-03",
+    "facilitator": "virtuals",
+    "share_pct": 62.2
+   },
+   {
+    "m": "2026-04",
+    "facilitator": "payAI",
+    "share_pct": 78.9
+   },
+   {
+    "m": "2026-05",
+    "facilitator": "mrdn",
+    "share_pct": 57.2
+   },
+   {
+    "m": "2026-06",
+    "facilitator": "mrdn",
+    "share_pct": 44.2
+   }
+  ],
+  "count_layer_distinct_leaders": [
+   "coinbase",
+   "payAI"
+  ],
+  "value_layer_distinct_leaders": [
+   "coinbase",
+   "mrdn",
+   "payAI",
+   "virtuals"
+  ]
+ }
+}

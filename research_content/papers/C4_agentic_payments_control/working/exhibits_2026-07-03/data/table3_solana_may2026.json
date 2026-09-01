@@ -1,0 +1,14 @@
+{
+  "_provenance": "Transcribed VERBATIM from research_content/papers/C4_agentic_payments_control/PAPER.md Table 3 (Solana, May 2026 facilitator split; top five facilitators by count) as printed at PAPER.md line 162. Facilitators outside these five contribute approximately 172 USD in May and are omitted per the printed caption. Shares are count share and value share as printed; count_payments and usdc carried for cross-check. Committed input for fig2_count_value_flip.py; zero live queries.",
+  "panel": "Solana",
+  "month": "2026-05",
+  "share_unit": "percent",
+  "residual_note": "top five only; facilitators outside these five contribute approximately 172 USD, omitted",
+  "facilitators": [
+    {"name": "Dexter",   "count_payments": 414665, "count_share": 51.8, "usdc": 20218, "value_share": 15.0, "buyers": 2900,  "sellers": 7458},
+    {"name": "Coinbase", "count_payments": 307766, "count_share": 38.5, "usdc": 89294, "value_share": 66.5, "buyers": 75478, "sellers": 84},
+    {"name": "payAI",    "count_payments": 36962,  "count_share": 4.6,  "usdc": 2470,  "value_share": 1.8,  "buyers": 361,   "sellers": 90},
+    {"name": "corbits",  "count_payments": 23566,  "count_share": 2.9,  "usdc": 154,   "value_share": 0.1,  "buyers": 309,   "sellers": 29},
+    {"name": "relai",    "count_payments": 15639,  "count_share": 2.0,  "usdc": 22066, "value_share": 16.4, "buyers": 19,    "sellers": 18}
+  ]
+}
